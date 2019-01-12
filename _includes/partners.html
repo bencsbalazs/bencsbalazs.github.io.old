@@ -1,11 +1,12 @@
 <div class="row">
     <div class="col-12 my-sm-5 my-md-5 my-lg-5 text-center">
-        <h2>{{ 'home.partners.title' | translate }}</h2>
-        <small class="description">{{ 'home.partners.slogan' | translate }}</small>
+        <small class="description">{{ site.data.partners.slogan }}</small>
     </div>
 </div>
 <div class="row bgc-white">
-    <div class="col-2 text-center partner" *ngFor="let partner of ('home.partners.images' | translate)">
-        <img src="{{ partner.src }}" alt="" title="">
+    {% for partner in site.data.partners.images %}
+    <div class="col text-center partner">
+        <img src="/images/partners/portfolio_{{ partner[1].src }}" alt="{{ partner[1].title }}" title="{{ partner[1].title }}">
     </div>
+    {% endfor %}
 </div>

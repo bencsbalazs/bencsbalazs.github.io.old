@@ -1,0 +1,98 @@
+html,body,header,.view {height: 100%;}
+header > .inner {z-index: 999;}
+.affix {position: fixed;top: 0;width: 100%;z-index: 9999 !important;}
+.is-sticky{width: 100%;z-index: 999;}
+body, section {overflow-x: hidden;}
+header > .inner {
+  position: absolute;
+  top: 25%;
+  left: 20%;
+  right: 20%;
+  text-align: center;
+}
+
+.carousel,
+.carousel-item,
+.carousel-inner,
+.carousel-item.active {
+    height: 100%;
+}
+
+.carousel{
+  position:fixed;
+  width: 100%;
+  height: 100%;
+  top:0;
+  left: 0;
+  right: 0;
+  z-index:-1
+}
+.carousel div{
+  position:absolute;
+}
+.carousel img {
+  width: 100%;
+  height: 100%;
+}
+.carousel-control {
+  display: none;
+  visibility: hidden;
+}
+
+.separator {
+  width: 70%;
+  height: .5em;
+  box-shadow: 0 0 .5em #fff;
+  border-radius: 50%;
+  background-color: black;
+}
+/* Custom fonts */
+.row > div > small, .main-title, .row > div > h2, .carousel-caption h3,.carousel-caption p{
+  letter-spacing: .3em;
+    font-family: sans-serif;
+    font-style: italic;
+    -webkit-text-stroke: 1px black;
+    color: white;
+    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.main-title {
+  font-size: 4rem;
+}
+.row > div > h2 {
+  font-size: 3rem;
+}
+.row > div > small {
+  font-size: 2rem;
+}
+.carousel-caption p {
+  font-size: 1.5rem;
+}
+.bgc-white {
+  background: rgba(255,255,255,0.8);
+}
+
+#profilpicture img{
+    border:.25em solid rgba(255,255,255,1);
+    box-shadow:0 0 .5em #000
+}
+#profilpicture>figcaption{
+    margin-top:-10%;
+    z-index:999
+}
+.partner{
+    filter: grayscale(100%);
+    height:150px;
+    transition:linear .5s;
+}
+.partner:hover{
+    filter: grayscale(0%);
+    transition:linear .5s;
+}
+.partner img{
+    display: block;
+    opacity:0.8;
+    width:100%;
+    height:100%;
+    object-fit: contain;
+    overflow: hidden;
+}

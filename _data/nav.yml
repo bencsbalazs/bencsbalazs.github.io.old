@@ -1,0 +1,33 @@
+t:
+  en:
+    home:
+      name: "Home"
+      url: "#"
+    services:
+      name: "Services"
+      url: "#services"
+    contactme:
+      name: "Contact me"
+      url: "#contactme"
+    portfolio:
+      name: "Portfolio"
+      url: "#portfolio"
+    certificets:
+      name: "Certificets"
+      url: "#certificets"
+  hu:
+    home:
+      name: "Kezdőlap"
+      url: "#"
+    services:
+      name: "Szolgáltatások"
+      url: "#services"
+    contactme:
+      name: "Kapcsolat"
+      url: "#contactme"
+    portfolio:
+      name: "Portfólió"
+      url: "#portfolio"
+    certificets:
+      name: "Eredmények"
+      url: "#certificets"

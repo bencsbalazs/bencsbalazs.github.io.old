@@ -1,0 +1,20 @@
+slogan: "Some of my partners"
+images:
+  gysev:
+    src: "gysev.jpg"
+    title: "Gysev"
+  ibm:
+    src: "ibm.png"
+    title: "International Businness Machine Corporation"
+  moodle:
+    src: "moodle.png"
+    title: ""
+  mav:
+    src: "mav.png"
+    title: ""
+  nebih:
+    src: "nebih.png"
+    title: ""
+  raiffeisen:
+    src: "raiffeisen.png"
+    title: ""
