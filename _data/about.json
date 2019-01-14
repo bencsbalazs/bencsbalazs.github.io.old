@@ -1,0 +1,30 @@
+{
+    "title": "Portfolio",
+    "slogan": "View the story of my career.",
+    "steps": [
+        {
+            "title": "First steps",
+            "icon": "laptop",
+            "date": "~2006",
+            "text": "At the biginning, I create game hacks, trainers, easy installers just for myself. I developed some webpages just for fun, but these were very succesfull, so because of this I got some order."
+        },
+        {
+            "title": "The official learning",
+            "icon": "tablet",
+            "date": "2009-2011",
+            "text": "I went to the University of Dunaújváros, and got the Network engineer degree. After that they asked me to stay in the scool to work."
+        },
+        {
+            "title": "Work like a pro",
+            "icon": "desktop",
+            "date": "2011-2017 Dec",
+            "text": "I worked at DUE and OneTech Kft at the same time. I developed portals, applications and learning materials to companies like Máv-Start, Gysev, Raiffeisen bank, Evosoft, Nébih. Tooke part in countrywide elearning projects with the school."
+        },
+        {
+            "title": "The Big Blue",
+            "icon": "server",
+            "date": "2017 Dec - recently",
+            "text": "I started to work at IBM ISSC Hungary as a web developer. I learned the agile view and design thinking practices to make my work more affective. Now, I work with the most modern technologies in wordwide projects and I develop apps in a very high level in node and angular."
+        }
+    ]
+}

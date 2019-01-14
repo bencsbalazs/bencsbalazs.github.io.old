@@ -9,9 +9,12 @@ t:
     contactme:
       name: "Contact me"
       url: "#contactme"
+    blog:
+      name: "Blog"
+      url: ""
     portfolio:
-      name: "Portfolio"
-      url: "#portfolio"
+      name: "AboutMe"
+      url: "#aboutme"
     certificets:
       name: "Certificets"
       url: "#certificets"
@@ -25,6 +28,9 @@ t:
     contactme:
       name: "Kapcsolat"
       url: "#contactme"
+    blog:
+      name: "Blog"
+      url: ""
     portfolio:
       name: "Portfólió"
       url: "#portfolio"

@@ -1,0 +1,43 @@
+{
+    "title": "Contact Me",
+    "slogan": "If you find anything you interested about, write me a message.",
+    "writeme": "Write me an email",
+    "checkme": "Check me on Acclaim",
+    "social": [
+        {
+            "name": "Facebook",
+            "class": "fa-facebook-square",
+            "link": "https://www.facebook.com/balazs.bencs.9"
+        },
+        {
+            "name": "Twitter",
+            "class": "fa-twitter-square",
+            "link": "https://twitter.com/BencsBalzs"
+        },
+        {
+            "name": "Google+",
+            "class": "fa-google-plus-square",
+            "link": "https://plus.google.com/115324158791510458707"
+        },
+        {
+            "class": "fa-linkedin",
+            "link": "https://www.linkedin.com/in/bal%C3%A1zs-bencs-499917102/"
+        },
+        {
+            "class": "fa-instagram",
+            "link": "https://www.instagram.com/bencsbalazs/"
+        },
+        {
+            "class": "fa-github",
+            "link": "https://github.com/bencsbalazs"
+        },
+        {
+            "class": "fa-slack",
+            "link": "https://slack.com"
+        },
+        {
+            "class": "fa-skype",
+            "link": "https://go.skype.com/sfw"
+        }
+    ]
+}
