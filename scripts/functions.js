@@ -11,6 +11,7 @@ $(() => {
             $("<div class='carousel-item"+active+"'><img src='"+index+"'></div>").appendTo(".carousel-inner").eq(0)
         })
     })
+    $('[data-toggle="tooltip"]').tooltip()
 });
 
 sloganToggle = () => {

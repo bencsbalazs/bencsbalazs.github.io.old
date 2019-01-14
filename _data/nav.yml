@@ -2,7 +2,7 @@ t:
   en:
     home:
       name: "Home"
-      url: "#"
+      url: "#top"
     services:
       name: "Services"
       url: "#services"
@@ -21,7 +21,7 @@ t:
   hu:
     home:
       name: "Kezdőlap"
-      url: "#"
+      url: "#top"
     services:
       name: "Szolgáltatások"
       url: "#services"

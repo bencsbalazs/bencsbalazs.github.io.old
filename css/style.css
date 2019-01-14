@@ -1,3 +1,4 @@
+html{scroll-behavior: smooth;}
 html,body,header,.view {height: 100%;}
 header > .inner {z-index: 999;}
 .affix {position: fixed;top: 0;width: 100%;z-index: 9999 !important;}
@@ -9,6 +10,10 @@ header > .inner {
   left: 20%;
   right: 20%;
   text-align: center;
+}
+
+nav li:hover, .active {
+    background: rgb(255,200,0)
 }
 
 .carousel,
@@ -173,7 +178,7 @@ header > .inner {
     color: #fff;
     border: 7px solid #e9ecef;
     border-radius: 100%;
-    background-color: #fed136;
+    background-color: rgb(255,200,0);
     display: flex
 }
 
