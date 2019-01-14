@@ -8,9 +8,9 @@
   <div class="row card-column">
 	{% for tile in site.data.services.tiles %}
       <div class="card col-md-4 p-4">
-          <i class="fa fa-{{tile.icon}} fa-2x mx-auto"></i>
-          <h3 class="description pt-3">{{tile.title}}</h3>
-          <div class="card-body text-justify">{{tile.text}}</div>
+          <i class="fa fa-{{ tile.icon }} fa-2x mx-auto"></i>
+          <h3 class="description pt-3">{{ tile.title }}</h3>
+          <div class="card-body text-justify">{{ tile.text }}</div>
       </div>
 	{% endfor %}
   </div>

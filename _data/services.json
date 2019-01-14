@@ -1,5 +1,4 @@
 {
-    "services": {
         "title": "Services",
         "slogan": "These are my main activities.",
         "tiles": [
@@ -34,5 +33,4 @@
                 "text": "Develop Cloud based applications like chatbots, helper robots or virtual workmates. I prefer the IBM cloud, Watson technologie, Google Cloud and Nore-Red for these works."
             }
         ]
-    }
 }
