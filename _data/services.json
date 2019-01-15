@@ -5,7 +5,7 @@
             {
                 "icon": "code",
                 "title": "Development",
-                "text": "Application / portal development using the following technologies: node, Angular, CSS animations, Canvas, PHP, JavaScript, HTML5-6."
+                "text": "Application development for Android, network or desktop. Animation creation with the newest technologies."
             },
             {
                 "icon": "graduation-cap",
@@ -25,7 +25,7 @@
             {
                 "icon": "database",
                 "title": "Data handling",
-                "text": "Organise manipulate or create your data in a relational or non relational database like SQL or MongoDB. Develop the structure of the database or the data models. Documentation with the UML standard."
+                "text": "Organise manipulate or create data in a relational or non relational database like SQL or MongoDB. Develop the structure of the database or the data models. Documentation with the UML standard."
             },
             {
                 "icon": "cloud",
