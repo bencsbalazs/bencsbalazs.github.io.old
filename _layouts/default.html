@@ -18,7 +18,15 @@
         {% include about.html %}
     </section>
     <section class="my-5 py-5 wow fadeIn" id="certificets">
-
+        <h1>Latest Posts</h1>
+            <ul>
+  {% for post in site.posts %}
+    <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <p>{{ post.excerpt }}</p>
+    </li>
+  {% endfor %}
+</ul>
     </section>
     {% include partners.html %}
 

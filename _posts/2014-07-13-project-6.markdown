@@ -1,12 +1,13 @@
 ---
-layout: default
-modal-id: 6
-date: 2014-07-15
-img: submarine.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
-
+layout: post
+author: Balázs
 ---
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempor odio in erat lobortis sodales. Fusce elementum volutpat ante eleifend iaculis. Vivamus at est vel turpis sollicitudin congue vitae at nisi. Praesent faucibus accumsan ipsum, nec tincidunt lorem mattis at. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec a dolor varius augue sollicitudin aliquet. Proin sed nisi metus.
+
+Etiam eleifend aliquam pretium. Aenean ante dolor, fermentum eget eleifend sit amet, ornare in lectus. Proin velit enim, volutpat eu sollicitudin et, feugiat id tortor. Pellentesque a rutrum nisi. Maecenas ullamcorper purus at mauris sollicitudin suscipit quis eget tellus. In pellentesque ultricies eleifend. Aenean convallis condimentum massa, laoreet molestie urna tincidunt vel. Donec in leo id ipsum gravida dignissim eget eu ante. Nam sollicitudin, augue in ultrices laoreet, massa urna interdum ipsum, non mollis ipsum arcu nec ligula.
+
+Maecenas eu pretium elit. Suspendisse molestie id ipsum id ultrices. Donec lectus metus, lobortis eget congue et, eleifend at ipsum. Fusce pharetra ut velit eu sodales. Etiam mi nisi, suscipit eu quam a, iaculis sagittis nunc. Etiam egestas sapien maximus lacinia tincidunt. Proin efficitur in risus eget efficitur. Quisque quis convallis mauris, in tristique metus. In congue tincidunt lectus. Sed aliquam ex eu congue sollicitudin.
+
+Phasellus condimentum, ipsum quis aliquam tempus, orci turpis tempus felis, ut sagittis ipsum nisl id lacus. Morbi ornare quam quis consectetur elementum. Etiam viverra quam id consectetur tincidunt. Ut nec sagittis risus, vel aliquam turpis. Cras fringilla nulla massa, ac euismod libero pulvinar nec. Maecenas feugiat ultricies velit, eu pulvinar lorem vulputate vitae. Integer rutrum sem faucibus, suscipit urna nec, pellentesque purus.
+
+Proin quis iaculis tellus. Donec commodo ipsum lacus, non feugiat lacus mattis ut. Donec ac elit eros. Donec dignissim orci sed justo vestibulum rhoncus. Donec fringilla condimentum tempor. Fusce consectetur, elit ac pellentesque lobortis, neque nisl finibus magna, et rhoncus diam sapien sit amet velit. Integer porta tortor eget ultricies pellentesque. Sed ullamcorper, nibh at accumsan auctor, quam orci pulvinar leo, vel porta eros mi quis orci. Sed ornare massa vitae facilisis posuere. Ut laoreet rutrum nulla eu pulvinar. Nam vel pretium urna. Vestibulum tempus lacus non tortor rutrum, eu pulvinar neque convallis. Donec at libero sollicitudin, ullamcorper nisi quis, suscipit diam. Aliquam vel sodales velit, ut scelerisque erat. Cras molestie eleifend diam, sit amet rhoncus mauris porttitor sed.
