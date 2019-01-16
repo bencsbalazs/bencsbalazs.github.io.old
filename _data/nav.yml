@@ -11,7 +11,7 @@ t:
       url: "#contactme"
     blog:
       name: "Blog"
-      url: ""
+      url: "#blog"
     portfolio:
       name: "AboutMe"
       url: "#aboutme"
@@ -30,7 +30,7 @@ t:
       url: "#contactme"
     blog:
       name: "Blog"
-      url: ""
+      url: "#blog"
     portfolio:
       name: "Portfólió"
       url: "#portfolio"

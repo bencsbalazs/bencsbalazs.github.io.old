@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12 mx-sm-auto my-sm-5 my-md-5 my-lg-5 text-center">
+            <h2>My blog</h2>
+            <small class="description">An example blog template built with Bootstrap.</small>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-8 blog-main">
+            {% for post in site.posts %}
+            <div class="blog-post">
+                <a href="{{ post.url }}">
+                    <h2 class="blog-post-title">{{ post.title }}</h2>
+                </a>
+                <p class="blog-post-meta">{{ post.date }} <a href="#">{{ post.author }}</a></p>
+                <p>{{ post.excerpt }}</p>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="col-sm-3 offset-sm-1 blog-sidebar">
+            <div class="sidebar-module">
+                Archives
+            </div>
+        </div>
+    </div>
+</div>

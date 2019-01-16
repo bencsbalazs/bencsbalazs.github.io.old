@@ -9,9 +9,16 @@
     {% include nav.html %}
     <div class="container">
         <div class="row">
-            <div class="col">
+            <div class="col-sm-8 mt-5">
+                <h2 class="blog-post-title">{{ page.title }}</h2>
+                <p class="blog-post-meta">{{ page.date }} by <a href="#">{{ page.author }}</a></p>
             {{ content }}
             </div>
+            <div class="col-sm-3 mt-5 offset-sm-1 blog-sidebar">
+                    <div class="sidebar-module">
+                        Archives
+                    </div>
+                </div>
         </div>
     </div>
 </body>
