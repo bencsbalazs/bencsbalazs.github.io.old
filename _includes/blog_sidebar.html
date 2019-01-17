@@ -2,7 +2,7 @@
     <div class="sidebar-module">
         <h2>Archives</h2>
         {% for category in site.categories %}
-            <a href="#{{ category[0] }}" data-toggle="collapse"><h4>{{ category[0] }}</h4></a>
+            <a href="#{{ category[0] }}" data-toggle="collapse" aria-expanded="false" aria-controls="{{ category[0] }}"><h4>{{ category[0] }}</h4></a>
             <ul id="{{ category[0] }}" class="collapse">
             {% for post in category[1] %}
                 <li><a href="{{ post.url }}">{{ post.title }}</a></li>
