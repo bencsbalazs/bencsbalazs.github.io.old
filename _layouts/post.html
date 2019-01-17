@@ -20,8 +20,8 @@
                 </p>
                 <p class="blog-post-meta">
                         Categories: 
-                        {% for c in site.categories %}
-                            {{ c }} 
+                        {% for category in site.categories %}
+                            {{ category }} 
                         {% endfor %}
                 </p>
             {{ content }}

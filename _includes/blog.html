@@ -15,7 +15,12 @@
                     <h2 class="blog-post-title">{{ post.title }}</h2>
                 </a>
                 <p class="blog-post-meta">{{ post.date }} by {{ post.author }}</p>
-                <p class="blog-post-meta">{{ site.tags }}</p>
+                <p class="blog-post-meta">
+                        Tags: 
+                        {% for tag in site.tags %}
+                            {{ tag }} 
+                        {% endfor %}
+                </p>
                 <p>{{ post.excerpt }}</p>
             </div>
             {% endfor %}
