@@ -12,7 +12,7 @@
               </h5>
             </div>
         
-            <div id="{{ category[0] }}" class="collapse show" aria-labelledby="{{ category[0] }}_head" data-parent="#accordionMenu">
+            <div id="{{ category[0] }}" class="collapse" aria-labelledby="{{ category[0] }}_head" data-parent="#accordionMenu">
               <div class="card-body">
                   {% for post in category[1] %}
                   <li><a href="{{ post.url }}">{{ post.title }}</a></li>

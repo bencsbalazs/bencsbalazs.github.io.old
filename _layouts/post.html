@@ -12,8 +12,18 @@
             <div class="col-sm-8 mt-5">
                 <h2 class="blog-post-title">{{ page.title }}</h2>
                 <p class="blog-post-meta">{{ page.date }} by {{ page.author }}</p>
-                <p class="blog-post-meta">{{ site.tags }}</p>
-                <p class="blog-post-meta">{{ site.categories }}</p>
+                <p class="blog-post-meta">
+                    Tags: 
+                    {% for tag in site.tags %}
+                        {{ tag }} 
+                    {% endfor %}
+                </p>
+                <p class="blog-post-meta">
+                        Categories: 
+                        {% for c in site.categories %}
+                            {{ c }} 
+                        {% endfor %}
+                </p>
             {{ content }}
             </div>
             {% include blog_sidebar.html %}
