@@ -14,13 +14,13 @@
                 <p class="blog-post-meta">{{ page.date }} by {{ page.author }}</p>
                 <p class="blog-post-meta">
                     Tags: 
-                    {% for tag in site.tags %}
+                    {% for tag in page.tags %}
                         {{ tag }} 
                     {% endfor %}
                 </p>
                 <p class="blog-post-meta">
                         Categories: 
-                        {% for category in site.categories %}
+                        {% for category in page.categories %}
                             {{ category }} 
                         {% endfor %}
                 </p>
