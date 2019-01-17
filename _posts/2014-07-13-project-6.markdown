@@ -3,6 +3,8 @@ layout: post
 author: Balázs
 title: Example post
 date: 16/01/2019
+categories: [example, health]
+tags: [doctor, love]
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tempor odio in erat lobortis sodales. Fusce elementum volutpat ante eleifend iaculis. Vivamus at est vel turpis sollicitudin congue vitae at nisi. Praesent faucibus accumsan ipsum, nec tincidunt lorem mattis at. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec a dolor varius augue sollicitudin aliquet. Proin sed nisi metus.
 

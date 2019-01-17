@@ -14,11 +14,7 @@
                 <p class="blog-post-meta">{{ page.date }} by <a href="#">{{ page.author }}</a></p>
             {{ content }}
             </div>
-            <div class="col-sm-3 mt-5 offset-sm-1 blog-sidebar">
-                    <div class="sidebar-module">
-                        Archives
-                    </div>
-                </div>
+            {% include blog_sidebar.html %}
         </div>
     </div>
 </body>
