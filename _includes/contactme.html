@@ -6,17 +6,17 @@
         </div>
     </div>
     <div class="row my-3 py-3">
-        <div class="col">
+        <div class="col text-center">
             {% for s in site.data.contactme.social %}
             <a href="{{ s.link }}" class="m-3 fab {{ s.class }} fa-4x" data-toggle="tooltip" data-placement="top" data-html="true" title="<h2>{{ s.name }}</h2>" target="_blank"></a>
             {% endfor %}
         </div>
     </div>
     <div class="row">
-        <div class="col-6 text-center" style="display:flex;">
+        <div class="col-md-6 text-center" style="display:flex;">
             <a class="btn btn-lg btn-warning fas fa-envelope m-auto p-3" href="mailto:bencsbalazs@gmail.com"> {{ site.data.contactme.writeme }}</a>
         </div>
-        <div class="col-6 text-center">
+        <div class="col-md-6 text-center">
             <a href="https://www.youracclaim.com/users/balazs-bencs" target="_blank">
                 <img src="/images/acclaim.png" alt="acclaim" title="">
                 <p>{{ site.data.contactme.checkme }}</p>
