@@ -61,7 +61,7 @@ nav li:hover, .active {
     text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 .main-title {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 .row > div > h2 {
   font-size: 3rem;
@@ -230,7 +230,14 @@ nav li:hover, .active {
     text-align: justify
 }
 
+.timeline>li .timeline-image h3 {
+    font-size: 0.7rem
+}
+
 @media (min-width:768px) {
+    .main-title {
+        font-size: 3rem;
+      }
     .timeline:before {
         left: 50%
     }
@@ -253,6 +260,9 @@ nav li:hover, .active {
     .timeline>li .timeline-image h4 {
         margin: auto;
         font-size: 3rem
+    }
+    .timeline>li .timeline-image h3 {
+        font-size: 0.9rem
     }
     .timeline>li:nth-child(even)>.timeline-panel {
         float: right;
@@ -279,6 +289,9 @@ nav li:hover, .active {
     .timeline>li .timeline-image h4 {
         margin: auto;
         font-size: 4rem
+    }
+    .timeline>li .timeline-image h3 {
+        font-size: 1.5rem
     }
     .timeline>li:nth-child(even)>.timeline-panel {
         padding: 0 20px 20px
