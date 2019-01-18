@@ -11,7 +11,7 @@
         <div class="row">
             <div class="col-md-8 mt-5">
                 <h2 class="blog-post-title">{{ page.title }}</h2>
-                <p class="blog-post-meta">{{ page.date }} by {{ page.author }}</p>
+                <p class="blog-post-meta">{{ page.date | 'YYYY-MM-DD HH:MM:SS' }} by {{ page.author }}</p>
                 <p class="blog-post-meta">
                     Tags: 
                     {% for tag in page.tags %}
@@ -31,6 +31,7 @@
             {% include blog_sidebar.html %}
         </div>
     </div>
+    {% include plugin.html %}
 </body>
     
 </html>
