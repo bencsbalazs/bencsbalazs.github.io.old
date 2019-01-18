@@ -12,6 +12,10 @@ header > .inner {
   text-align: center;
 }
 
+p {
+    text-align: justify
+}
+
 nav li:hover, .active {
     background: rgb(255,200,0)
 }
