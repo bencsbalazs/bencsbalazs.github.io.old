@@ -61,7 +61,7 @@ nav li:hover, .active {
     text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 .main-title {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 .row > div > h2 {
   font-size: 3rem;
@@ -226,6 +226,10 @@ nav li:hover, .active {
     margin-bottom: 0
 }
 
+.blog-content {
+    text-align: justify
+}
+
 @media (min-width:768px) {
     .timeline:before {
         left: 50%
@@ -258,6 +262,9 @@ nav li:hover, .active {
 }
 
 @media (min-width:992px) {
+    .main-title {
+        font-size: 4rem;
+      }
     .timeline>li {
         min-height: 150px
     }

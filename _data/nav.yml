@@ -2,38 +2,38 @@ t:
   en:
     home:
       name: "Home"
-      url: "#top"
+      url: "/#top"
     services:
       name: "Services"
-      url: "#services"
+      url: "/#services"
     contactme:
       name: "Contact me"
-      url: "#contactme"
+      url: "/#contactme"
     blog:
       name: "Blog"
-      url: "#blog"
+      url: "/#blog"
     portfolio:
       name: "AboutMe"
-      url: "#aboutme"
+      url: "/#aboutme"
     certificets:
       name: "Certificets"
-      url: "#certificets"
+      url: "/#certificets"
   hu:
     home:
       name: "Kezdőlap"
-      url: "#top"
+      url: "/#top"
     services:
       name: "Szolgáltatások"
-      url: "#services"
+      url: "/#services"
     contactme:
       name: "Kapcsolat"
-      url: "#contactme"
+      url: "/#contactme"
     blog:
       name: "Blog"
-      url: "#blog"
+      url: "/#blog"
     portfolio:
       name: "Portfólió"
-      url: "#portfolio"
+      url: "/#portfolio"
     certificets:
       name: "Eredmények"
-      url: "#certificets"
+      url: "/#certificets"
