@@ -19,7 +19,7 @@
                 <p class="blog-post-meta">
                         Tags: 
                         {% for tag in post.tags %}
-                            {{ tag }} 
+                            {{ tag }}{% if forloop.last != true %}, {% endif %}
                         {% endfor %}
                 </p>
                 <p class="blog-content">{{ post.excerpt }}</p>

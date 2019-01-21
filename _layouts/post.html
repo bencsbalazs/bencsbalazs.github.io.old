@@ -15,13 +15,13 @@
                 <p class="blog-post-meta">
                     Tags: 
                     {% for tag in page.tags %}
-                        {{ tag }} 
+                    {{ tag }}{% if forloop.last != true %}, {% endif %} 
                     {% endfor %}
                 </p>
                 <p class="blog-post-meta">
                         Categories: 
                         {% for category in page.categories %}
-                            {{ category }} 
+                            {{ category }}{% if forloop.last != true %}, {% endif %}
                         {% endfor %}
                 </p>
                 <div class="blog-content">
