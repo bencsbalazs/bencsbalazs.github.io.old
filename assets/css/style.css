@@ -349,3 +349,14 @@ nav li:hover, .active {
     object-fit: contain;
     overflow: hidden;
 }
+
+/* Post style */
+.conclusion {
+    margin: 2em;
+    padding: 2em;
+    border: solid 0.2em rgb(255,200,0);
+    font-family: "Font Awesome 5 Free";
+}
+.conclusion::before {
+    content: "\f19d"
+}
