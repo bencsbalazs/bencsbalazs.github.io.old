@@ -358,6 +358,12 @@ nav li:hover, .active {
     border-bottom: solid 0.2em rgb(255,200,0);
     font-family: "Font Awesome 5 Free";
     display: flex;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    font-weight: 900;
 }
 .conclusion::before {
     content: "\f19d";
