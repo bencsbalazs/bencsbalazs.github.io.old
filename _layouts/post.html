@@ -33,9 +33,13 @@
     </div>
 <nav>
   <ul class="pagination pagination-lg my-5">
-    <li class="page-item disabled col">
-      <a href="{{ paginator.previous_page_path }}" class="page-link">Previous</a>
-    </li>
+    {% if page.previous.url %}
+    <a class="prev" href="{{page.previous.url}}">
+        <li class="page-item disabled col">
+            &laquo; {{page.previous.title}}
+        </li>
+    </a>
+    {% endif %}
     <li class="page-item col">
       <a class="page-link text-righty" href="{{ paginator.next_page_path }}">Next</a>
     </li>
