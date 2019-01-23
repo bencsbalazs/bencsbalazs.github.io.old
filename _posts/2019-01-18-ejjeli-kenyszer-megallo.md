@@ -10,7 +10,7 @@ date: 22/01/2019
 categories: [example, health]
 tags: [doctor, love]
 ---
-Ezt az eseményt úgy érzem mindenképpen meg kell osztanom, mert annyira érzékenyen érintett és felháborított.
+**Ezt az eseményt úgy érzem mindenképpen meg kell osztanom, mert annyira érzékenyen érintett és felháborított.**
 
 Az egész úgy kezdődött hogy műszakiztatni kellett a kocsit. Annak rendje és módja szerint időpontot kértem, kitakarítottam, lemostam,  kikészítettem amiket ilyenkor kell (elsősegély doboz, izzókészlet, elakadásjelző háromszög) aztán az időpontra odavittem.
 
@@ -26,7 +26,7 @@ Szerencsére emlékeimben volt, hogy a közelben van a kereszttúri pihenőhely,
 
 Na gondoltam inkább innen hívom föl a szerelőt mint hogy valahol a pályán a leállósávon meg álljak. Ahogy mondtam neki a tüneteket hirtelen rákérdezett hogy ez egy Opel típusú kocsi-e, pedig még nem mondtam a márkát. Ezután elkezdte mondani hogy mi van a motorban, és mit nézzek meg. Miután ezeket az ellenőrzéseket kizártuk, megegyeztünk hogy lejön és levisz Dunaújvárosba kocsistól. 1 órát mondott, de kevesebb mint 40 perc után megérkezett. Ő is belenézett a motorba, megcsinálta ugyanazokat az ellenőrzéseket amiket én és még néhány dolgot ellenőrzött, meglepő hozzáértéssel. Végül megállapította hogy valószínűleg az egyik henger romlott el mert ez érezhető a kocsi teljesítményén is és hangján is. És azért melegszik, mert valószínűleg ebből adódóan nem tudja megfelelően keringetni a hűtővizet. Felpakoltuk a járgányt az utánfutóra, és elindultunk hazafelé.
 
-Furcsa hogy a dunaújvárosi Quality szervízben ilyen hibára nem derül fény egy átvizsgáláskor.
+###### Furcsa hogy a dunaújvárosi Quality szervízben ilyen hibára nem derül fény egy átvizsgáláskor.
 
 Végül fél 1 után leértünk, de itt még egy kis gubanc jött. A parkoló melletti automata, ahonnan pénzt kellett volna kivennem, kiírta hogy karbantartás miatt pár percig nem üzemel. (Még most is ezt írja, immár 8 órája) Úgyhogy a napi futás is megvolt még a kalandok után mire találtam működő automatát.
 
