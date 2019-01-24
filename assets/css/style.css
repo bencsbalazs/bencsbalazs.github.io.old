@@ -96,7 +96,7 @@ nav li:hover, .active {
 .card-column > .card{
     transform:scale(.95);
     border:0 solid #fff
-}.card-column > .card>.fa{
+}.card-column > .card>.fa, .card-column > .card>.fab{
     transform:scale(2)
 }
 .card-column > .card>div,.card-column > .card>h3{
@@ -111,7 +111,7 @@ nav li:hover, .active {
     border:.2em solid #000;
     box-shadow:0 0 .8em #fff
 }
-.card-column > .card:hover>.fa{
+.card-column > .card:hover>.fa, .card-column > .card:hover>.fab{
     transform:scale(.6)
 }
 
