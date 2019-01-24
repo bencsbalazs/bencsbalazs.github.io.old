@@ -3,32 +3,32 @@
         "slogan": "These are my main activities.",
         "tiles": [
             {
-                "icon": "code",
+                "icon": "fa fa-code",
                 "title": "Development",
                 "text": "Application development for Android, network or desktop. Animation creation with the newest technologies."
             },
             {
-                "icon": "graduation-cap",
+                "icon": "fa fa-graduation-cap",
                 "title": "E-learning",
                 "text": "Professional e-learning contents supporting the SCORM and the WCAG standards, that can be used in frameworks or as stand alone contents as well."
             },
             {
-                "icon": "drupal",
+                "icon": "fas fa-drupal",
                 "title": "Frameworks",
                 "text": "Well-proven, popular frameworks: Drupal, Moodle, Wordpress installation, design, plugin and feature development. Optimalisation, or upgrading."
             },
             {
-                "icon": "coffee",
+                "icon": "fa fa-coffee",
                 "title": "Agile",
                 "text": "Working in an agile view, organise or coach this way of working. On the other hand, I can teach any of the mentioned technologies in a professional level."
             },
             {
-                "icon": "database",
+                "icon": "fa fa-database",
                 "title": "Data handling",
                 "text": "Organise manipulate or create data in a relational or non relational database like SQL or MongoDB. Develop the structure of the database or the data models. Documentation with the UML standard."
             },
             {
-                "icon": "cloud",
+                "icon": "fa fa-cloud",
                 "title": "Cloud",
                 "text": "Develop Cloud based applications like chatbots, helper robots or virtual workmates. I prefer the IBM cloud, Watson technologie, Google Cloud and Nore-Red for these works."
             }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="{% if page.lang %} {{ page.lang }} {% else %} {{ site.lang }} {% endif %}">
 
 <head>
     {% include head.html %}
@@ -30,25 +30,22 @@
             </div>
             {% include blog_sidebar.html %}
         </div>
+        <div class="row">
+            {% if page.previous.url %}
+            <a href="{{ page.previous.url }}" class="btn btn-warning col-5">
+                <i class="fas fa-angle-double-left"></i>
+                {{page.previous.title}}
+            </a>
+            {% endif %}
+            {% if page.next.url %}
+            <a href="{{ page.next.url }}" class="btn btn-warning col-5 text-right">
+                {{page.next.title}}
+                <i class="fas fa-angle-double-right"></i>
+            </a>
+            {% endif %}
+            <div class="col-5"></div>
+        </div>
     </div>
-<nav>
-  <ul class="pagination pagination-lg my-5">
-    {% if page.previous.url %}
-    <a href="{{page.previous.url}}">
-        <li class="page-item col prev">
-            &laquo; {{page.previous.title}}
-        </li>
-    </a>
-    {% endif %}
-    {% if page.next.url %}
-    <a href="{{page.next.url}}">
-        <li class="page-item col prev">
-            &laquo; {{page.next.title}}
-        </li>
-    </a>
-    {% endif %}
-  </ul>
-</nav>
     {% include plugin.html %}
 </body>
     
