@@ -17,7 +17,7 @@ $(() => {
     $.ajax({
         type: "GET",
         url: "https://www.youracclaim.com",
-        headers: {"Access-Control-Allow-Origin":"*"},
+        crossOrigin: true,
         success: (data) => {
             console.log(data)
         }
