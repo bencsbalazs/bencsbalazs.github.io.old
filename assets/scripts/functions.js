@@ -15,9 +15,8 @@ $(() => {
     wow = new WOW();
     wow.init();
     $.ajax({
-        type: "GET",
-        url: "https://www.youracclaim.com",
         crossOrigin: true,
+        url: "https://www.youracclaim.com",
         success: (data) => {
             console.log(data)
         }
