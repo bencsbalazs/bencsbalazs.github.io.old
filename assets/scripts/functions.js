@@ -14,12 +14,4 @@ $(() => {
     $('[data-toggle="tooltip"]').tooltip()
     wow = new WOW();
     wow.init();
-    $.ajax({
-        crossOrigin: true,
-        url: "https://www.youracclaim.com/users/balazs-bencs",
-        success: (data) => {
-            console.log(data)
-        }
-    })
-
 });
