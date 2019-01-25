@@ -13,6 +13,11 @@ $(() => {
     })
     $('[data-toggle="tooltip"]').tooltip()
     new WOW().init();
+
+    $.get("https://www.youracclaim.com").then((data) => {
+        console.log(data)
+    })
+
 });
 
 sloganToggle = () => {

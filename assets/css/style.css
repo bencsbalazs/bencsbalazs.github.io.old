@@ -11,22 +11,18 @@ header > .inner {
   right: 20%;
   text-align: center;
 }
-
 p {
     text-align: justify
 }
-
 nav li:hover, .active {
     background: rgb(255,200,0)
 }
-
 .carousel,
 .carousel-item,
 .carousel-inner,
 .carousel-item.active {
     height: 100%;
 }
-
 .carousel{
   position:fixed;
   width: 100%;
@@ -47,7 +43,6 @@ nav li:hover, .active {
   display: none;
   visibility: hidden;
 }
-
 .separator {
   width: 70%;
   height: .5em;
@@ -79,30 +74,39 @@ nav li:hover, .active {
 .bgc-white {
   background: rgba(255,255,255,0.8);
 }
-
 #profilpicture img{
     border:.25em solid rgba(255,255,255,1);
     box-shadow:0 0 .5em #000
 }
-#profilpicture>figcaption{
+#profilpicture > figcaption{
     margin-top:-10%;
     z-index:999
 }
 .card-column > .card{
     background:rgba(255,255,255,0.8);
-}.card-column > .card,.card-column > .card>.fa,.card-column > .card>div,.card-column > .card>h3{
+}
+.card-column > .card,
+.card-column > .card >.fa,
+.card-column > .card >.fab,
+.card-column > .card > div,
+.card-column > .card > h3 {
     transition:linear 1s
 }
 .card-column > .card{
     transform:scale(.95);
     border:0 solid #fff
-}.card-column > .card>.fa, .card-column > .card>.fab{
+}
+.card-column > .card>.fa,
+.card-column > .card>.fab{
     transform:scale(2)
 }
-.card-column > .card>div,.card-column > .card>h3{
+.card-column > .card > div,
+.card-column > .card > h3 {
     transform:scale(.8);
     text-align:center
-}.card-column > .card:hover>div,.card-column > .card:hover>h3{
+}
+.card-column > .card:hover > div,
+.card-column > .card:hover > h3 {
     transform:scale(1)
 }
 .card-column > .card:hover{
@@ -111,17 +115,16 @@ nav li:hover, .active {
     border:.2em solid #000;
     box-shadow:0 0 .8em #fff
 }
-.card-column > .card:hover>.fa, .card-column > .card:hover>.fab{
+.card-column > .card:hover > .fa,
+.card-column > .card:hover > .fab {
     transform:scale(.6)
 }
-
 /* AboutMe timeline */
 .timeline {
     position: relative;
     padding: 0;
     list-style: none
 }
-
 .timeline:before {
     position: absolute;
     top: 0;
@@ -132,23 +135,20 @@ nav li:hover, .active {
     content: '';
     background-color: #e9ecef
 }
-
-.timeline>li {
+.timeline > li {
     position: relative;
     min-height: 50px;
     margin-bottom: 50px;
 }
-
-.timeline>li:after, .timeline>li:before {
+.timeline > li:after,
+.timeline > li:before {
     display: table;
     content: ' '
 }
-
-.timeline>li:after {
+.timeline > li:after {
     clear: both
 }
-
-.timeline>li .timeline-panel {
+.timeline > li .timeline-panel {
     position: relative;
     float: right;
     width: 100%;
@@ -156,22 +156,19 @@ nav li:hover, .active {
     text-align: left;
     background: rgba(255,255,255,.8);
 }
-
-.timeline>li .timeline-panel:before {
+.timeline > li .timeline-panel:before {
     right: auto;
     left: -15px;
     border-right-width: 15px;
     border-left-width: 0
 }
-
-.timeline>li .timeline-panel:after {
+.timeline > li .timeline-panel:after {
     right: auto;
     left: -14px;
     border-right-width: 14px;
     border-left-width: 0
 }
-
-.timeline>li .timeline-image {
+.timeline > li .timeline-image {
     position: absolute;
     z-index: 100;
     left: 0;
@@ -185,59 +182,49 @@ nav li:hover, .active {
     background-color: rgb(255,200,0);
     display: flex
 }
-
-.timeline>li .timeline-image h4 {
+.timeline > li .timeline-image h4 {
     font-size: 2rem;
     line-height: 14px;
     display: flex;
     margin: auto;
 }
-
-.timeline>li:nth-child(even)>.timeline-panel {
+.timeline > li:nth-child(even) > .timeline-panel {
     float: right;
     padding: 0 20px 0 100px;
     text-align: left
 }
-
-.timeline>li:nth-child(even)>.timeline-panel:before {
+.timeline > li:nth-child(even) > .timeline-panel:before {
     right: auto;
     left: -15px;
     border-right-width: 15px;
     border-left-width: 0
 }
-
-.timeline>li:nth-child(even)>.timeline-panel:after {
+.timeline > li:nth-child(even) > .timeline-panel:after {
     right: auto;
     left: -14px;
     border-right-width: 14px;
     border-left-width: 0
 }
-
-.timeline>li:last-child {
+.timeline > li:last-child {
     margin-bottom: 0
 }
-
 .timeline .timeline-heading h4 {
     margin-top: 0;
     color: inherit
 }
-
 .timeline .timeline-heading h4.subheading {
     text-transform: none
 }
-
-.timeline .timeline-body>p, .timeline .timeline-body>ul {
+.timeline .timeline-body > p,
+.timeline .timeline-body > ul {
     margin-bottom: 0
 }
-
+.timeline > li .timeline-image h3 {
+    font-size: 0.7rem
+}
 .blog-content {
     text-align: justify
 }
-
-.timeline>li .timeline-image h3 {
-    font-size: 0.7rem
-}
-
 @media (min-width:768px) {
     .main-title {
         font-size: 3rem;
