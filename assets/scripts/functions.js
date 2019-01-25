@@ -16,7 +16,7 @@ $(() => {
     wow.init();
     $.ajax({
         crossOrigin: true,
-        url: "https://www.youracclaim.com",
+        url: "https://www.youracclaim.com/users/balazs-bencs",
         success: (data) => {
             console.log(data)
         }
