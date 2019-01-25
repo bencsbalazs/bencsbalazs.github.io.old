@@ -12,7 +12,8 @@ $(() => {
         })
     })
     $('[data-toggle="tooltip"]').tooltip()
-
+    wow = new WOW();
+    wow.init();
     $.get("https://www.youracclaim.com").then((data) => {
         console.log(data)
     })
