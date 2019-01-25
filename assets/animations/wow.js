@@ -115,7 +115,7 @@ const MutationObserver =
             }
         }
 
-        static notSupported = true;
+        notSupported = true;
 
         observe() { }
     };
