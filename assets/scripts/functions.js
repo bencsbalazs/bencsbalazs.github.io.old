@@ -14,17 +14,13 @@ $(() => {
     $('[data-toggle="tooltip"]').tooltip()
     wow = new WOW();
     wow.init();
-    $.get("https://www.youracclaim.com").then((data) => {
-        console.log(data)
+    $.ajax({
+        type: "GET",
+        url: "https://www.youracclaim.com",
+        headers: {"Access-Control-Allow-Origin":"*"},
+        success: (data) => {
+            console.log(data)
+        }
     })
 
 });
-
-sloganToggle = () => {
-    const currentScrollPos = window.pageYOffset;
-      if (this.prevScrollPos >= currentScrollPos) {
-        $('.carousel-caption').css('display', 'block');
-      } else {
-        $('.carousel-caption').css('display', 'none');
-      }
-  }
