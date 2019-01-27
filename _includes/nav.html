@@ -4,7 +4,7 @@
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
+    <div class="collapse navbar-collapse w-100" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
             {% for link in site.data.nav.t.[site.lang] %}
             <li class="nav-item rounded">
@@ -12,9 +12,9 @@
             </li>
             {% endfor %}
         </ul>
-        <form class="form-inline mt-2 mt-md-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
-        </form>
+        <ul class="navbar-nav pull-right">
+            <a class="btn btn-outline-warning mx-1" href="">EN</a>
+            <a class="btn btn-outline-warning mx-1" href="">HU</a>
+        </ul>
     </div>
 </nav>d

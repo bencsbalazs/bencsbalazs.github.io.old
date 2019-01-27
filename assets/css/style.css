@@ -338,9 +338,10 @@ nav li:hover, .active {
 }
 
 /* Post style */
-.blog-content h6 {
+.blog-content h1 {
     margin: 2em;
     padding: 2em 0;
+    font-size: 1.2em;
     border-top: solid 0.2em rgb(255,200,0);
     border-bottom: solid 0.2em rgb(255,200,0);
     font-family: "Font Awesome 5 Free";
@@ -352,7 +353,7 @@ nav li:hover, .active {
     line-height: 1;
     font-weight: 900;
 }
-.blog-content h6::before {
+.blog-content h1::before {
     content: "\f19d";
     font-size: 3em;
     margin-right: 1em;
