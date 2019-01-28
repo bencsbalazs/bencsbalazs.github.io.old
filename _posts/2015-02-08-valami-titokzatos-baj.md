@@ -18,7 +18,7 @@ Ezután a karácsonyi összejöveteleken is mondogatták rokonaim hogy nem tudok
 
 Szilveszterkor jó volt minden, Kriszti is azt mondta hogy nem vett észre változást rajtam. Látok is és stabil is vagyok.
 
-Aztán, január 7.-én mentünk be a sürgősségire, mert nem tudtam kinyitni a jobb szemem... csak úgy miközben sétáltunk, bedagadt.
+# Aztán, január 7.-én mentünk be a sürgősségire, mert nem tudtam kinyitni a jobb szemem... csak úgy miközben sétáltunk, bedagadt
 
 Kb 1 óra után felhívtam  egy közeli magán szemészt, és átsétáltunk hozzá. (Vagyis inkább futottunk).
 Megvizsgált még este 8 kor és megállapította hogy a szemem tökéletes és nincs hibája az hogy nem tudom kinyitni nem szemészeti probléma, és javasolta hogy a sürgősségin kérjem a neurológust. Át is telefonált hogy menni fogunk és várjanak. Rendes volt nagyon.

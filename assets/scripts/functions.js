@@ -1,4 +1,4 @@
-const list = ["","","",""]
+const list = ["Text 1","Text 2","Text 3","Text 4"]
 let urls = []
 $(() => {
     $.get("https://picsum.photos/list").then((images) => {
