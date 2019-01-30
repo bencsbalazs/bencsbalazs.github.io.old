@@ -1,0 +1,18 @@
+{
+    "title": "Certificates",
+    "slogan": "Some of my certificates I recieved.",
+    "certificates": [
+        {
+            "src": "/images/certificats/bluemix-essentials.png",
+            "alt": "bluemix-essentials",
+            "title": "Bluemix Essentials",
+            "desc": "Lorem ipsum......."
+        },
+        {
+            "src": "/images/certificats/ibm-mentor.png",
+            "alt": "ibm-mentor",
+            "title": "IBM Mentor",
+            "desc": "Lorem ipsum......."
+        }
+    ]
+}
