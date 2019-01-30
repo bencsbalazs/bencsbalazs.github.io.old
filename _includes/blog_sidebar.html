@@ -1,26 +1,89 @@
 <div class="col-lg-3 mt-5 offset-lg-1 blog-sidebar">
     <div class="sidebar-module">
         <h2>Archives</h2>
-        <div class="accordion" id="accordionMenu">
-        {% for category in site.categories %}
-        <div class="card">
-            <div class="card-header" id="{{ category[0] }}_head">
-              <h5 class="mb-0">
-                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#{{ category[0] }}" aria-controls="{{ category[0] }}">
-                  {{ category[0] }} ({{ category[1].size }} )
-                </button>
-              </h5>
+
+
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#bycategory" role="tab" aria-controls="bycategory"
+                    aria-selected="true">By Category</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#bydate" role="tab" aria-controls="bydate"
+                    aria-selected="false">By Date</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="bycategory" role="tabpanel" aria-labelledby="bycategory-tab">
+                <div class="accordion mt-5" id="accordionMenu">
+                    {% for category in site.categories %}
+                    <div class="card">
+                        <div class="card-header" id="{{ category[0] }}_head">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#{{ category[0] }}"
+                                    aria-controls="{{ category[0] }}">
+                                    {{ category[0] }} ({{ category[1].size }} )
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="{{ category[0] }}" class="collapse" aria-labelledby="{{ category[0] }}_head"
+                            data-parent="#accordionMenu">
+                            <div class="card-body">
+                                {% for post in category[1] %}
+                                <a href="{{ post.url }}">
+                                    <li>{{ post.title }}</li>
+                                </a>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
             </div>
-        
-            <div id="{{ category[0] }}" class="collapse" aria-labelledby="{{ category[0] }}_head" data-parent="#accordionMenu">
-              <div class="card-body">
-                  {% for post in category[1] %}
-                  <a href="{{ post.url }}"><li>{{ post.title }}</li></a>
-              {% endfor %}
-              </div>
+            <div class="tab-pane fade" id="bydate" role="tabpanel" aria-labelledby="bydate-tab">
+                <ul id="listByDate" class="list-group list-group-flush mt-5">
+                    {% for post in site.posts %}
+                    {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+                    {% capture this_month %}{{ post.date | date: "%B" }}{% endcapture %}
+                    {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+                    {% capture next_month %}{{ post.previous.date | date: "%B" }}{% endcapture %}
+
+                    {% if forloop.first %}
+                    <li class="list-group-item" id="{{ this_year }}-ref">{{this_year}}
+                        <ul>
+                    <li class="list-group-item" id="{{ this_year }}-{{ this_month }}-ref">{{ this_month }}
+                    <ul>
+                        {% endif %}
+
+                        <li class="list-group-item"><a href="{{ post.url }}">{{ post.title }}</a></li>
+
+                        {% if forloop.last %}
+                    </li>
+                    </ul>
+                    {% else %}
+                    {% if this_year != next_year %}
+                    </ul>
+                    </li>
+                    </ul>
+                    <li id="{{ next_year }}-ref" class="list-group-item">{{next_year}}<ul>
+                    <li id="{{ next_year }}-{{ next_month }}-ref" class="list-group-item">{{ next_month }}
+                    <ul>
+                        {% else %}
+                    <!--</ul></li> Where should it be placed? -->
+                        {% if this_month != next_month %}
+                    </li>
+                    </ul>
+                    <li id="{{ this_year }}-{{ next_month }}-ref" class="list-group-item">{{ next_month }}
+                    <ul>
+                        {% endif %}
+                    
+                        {% endif %}
+                        {% endif %}
+                        {% endfor %}
+                    </li>
+                    </ul>
             </div>
-          </div>        
-        {% endfor %}
         </div>
     </div>
 </div>

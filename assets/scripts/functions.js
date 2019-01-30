@@ -8,10 +8,14 @@ $(() => {
     }).then(() => {
         urls.forEach((index, element)=>{
             active=(element == 0) ? " active": "" 
-            $("<div class='carousel-item"+active+"'><img src='"+index+"'></div>").appendTo(".carousel-inner").eq(0)
+            $("<div class='carousel-item"+active+"'><img src='"+index+"'></div>").appendTo(".bgslider > .carousel-inner").eq(0)
         })
     })
     $('[data-toggle="tooltip"]').tooltip()
     wow = new WOW();
     wow.init();
+
+$(document).on("click", function(e) {
+    $(e.target).closest('li').children('ul').eq(0).toggle();
+});
 });
