@@ -15,7 +15,7 @@ $(() => {
     wow = new WOW();
     wow.init();
 
-$('#listByDate').find('h3').click(function(e){
-    $(this).parent().children('UL').toggle();
+$(document).on("click", function(e) {
+    $(e.target).closest('li').children('ul').eq(0).toggle();
 });
 });
