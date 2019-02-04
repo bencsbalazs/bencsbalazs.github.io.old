@@ -12,18 +12,8 @@
             <div class="col-lg-8 mt-5">
                 <h2 class="blog-post-title">{{ page.title }}</h2>
                 <p class="blog-post-meta">{{ page.date | date_to_string }} by {{ page.author }}</p>
-                <p class="blog-post-meta">
-                    Tags: 
-                    {% for tag in page.tags %}
-                    #{{ tag }}{% if forloop.last != true %}, {% endif %} 
-                    {% endfor %}
-                </p>
-                <p class="blog-post-meta">
-                        Categories: 
-                        {% for category in page.categories %}
-                            {{ category }}{% if forloop.last != true %}, {% endif %}
-                        {% endfor %}
-                </p>
+                <p class="blog-post-meta">Tags: {{ page.tags | array_to_sentence_string }}</p>
+                <p class="blog-post-meta">Categories: {{ page.categories | array_to_sentence_string }}</p>
                 <div class="blog-content">
                     {{ content }}
                 </div>

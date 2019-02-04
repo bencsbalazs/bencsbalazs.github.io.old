@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="/assets/fontawesome/css/all.min.css">
 <link rel="stylesheet" href="/assets/animations/animate.css">
 <link rel="stylesheet" href="/assets/css/style.css">
+<script>const texts = JSON.parse('{{ site.data | jsonify }}');</script>
 {% if site.google_verify %}<meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
 {% if site.bing_verify %}<meta name="msvalidate.01" content="{{ site.bing_verify }}">{% endif %}
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->

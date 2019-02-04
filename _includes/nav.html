@@ -6,15 +6,15 @@
     </button>
     <div class="collapse navbar-collapse w-100" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
-            {% for link in site.data.nav.t.[site.lang] %}
+            {% for link in site.data.nav.[site.lang] %}
             <li class="nav-item rounded">
                 <a class="nav-link" href="{{ link[1].url }}">{{ link[1].name }}</a>
             </li>
             {% endfor %}
         </ul>
         <ul class="navbar-nav pull-right">
-            <a class="btn btn-outline-warning mx-1" href="">EN</a>
-            <a class="btn btn-outline-warning mx-1" href="">HU</a>
+            <!-- <a class="btn btn-outline-warning mx-1 disabled" href="">EN</a>
+            <a class="btn btn-outline-warning mx-1 disabled" href="">HU</a> -->
         </ul>
     </div>
 </nav>

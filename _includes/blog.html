@@ -17,10 +17,7 @@
                 </a>
                 <p class="blog-post-meta">{{ post.date | date_to_string }} by {{ post.author }}</p>
                 <p class="blog-post-meta">
-                        Tags: 
-                        {% for tag in post.tags %}
-                            {{ tag }}{% if forloop.last != true %}, {% endif %}
-                        {% endfor %}
+                        Tags: {{ post.tags | array_to_sentence_string }}
                 </p>
                 <p class="blog-content">{{ post.excerpt }}</p>
             </div>

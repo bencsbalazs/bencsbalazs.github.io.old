@@ -338,7 +338,12 @@ nav li:hover, .active {
     object-fit: contain;
     overflow: hidden;
 }
-
+#listByDate ul, #listByDate ul li ul {
+    padding-inline-start: 0;
+}
+#listByDate ul li ul li {
+    padding: .5rem 0;
+}
 /* Post style */
 .blog-content h1 {
     margin: 2em;
