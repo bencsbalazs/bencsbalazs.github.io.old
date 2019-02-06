@@ -5,14 +5,14 @@
         {
             "src": "/images/certificats/bluemix-essentials.png",
             "alt": "bluemix-essentials",
-            "title": "Bluemix Essentials",
-            "desc": "Lorem ipsum......."
+            "title": "IBM Cloud Essentials",
+            "desc": "This badge holder has a understanding of the essentials of IBM Cloud. Through an online course they have learned about the IBM Cloud platform and gained hands-on experience using the Cloud Foundry command-line interface and the IBM Eclipse tools for IBM Cloud. The badge earner has used these tools to deploy and modify basic applications using a managed service in IBM Cloud."
         },
         {
             "src": "/images/certificats/ibm-mentor.png",
             "alt": "ibm-mentor",
             "title": "IBM Mentor",
-            "desc": "Lorem ipsum......."
+            "desc": "This badge holder is recognized by IBM for developing and cultivating a mentoring relationship with others. Mentoring is an important career development opportunity to enhance skills and achieve long-term career aspirations. The guidance given to the protégé has subsequently enabled the protégé to gain skills and expertise to support their career development, expertise in the job, and/or social skills. The value of the mentoring benefits and impact was validated by the protégé"
         }
     ]
 }

@@ -2,22 +2,31 @@
     <div class="row">
         <div class="col-12 mx-sm-auto my-sm-5 my-md-5 my-lg-5 text-center">
             <h2>{{ site.data.certificates.title }}</h2>
-            <small class="description">{{ site.data.certificates.slogan }}</small><br><small>Under development...</small>
+            <small class="description">{{ site.data.certificates.slogan }}</small>
         </div>
     </div>
     <div class="row my-3 py-3">
-        <div id="certificateSlider" class="carousel slide" data-ride="carousel">
+        <div id="certificateSlider" class="carousel slide embed-responsive embed-responsive-16by9" data-ride="carousel">
             <ol class="carousel-indicators">
-                <li data-target="#certificateSlider" data-slide-to="0" class="active"></li>
-                <li data-target="#certificateSlider" data-slide-to="1"></li>
-                <li data-target="#certificateSlider" data-slide-to="2"></li>
+                {% assign count = 0 %}
+                {% for c in site.data.certificates.certificates %}
+                {% if forloop.first %}
+                <li data-target="#certificateSlider" data-slide-to="{{ count }}" class="active"></li>
+                {% else %}
+                <li data-target="#certificateSlider" data-slide-to="{{ count }}"></li>
+                {% endif %}
+                {% assign count = count | plus: 1 %}
+                {% endfor %}
             </ol>
             <div class="carousel-inner">
                 {% for cert in site.data.certificates.certificates %}
-                <div class="carousel-item">
-                    <img src="{{ cert.src }}" alt="{{ cert.alt }}">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>{{ cert.title }}</h5>
+                {% if forloop.first %}
+                <div class="carousel-item active embed-responsive-item" data-cert="{{ cert.title }}" style="background-image: url({{cert.src}})">
+                {% else %}
+                <div class="carousel-item embed-responsive-item" style="background-image: url({{cert.src}})">
+                {% endif %}
+                    <div class="carousel-caption">
+                        <h3>{{ cert.title }}</h3>
                         <p>{{ cert.desc }}</p>
                     </div>
                 </div>

@@ -13,10 +13,10 @@
                 </li>
                 {% for step in site.data.about.steps %}
                 <li>
-                    <div class="timeline-image">
+                    <div class="timeline-image wow tada" data-wow-duration="1s" data-wow-delay=".5s">
                         <h4 class='fa fa-{{ step.icon }}'></h4>
                     </div>
-                    <div class="timeline-panel py-2">
+                    <div class="timeline-panel py-2 wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
                         <div class="timeline-heading">
                             <h4>{{ step.date }}</h4>
                             <h4 class="subheading">{{ step.title }}</h4>
