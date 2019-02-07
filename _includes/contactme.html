@@ -8,7 +8,7 @@
     <div class="row my-3 py-3">
         <div class="col text-center">
             {% for s in site.data.contactme.social %}
-            <a href="{{ s.link }}" class="m-3 fab {{ s.class }} fa-4x" data-toggle="tooltip" data-placement="top" data-html="true" title="<h2>{{ s.name }}</h2>" target="_blank"></a>
+            <a href="{{ s.link }}" title="{{ s.name }}" class="m-3 fab {{ s.class }} fa-4x" target="_blank" data-toggle="popover" data-placement="top" data-trigger="hover"></a>
             {% endfor %}
         </div>
     </div>

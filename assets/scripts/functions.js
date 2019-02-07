@@ -10,7 +10,7 @@ $(() => {
         })
     })
     $("#listByDate ul li ul").each( function(i,e) {$(e).hide()});
-    $('[data-toggle="tooltip"]').tooltip()
+    $('[data-toggle="popover"]').popover();
     wow = new WOW()
     wow.init()
     $(document).on("click", (e) => {$(e.target).closest('li').children('ul').eq(0).toggle();});

@@ -108,40 +108,40 @@ nav li:hover, .active {
 }
 .card-column > .card{
     background:rgba(255,255,255,0.8);
+    height: 14em;
+    font-size: 1.3rem;
+    overflow: hidden;
 }
 .card-column > .card,
 .card-column > .card >.fa,
 .card-column > .card >.fab,
 .card-column > .card > div,
 .card-column > .card > h3 {
+    display: flex;
     transition:linear 1s
 }
-.card-column > .card{
-    transform:scale(.95);
-    border:0 solid #fff
+.card-column > .card > .fa,
+.card-column > .card > .fab{
+    margin: auto;
+    margin-bottom: 0;
+    font-size: 3em;
+    opacity: 1;
 }
-.card-column > .card>.fa,
-.card-column > .card>.fab{
-    transform:scale(2)
-}
-.card-column > .card > div,
 .card-column > .card > h3 {
-    transform:scale(.8);
-    text-align:center
-}
-.card-column > .card:hover > div,
-.card-column > .card:hover > h3 {
-    transform:scale(1)
-}
-.card-column > .card:hover{
-    transform:scale(1.1);
-    z-index:999;
-    border:.2em solid #000;
-    box-shadow:0 0 .8em #fff
+    margin: auto;
+    margin-top: 0;
 }
 .card-column > .card:hover > .fa,
-.card-column > .card:hover > .fab {
-    transform:scale(.6)
+.card-column > .card:hover > .fab,
+.card-column > .card:hover > h3 {
+    opacity: 0;
+}
+.card-column .card-body {
+    position: absolute;
+    bottom: -100%;
+}
+.card-column > .card:hover .card-body {
+    bottom: 0;
 }
 /* AboutMe timeline */
 .timeline {

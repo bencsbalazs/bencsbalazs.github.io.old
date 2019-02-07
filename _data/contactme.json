@@ -25,18 +25,22 @@
             "link": "https://www.linkedin.com/in/bal%C3%A1zs-bencs-499917102/"
         },
         {
+            "name": "Instagram",
             "class": "fa-instagram",
             "link": "https://www.instagram.com/bencsbalazs/"
         },
         {
+            "name": "GitHub",
             "class": "fa-github",
             "link": "https://github.com/bencsbalazs"
         },
         {
+            "name": "Slack",
             "class": "fa-slack",
             "link": "https://slack.com"
         },
         {
+            "name": "Skype",
             "class": "fa-skype",
             "link": "https://go.skype.com/sfw"
         }
