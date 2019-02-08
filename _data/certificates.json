@@ -6,13 +6,120 @@
             "src": "/images/certificats/bluemix-essentials.png",
             "alt": "bluemix-essentials",
             "title": "IBM Cloud Essentials",
-            "desc": "This badge holder has a understanding of the essentials of IBM Cloud. Through an online course they have learned about the IBM Cloud platform and gained hands-on experience using the Cloud Foundry command-line interface and the IBM Eclipse tools for IBM Cloud. The badge earner has used these tools to deploy and modify basic applications using a managed service in IBM Cloud."
+            "desc": "This badge holder has a understanding of the essentials of IBM Cloud. Through an online course they have learned about the IBM Cloud platform and gained hands-on experience using the Cloud Foundry command-line interface and the IBM Eclipse tools for IBM Cloud. The badge earner has used these tools to deploy and modify basic applications using a managed service in IBM Cloud.",
+            "url": "https://www.youracclaim.com/badges/b56295bf-abed-48b6-a04e-6c3e69da8bca"
         },
         {
             "src": "/images/certificats/ibm-mentor.png",
             "alt": "ibm-mentor",
             "title": "IBM Mentor",
-            "desc": "This badge holder is recognized by IBM for developing and cultivating a mentoring relationship with others. Mentoring is an important career development opportunity to enhance skills and achieve long-term career aspirations. The guidance given to the protégé has subsequently enabled the protégé to gain skills and expertise to support their career development, expertise in the job, and/or social skills. The value of the mentoring benefits and impact was validated by the protégé"
+            "desc": "This badge holder is recognized by IBM for developing and cultivating a mentoring relationship with others. Mentoring is an important career development opportunity to enhance skills and achieve long-term career aspirations. The guidance given to the protégé has subsequently enabled the protégé to gain skills and expertise to support their career development, expertise in the job, and/or social skills. The value of the mentoring benefits and impact was validated by the protégé",
+            "url": "https://www.youracclaim.com/badges/9581eec4-c13b-4949-aae5-21baca1fc93b"
+        },
+        {
+            "src": "/images/certificats/ibm-agile-explorer.png",
+            "alt": "ibm-agile-explorer",
+            "title": "IBM Agile explorer",
+            "desc": "The Agile Explorer has a foundational understanding of Agile values, principles, and practices that allows them to initiate an Agile conversation with co-workers and colleagues.",
+            "url": "https://www.youracclaim.com/badges/2e9d7b8c-5d79-4bdf-9df5-7349dafefed8"
+        },
+        {
+            "src": "/images/certificats/chatbots-with-watson.png",
+            "alt": "chatbots",
+            "title": "Build Chatbots with Watson Conversation",
+            "desc": "Earners of this badge have built a working chatbot application by using IBM Watson Conversation and the Weather Company Data service. To build this app, earners understand key concepts such as intents, entities, and dialog flow. They also know how to work with the app declaratively and programmatically by using the Watson SDK for Node.js.",
+            "url": "https://www.youracclaim.com/badges/440660f6-ac7d-464b-bc60-62b2be500c09"
+        },
+        {
+            "src": "/images/certificats/csharp.jpg",
+            "alt": "c#",
+            "title": "C# basics",
+            "desc": "The holder of this certificate has an understanding of the basic of the C# programming language.",
+            "url": ""
+        },
+        {
+            "src": "/images/certificats/css.jpg",
+            "alt": "css",
+            "title": "CSS fundamentals",
+            "desc": "The holder of this certificate has an understanding of the web styling and animation creation with css properties.",
+            "url": ""
+        },
+        {
+            "src": "/images/certificats/edtp.png",
+            "alt": "enterprise-design-thinking-practicioner",
+            "title": "Enterprise Design Thinking Practitioner",
+            "desc": "The earner has acquired knowledge of applying Enterprise Design Thinking and its value. As a Practitioner, the badge earner finds opportunities to try it out in their every day work.",
+            "url": "https://www.youracclaim.com/badges/d0ea1870-8fe8-42d8-b00e-3c4b2dbcc941"
+        },
+        {
+            "src": "/images/certificats/html.jpg",
+            "alt": "html",
+            "title": "HTML fundamentals",
+            "desc": "The holder of this certificate has an understanding of the webpages structure and creation techniques.",
+            "url": ""
+        },
+        {
+            "src": "/images/certificats/nrbb.png",
+            "alt": "node-red",
+            "title": "Node-RED: basics to bots",
+            "desc": "This badge earner understands how to create simple to complex applications in the Node-RED flow editor. These applications include a Node-RED boilerplate that uses JavaScript and built in IBM Bluemix; a REST API; Watson cognitive applications that can translate text, analyze tone, replay audio and video, and send tweets to Twitter; and a Facebook Messenger bot that uses the Watson Conversation service.",
+            "url": "https://www.youracclaim.com/badges/23e12707-9fe9-48c8-a903-4a4459bd18df"
+        },
+        {
+            "src": "/images/certificats/cp.png",
+            "alt": "cognitive-practicioner",
+            "title": "Cognitive Practitioner",
+            "desc": "The Cognitive Practitioner badge earner has a foundational understanding of Cognitive solutions and offerings that allows them to initiate a Cognitive conversation with co-workers and colleagues.",
+            "url": "https://www.youracclaim.com/badges/6b77f1a1-3457-4fbc-8826-26f396d46d06"
+        },
+        {
+            "src": "/images/certificats/de.png",
+            "alt": "docker-essentials",
+            "title": "Docker Essentials: A Developer Introduction",
+            "desc": "Earners of this badge know what Docker containers are and their benefits. The individual knows how to run containers from Docker Hub, create Docker containers, and how to solve basic problems of orchestration (reconciliation, scaling, high availability, service discovery). The badge earner also understands best practices for using DockerFiles and the basics of how to use tools such as the IBM Cloud Kubernetes Service.",
+            "url": "https://www.youracclaim.com/badges/c51f4f89-de21-44de-bc06-23ed4f4a168d"
+        },
+        {
+            "src": "/images/certificats/aa.png",
+            "alt": "agile-advocate",
+            "title": "IBM Agile Advocate",
+            "desc": "The Agile Advocate has the capability to discuss Agile values and principles and has begun applying the Agile practices to their daily activities. They hold stand-ups, conduct retrospectives, and can visualize their wall of work. They know the different Agile roles and understand how they interact together to bring continual value to their customers.",
+            "url": "https://www.youracclaim.com/badges/ecc58aef-c35c-48d0-a4b7-07f155b03347"
+        },
+        {
+            "src": "/images/certificats/java.jpg",
+            "alt": "java",
+            "title": "Java fundamentals",
+            "desc": "The holder of this certificate has an understanding of the techniques and usage of this language.",
+            "url": ""
+        },
+        {
+            "src": "/images/certificats/javascript.jpg",
+            "alt": "javascript",
+            "title": "JavaScript fundamentals",
+            "desc": "The holder of this certificate has an understanding of the techniques and usage of this language.",
+            "url": ""
+        },
+        {
+            "src": "/images/certificats/jquery.jpg",
+            "alt": "jquery",
+            "title": "jQuery fundamentals",
+            "desc": "The holder of this certificate has an understanding of the techniques and usage of this language.",
+            "url": ""
+        },
+        {
+            "src": "/images/certificats/php.jpg",
+            "alt": "php",
+            "title": "PHP fundamentals",
+            "desc": "The holder of this certificate has an understanding of the techniques and usage of this language.",
+            "url": ""
+        },
+        {
+            "src": "/images/certificats/sql.jpg",
+            "alt": "sql",
+            "title": "Sql fundamentals",
+            "desc": "The holder of this certificate has an understanding of the techniques and usage of this language.",
+            "url": ""
         }
     ]
 }
