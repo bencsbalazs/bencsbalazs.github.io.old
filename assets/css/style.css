@@ -67,6 +67,21 @@ nav li:hover, .active {
   display: none;
   visibility: hidden;
 }
+#certificets .card-body{
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    transition: background 1s;
+}
+#certificets .card-body p, #certificets .card-body a {
+    opacity: 0;
+}
+#certificets .card-body:hover {
+    background: #fff !important;
+}
+#certificets .card-body:hover p, #certificets .card-body:hover a {
+    opacity: 1;
+}
 .separator {
   width: 70%;
   height: .5em;

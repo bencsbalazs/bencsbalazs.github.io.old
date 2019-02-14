@@ -34,15 +34,13 @@
             "src": "/images/certificats/csharp.jpg",
             "alt": "c#",
             "title": "C# basics",
-            "desc": "The holder of this certificate has an understanding of the basic of the C# programming language.",
-            "url": ""
+            "desc": "The holder of this certificate has an understanding of the basic of the C# programming language."
         },
         {
             "src": "/images/certificats/css.jpg",
             "alt": "css",
             "title": "CSS fundamentals",
-            "desc": "The holder of this certificate has an understanding of the web styling and animation creation with css properties.",
-            "url": ""
+            "desc": "The holder of this certificate has an understanding of the web styling and animation creation with css properties."
         },
         {
             "src": "/images/certificats/edtp.png",
@@ -55,8 +53,7 @@
             "src": "/images/certificats/html.jpg",
             "alt": "html",
             "title": "HTML fundamentals",
-            "desc": "The holder of this certificate has an understanding of the webpages structure and creation techniques.",
-            "url": ""
+            "desc": "The holder of this certificate has an understanding of the webpages structure and creation techniques."
         },
         {
             "src": "/images/certificats/nrbb.png",
@@ -90,36 +87,31 @@
             "src": "/images/certificats/java.jpg",
             "alt": "java",
             "title": "Java fundamentals",
-            "desc": "The holder of this certificate has an understanding of the techniques and usage of this language.",
-            "url": ""
+            "desc": "The holder of this certificate has an understanding of the techniques and usage of this language."
         },
         {
             "src": "/images/certificats/javascript.jpg",
             "alt": "javascript",
             "title": "JavaScript fundamentals",
-            "desc": "The holder of this certificate has an understanding of the techniques and usage of this language.",
-            "url": ""
+            "desc": "The holder of this certificate has an understanding of the techniques and usage of this language."
         },
         {
             "src": "/images/certificats/jquery.jpg",
             "alt": "jquery",
             "title": "jQuery fundamentals",
-            "desc": "The holder of this certificate has an understanding of the techniques and usage of this language.",
-            "url": ""
+            "desc": "The holder of this certificate has an understanding of the techniques and usage of this language."
         },
         {
             "src": "/images/certificats/php.jpg",
             "alt": "php",
             "title": "PHP fundamentals",
-            "desc": "The holder of this certificate has an understanding of the techniques and usage of this language.",
-            "url": ""
+            "desc": "The holder of this certificate has an understanding of the techniques and usage of this language."
         },
         {
             "src": "/images/certificats/sql.jpg",
             "alt": "sql",
             "title": "Sql fundamentals",
-            "desc": "The holder of this certificate has an understanding of the techniques and usage of this language.",
-            "url": ""
+            "desc": "The holder of this certificate has an understanding of the techniques and usage of this language."
         }
     ]
 }
