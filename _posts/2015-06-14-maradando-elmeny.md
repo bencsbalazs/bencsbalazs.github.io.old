@@ -2,9 +2,9 @@
 layout: post
 
 author: Balázs
-title: És kezdődik a keverés
+title: Maradandó élmény
 
-discription: Avagy, egy pozitív élmény a kórházban
+description: Avagy, egy pozitív élmény a kórházban
 
 date: 14/06/2015 23:49
 categories: [baleset, betegség]

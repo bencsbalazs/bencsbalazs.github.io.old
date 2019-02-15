@@ -5,11 +5,13 @@
     {% include head.html %}
 </head>
 
-<body data-spy="scroll" data-target="#siteNav" data-offset="0" id="top">
+<body data-spy="scroll" data-target="#siteNav" data-offset="0" id="top" class="pt-5">
+    <div id="fb-root"></div>
+    <script async defer src="https://connect.facebook.net/hu_HU/sdk.js#xfbml=1&version=v3.2&appId=431375447258899&autoLogAppEvents=1"></script>
     {% include nav.html %}
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 mt-5">
+            <main class="col-lg-8 mt-5">
                 <h2 class="blog-post-title">{{ page.title }}</h2>
                 <p class="blog-post-meta">{{ page.date | date_to_string }} by {{ page.author }}</p>
                 <p class="blog-post-meta">Tags: {{ page.tags | array_to_sentence_string }}</p>
@@ -17,7 +19,7 @@
                 <div class="blog-content">
                     {{ content }}
                 </div>
-            </div>
+            </main>
             {% include blog_sidebar.html %}
         </div>
         <div class="row">
@@ -34,6 +36,14 @@
             </a>
             {% endif %}
             <div class="col-5"></div>
+        </div>
+        <div class="row my-5">
+            <div class="col-6 text-center">
+                    <div class="fb-like" data-href="{{site.url}}{{page.url}}" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+            </div>
+            <div class="col-6 text-center">
+                
+            </div>
         </div>
     </div>
     {% include plugin.html %}
