@@ -415,3 +415,9 @@ nav li:hover, .active {
     margin: 1em;
     border-radius: .5em;
 }
+.blog-content blockquote {
+    border-left: solid .5em rgb(255,200,0);
+    padding-left: 1em;
+    margin: 1em;
+    line-height: 3em;
+}
