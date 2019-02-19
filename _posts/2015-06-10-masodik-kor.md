@@ -7,7 +7,7 @@ title: A második kör
 discription: Ahogy a vizsgálatok elkezdődtek
 
 date: 10/02/2015 23:40
-categories: [baleset, betegség]
+categories: [Baleset, Betegség]
 tags: [betegség, szeretet]
 ---
 Székesfehérvárra busszal kellett átmenni, mert félig vakon nem lehet vezetni.

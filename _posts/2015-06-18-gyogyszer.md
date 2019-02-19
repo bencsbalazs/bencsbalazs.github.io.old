@@ -7,7 +7,7 @@ title: Ne fogadj el gyógyszert idegentől
 discription: Avagy, biztos hogy az orvos nem okoz kárt?
 
 date: 15/06/2015 1:18
-categories: [baleset, betegség]
+categories: [Baleset, Betegség]
 tags: [betegség, szeretet]
 ---
 Na, másnap reggel aztán behoztak egy csomó fehér gyógyszert. Mint utólag kiderült Medrol nevű steroid volt, a hozzá tartozó káliummal és gyomorvédővel, de kérdésemre a nővér azt mondta gyulladáscsökkentő.

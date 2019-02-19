@@ -7,8 +7,8 @@ title: Éjjeli kényszer megálló
 discription: Egy nagyon kellemetlen baleset leírása
 
 date: 03/07/2017
-categories: [baleset, lelki béke]
-tags: [kocsi, lelki béke]
+categories: [Baleset, Lelki béke]
+tags: [kocsi, Lelki béke]
 ---
 
 **Ezt az eseményt úgy érzem mindenképpen meg kell osztanom, mert annyira érzékenyen érintett és felháborított.**

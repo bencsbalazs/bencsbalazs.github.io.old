@@ -7,7 +7,7 @@ title: A gyógyszer kezdte, de én fejezem be...
 description: Avagy, egy pozitív élmény a kórházban
 
 date: 17/06/2015 10:10
-categories: [betegség, szeretet]
+categories: [Betegség, Szeretet]
 tags: [betegség, szeretet, öröm, törődés]
 ---
 Tehát egy rakás vizsgálat és annál is több izgalom után, volt ugyan pozitívum nem is kevés, de a probléma nem derült ki.

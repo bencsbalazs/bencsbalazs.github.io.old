@@ -7,21 +7,21 @@ title: A megbocsájtásról
 description: Ez a leírás a megbocsátás fontosságát írja le.
 
 date: 06/07/2015 06:12
-categories: [lelki béke]
+categories: [Lelki béke]
 tags: [építő írás, nyugalom, megbocsájtás]
 ---
 Több bejegyzésemben említettem már a megbocsátást mint a lelki béke, nyugalom egyik feltételét és a gyógyulás legnagyobb elősegítőjét.
 
-## De mit is jelent pontosan megbocsátani? Miért jó? Miért kell?
+> De mit is jelent pontosan megbocsátani? Miért jó? Miért kell?
 
 # Ez egy folyamat, amin végig kell menni. A megbocsátáshoz elég egy ember, a kibéküléshez kell a másik is. Tehát jó hír hogy magadban meg tudsz bocsátani bárkinek. :)
 
-## Miért kell megbocsátani?
+## Miért kell megbocsátani? :)
 
 - Először is, mert fizikai tünetei vannak. A haragtartás fizikai tünetekben nyilvánulhat meg és hihetetlen energiákat emészt fel. Emellett a harag függőséget okoz, végül életformává válik és megöli a lelket.
 - Másrészt, mert Isten is megbocsátott. És ha ő megtette, minden ellenére akkor nekünk is kell! (Mt 6, 14-15; Mt 7, 1-2; Mt 7, 12; Mt 5, 44-53; Lk 15)
 
-## Kinek kell megbocsátani?
+## Kinek kell megbocsátani? :/
 
 - Bármilyen hihetetlen, először Istennek, mert a probléma oka nem ő. (De a megoldása igen.) Felesleges mérgelődni azon hogy miért ver a sors... a sors nem ver. Egyszerűen van és benne élsz.
 - Saját magamnak. Ez a legnehezebb. A gőg, egó miatt. A megtérés első jele, mikor elfogadom hogy bűnös vagyok. Amikor beismerem hogy én sem vagyok teljesen tökéletes... talán én is hibás vagyok kicsit vagy nagyon. Ha legalább magadnak beismered az már jó jel.
@@ -38,7 +38,7 @@ Azért így tegyünk, mert egyrészt, ez győzelem a harag fölött ami megmérg
 
 > Ez nem könnyű, de Jézus is fájdalmak között bocsátott meg. Gondold csak végig mi történt a kereszten.
 
-# Lássuk be. A megbántódás az, amikor a másikat tesszük felelőssé saját érzelmeinkért.
+# Lássuk be. A megbántódás az, amikor a másikat tesszük felelőssé saját érzelmeinkért
 
 Ilyenkor érzelmeink sérülnek. De a szabad akarat olyan mint a repülő fekete doboza, sértetlen marad és mindig lehetőséget ad az újrakezdésre. Nem kötelező haragudni. Ráadásul csak neked rossz. Főleg ha a másik nem tud róla akkor még felesleges is.
 
@@ -50,7 +50,7 @@ Ilyenkor érzelmeink sérülnek. De a szabad akarat olyan mint a repülő fekete
 - Öröm érzetet ad.
 - Helyreállítja a kapcsolatunkat. Letisztítja azt a bizonyos lapot hogy újra indulhassatok vele. :)
 
-## Honnan tudom hogy sikerült elérnem?
+## Honnan tudom hogy sikerült elérnem? :D
 
 - Nem terjesztek rosszat a másikról, és vágyat sem érzek erre.
 - Nem szólom meg sem az adott probléma, sem másik gond miatt.

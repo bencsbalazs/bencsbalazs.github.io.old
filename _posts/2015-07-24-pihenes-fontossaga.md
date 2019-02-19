@@ -7,7 +7,7 @@ title: A pihenés fontossága
 discription: Ez a leírás a pihenésről szól.
 
 date: 24/07/2015 16:27
-categories: [lelki béke, health]
+categories: [Lelki béke, Terhelés]
 tags: [építő írás, szeretet, nyugalom]
 ---
 

@@ -7,7 +7,7 @@ title: Combnyak törés
 discription: Ez a leírás az eddigi legrosszabb balesetemet mutatja be.
 
 date: 24/08/2015
-categories: [lelki béke, health]
+categories: [Lelki béke, Baleset]
 tags: [építő írás, szeretet, nyugalom]
 ---
 A gyógyszer bevitt egy újabb találatot.

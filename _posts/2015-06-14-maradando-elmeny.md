@@ -7,7 +7,7 @@ title: Maradandó élmény
 description: Avagy, egy pozitív élmény a kórházban
 
 date: 14/06/2015 23:49
-categories: [baleset, betegség]
+categories: [Baleset, Betegség]
 tags: [betegség, szeretet]
 ---
 Nem értem mi baja az embereknek a kórházi kajákkal.... nekem jól esett a reggeli is meg az ebéd is, és semmiben sem tért el attól amit a suli menzáján adnak.

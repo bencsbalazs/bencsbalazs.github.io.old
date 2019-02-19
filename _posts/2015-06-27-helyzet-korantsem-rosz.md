@@ -7,13 +7,13 @@ title: A helyzet korántsem olyan rossz
 discription: Ez a leírás a terhelések pozitív hatását mutatja be.
 
 date: 27/06/2015 16:07
-categories: [lelki béke, terhelés]
+categories: [Lelki béke, Terhelés]
 tags: [építő írás, nyugalom]
 ---
 
 > Többen is kérdezték tőlem az utóbbi időben, hogy ha ez ilyen szörnyű és a betegség mellett a magas dózisú steroid (Medrol) ilyen sokat kivesz az emberből, akkor hogy lehet elviselni?
 
-## Hölgyek, Urak, Kedves Medrol felhasználók!
+# Hölgyek, Urak, Kedves Medrol felhasználók figyelem! :D
 
 Nem tudom más hogy csinálja mert 1 kezem elég hogy összeszámoljam ahány Medrol-kezeltet ismerek, de van pár jó tapasztalatom.
 

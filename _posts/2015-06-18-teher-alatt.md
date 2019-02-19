@@ -7,7 +7,7 @@ title: Teher alatt nő a pálma
 discription: Ez a leírás a terhelések pozitív hatását mutatja be.
 
 date: 19/06/2015 15:07
-categories: [lelki béke, terhelés]
+categories: [Lelki béke, Terhelés]
 tags: [építő írás, nyugalom]
 ---
 

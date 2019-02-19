@@ -7,14 +7,12 @@ title: Kommunikáció
 discription: Ez a leírás a kommunikáció hangulati tényezőjét írja le.
 
 date: 06/08/2015 13:28
-categories: [lelki béke, segítség]
+categories: [Lelki béke, Fejlődés]
 tags: [építő írás, panasz]
 ---
 > Említettem már hogy az emberek nagyon sokszor nem értik egymást, elbeszélnek egymás mellett.
 
 Ezzel régebben nekem is problémám volt, de aztán megtanultam ezt is, és azóta magamhoz képest meglepően jól és eredményesen tárgyalok. Rájöttem hogy a korábban leírt sérelmek és problémák többsége a helyes kommunikációval elkerülhető lett volna.
-
-## Tekintsük is át
 
 Nyelvtan órán mindenki tanulta a kommunikáció folyamatát és csatornáit. Az a fizikai "rétege", a folyamata a kommunikációnak, mikor az információ célba juttatását írjuk le.
 

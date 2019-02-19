@@ -7,8 +7,8 @@ title: Az események sose egy szálon futnak...
 description: Avagy, hogy lesz egy bajból kettő
 
 date: 17/06/2015 10:10
-categories: [betegség, szeretet]
-tags: [betegség, szeretet, öröm, törődés]
+categories: [Betegség, Szeretet]
+tags: [Betegség, szeretet, öröm, törődés]
 ---
 Előző bejegyzésemben említettem, hogy a fogakat is szétszedi a gyógyszer. Ha nem nyeled le elég gyorsan és egy pillanatnál tovább víz éri, már fel is oldódott és akkor aztán moshatod a fogad amíg jólesik... a gyógyszer közötte marad. A fogász meg megállapította hogy bölcsességfog probléma, de a kivételét csak Kaposváron válla a szájsebész. Így 3 város között kell ingázni :)
 

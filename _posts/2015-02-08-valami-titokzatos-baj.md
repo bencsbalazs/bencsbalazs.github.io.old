@@ -7,7 +7,7 @@ title: Valami titokzatos baj
 discription: Ahogy a betegségek kezdődtek
 
 date: 08/02/2015 03:25
-categories: [baleset, betegség]
+categories: [Baleset, Betegség]
 tags: [betegség, szeretet]
 ---
 Mostanában olyan dolgok történtek velem, amik általában véve is szokatlanok, de számomra különösen nagy hatással voltak szinte mindenre az életemben. Ezért döntöttem úgy hogy elkezdek én is blogot írni. Könnyebb úgy megemészteni a dolgokat hogy kibeszélem magamból.

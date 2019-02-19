@@ -7,7 +7,7 @@ title: Ellentétek
 discription: Ez a leírás a tapasztalt ellentétekről szól.
 
 date: 02/08/2015 11:36
-categories: [lelki béke, panasz]
+categories: [Lelki béke, Panasz]
 tags: [építő írás, panasz]
 ---
 Észrevettem pár ellentmondást az eddigi és a mostani helyzetre adott tanácsokban. Ezek alapjaiban felborítják és érvénytelenítik mindazt amit előtte tanítottak. Sajnos mostanában sok ilyen témát találtam az életemben, így úgy érzem újabb erős szelektálásra van szükség. Ez már alapvetően érint embereket, tevékenységeket. Írtam korábban hogy túl vagyok a mélyponton, ezt a helyzetet nem is nevezném igazából mélypontnak, inkább fordulónak. Jó példa erre az első derivált. Ez az a pont mikor életem függvénye előjelet vált. Vagy minimuma van, vagy maximuma. Már annyi minden jött össze, hogy egyszerűen nincs tovább errefelé. Nem tudom más életében ez hogyan csapódik le, de talán lesz akinek segít ha leírom a tapasztalataimat.

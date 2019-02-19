@@ -7,7 +7,7 @@ title: Lelki béke
 discription: Ez a leírás a lelki békéhez vezető utamat mutatja be.
 
 date: 23/06/2015
-categories: [lelki béke, betegség]
+categories: [Lelki béke, Betegség]
 tags: [építő írás, szeretet, nyugalom]
 ---
 

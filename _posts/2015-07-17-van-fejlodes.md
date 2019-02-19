@@ -7,7 +7,7 @@ title: Van fejlődés...
 discription: Ez a leírás a gyógyulásom egy újabb állomásáról szól.
 
 date: 17/07/2015 07:27
-categories: [lelki béke, health]
+categories: [Lelki béke, Betegség]
 tags: [építő írás, szeretet, nyugalom]
 ---
 # Úgy néz ki, szemüveges leszek
