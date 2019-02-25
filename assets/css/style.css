@@ -417,7 +417,9 @@ nav li:hover, .active {
 }
 .blog-content blockquote {
     border-left: solid .5em rgb(255,200,0);
-    padding-left: 1em;
+    padding: 1em;
     margin: 1em;
-    line-height: 3em;
+    letter-spacing: 0.2em;
+    font-style: italic;
+    
 }
