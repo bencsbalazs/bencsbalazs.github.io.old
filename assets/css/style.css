@@ -420,6 +420,30 @@ nav li:hover, .active {
     padding: 1em;
     margin: 1em;
     letter-spacing: 0.2em;
-    font-style: italic;
-    
+    font-style: italic;   
+}
+.blog-post{
+    position: inherit;
+    border: solid 1px #ccc;
+    padding: 1em;
+    margin: 1em 0;
+    box-shadow: 0 0 1em inset;
+}
+.blog-post .date {
+    position: absolute;
+    top: 0;
+    left: .3em;
+    padding: 1em .4em 2em .4em;
+    background: rgb(255,200,0);
+    width: 7em;
+    border-radius: 0 0 3.5em 3.5em;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 0 0.5em #fff;
+}
+.blog-post a h2{
+    padding-left: 4em;
+}
+.blog-post > p:nth-child(3) {
+    padding-left: 8em;
 }

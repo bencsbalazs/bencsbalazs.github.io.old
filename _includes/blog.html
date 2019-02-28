@@ -15,11 +15,11 @@
                 <a href="{{ post.url }}">
                     <h2 class="blog-post-title">{{ post.title }}</h2>
                 </a>
-                <p class="blog-post-meta">{{ post.date | date_to_string }} by {{ post.author }}</p>
+                <p class="blog-post-meta date">{{ post.date | date_to_string }}<br>by {{ post.author }}</p>
                 <p class="blog-post-meta">
                         Tags: {{ post.tags | array_to_sentence_string }}
                 </p>
-                <p class="blog-content">{{ post.excerpt }}</p>
+                <p class="blog-content">{{ post.content | strip_html | truncate: 400 }}</p>
             </div>
             {% endfor %}
         </div>
