@@ -1,6 +1,22 @@
 #/bin/sh
 echo -n Cím: ; read title;
-name=$(date +"%Y-%m-%d")-$title
-name=$(echo $name | sed 's/ /-/g')
-echo $name
-cp _drafts/2019-03-01-example.md _drafts/$name.md
+name=$(echo $(date +"%Y-%m-%d")-$title.md | sed 's/ /-/g')
+echo -n description: ; read description;
+echo -n categories: ; read categories;
+echo -n tags: ; read tags;
+
+cat <<EOT >> $name
+---
+type: post
+
+author: Balázs
+
+title: $title
+description: 
+
+date: $(date +"%Y-%m-%d,%H:%M:%S")
+categories: [$categories]
+tags: [$tags]
+---
+# Text...
+EOT
