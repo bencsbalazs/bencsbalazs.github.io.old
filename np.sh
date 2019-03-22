@@ -5,7 +5,7 @@ echo -n description: ; read description;
 echo -n categories: ; read categories;
 echo -n tags: ; read tags;
 
-cat <<EOT >> $name
+cat <<EOT >> _posts/$name
 ---
 type: post
 
