@@ -7,7 +7,7 @@ echo -n tags: ; read tags;
 
 cat <<EOT >> _posts/$name
 ---
-type: post
+layout: post
 
 author: Balázs
 
