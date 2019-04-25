@@ -1,17 +1,23 @@
 <meta charset="utf-8">
-
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>{{ site.title }}</title>
 <meta name="viewport" content="width=device-width">
 <meta name="description" content="{% if page.description %} {{ page.description }} {% else %} {{ site.description }} {% endif %}">
 <meta name="keywords" content="{{ site.keywords }}" />
 <meta name="author" content="{{ site.title }}">
+
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
-<link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
-<link rel="stylesheet" href="/assets/fontawesome/css/all.min.css">
-<link rel="stylesheet" href="/assets/animations/animate.css">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.7/css/mdb.min.css" rel="stylesheet">
+<!-- Custom style extensions -->
 <link rel="stylesheet" href="/assets/css/style.css">
-<script>const texts = JSON.parse('{{ site.data | jsonify }}');</script>
+
+<title>{{ site.title }}</title>
+
 {% if site.google_verify %}<meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
 {% if site.bing_verify %}<meta name="msvalidate.01" content="{{ site.bing_verify }}">{% endif %}
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
