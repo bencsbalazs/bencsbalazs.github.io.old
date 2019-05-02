@@ -1,4 +1,3 @@
-<section>
 <div class="container">
   <h2 class="my-5 h3 text-center">...and even more</h2>
 
@@ -154,24 +153,4 @@
 
   </div>
   <!--/Second row-->
-</div>
-</section>
-
-
-<div class="container">
-  <div class="row">
-      <div class="col-12 mx-sm-auto my-sm-5 my-md-5 my-lg-5 text-center">
-          <h2 class="wow jackInTheBox" data-wow-duration="1s" data-wow-delay=".5s">{{ site.data.services.title }}</h2>
-          <small class="wow jackInTheBox description" data-wow-duration="1s" data-wow-delay=".5s">{{ site.data.services.slogan }}</small>
-      </div>
-  </div>
-  <div class="row card-column">
-	{% for tile in site.data.services.tiles %}
-      <div class="card col-md-6 col-lg-4 p-4 wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
-          <i class="{{ tile.icon }} fa-2x mx-auto"></i>
-          <h3 class="description pt-3">{{ tile.title }}</h3>
-          <div class="card-body text-justify">{{ tile.text }}</div>
-      </div>
-	{% endfor %}
-  </div>
 </div>

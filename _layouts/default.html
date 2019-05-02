@@ -6,29 +6,30 @@
 <body data-spy="scroll" data-target="#siteNav" data-offset="0" id="top">
     {% include nav.html %}
     {% include header.html %}
-    <section class="my-5 py-5 wow fadeIn" id="services">
-	{% include services.html %}
-    </section>
-    <section class="my-5 py-5 wow fadeIn" id="contactme">
-        {% include contactme.html %}
-    </section>
     <section class="my-5 py-5 wow fadeIn" id="aboutme">
-        {% include about.html %}
-    </section>
-    <section class="my-5 py-5 wow fadeIn" id="certificets">
-        {% include certificats_new.html %}
-    </section>
-    <section class="my-5 py-5 bgc-white" id="blog">
-        {% include blog.html %}
-    </section>
-    {% include partners.html %}
-    <div class="container">
-        <div class="row">
-            <div class="col text-center">
-                &copy; {{ site.copyright }}
-            </div>
+        <div class="container">
+            {% include about.html %}
         </div>
-    </div>
+    </section>
+    <hr class="my-5 py-5 w-50">
+    <section class="my-5 py-5 wow fadeIn" id="services">
+        <div class="container">
+            {% include services.html %}
+        </div>
+    </section>
+    <hr class="my-5 py-5 w-50">
+    <section class="my-5 py-5 wow fadeIn" id="certificets">
+        <div class="container">
+            {% include certificats.html %}
+        </div>
+    </section>
+    <hr class="my-5 py-5 w-50">
+    <section class="my-5 py-5" id="blog">
+        <div class="container">
+            {% include blog.html %}
+        </div>
+    </section>
+    {% include footer.html %}
     {% include plugin.html %}
 </body>
 </html>

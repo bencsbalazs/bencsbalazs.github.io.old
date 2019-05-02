@@ -1,24 +1,5 @@
 let urls = []
 $(() => {
-
-    $('.carousel.carousel-multi-item.v-2 .carousel-item').each(function(){
-        var next = $(this).next();
-        if (!next.length) {
-            next = $(this).siblings(':first');
-        }
-        next.children(':first-child').clone().appendTo($(this));
-        for (var i=0;i<3;i++) { 
-            next=next.next(); 
-            if (!next.length) { 
-                next=$(this).siblings(':first'); 
-            }
-            next.children(':first-child').clone().appendTo($(this)); 
-        } 
-    });
-
-
-
-
     $.get("https://picsum.photos/list").then((images) => {
         $.map(texts.slogans, () => {
             urls.push(`https://picsum.photos/900/500?image=${images[Math.floor(Math.random() * images.length)].id}`)

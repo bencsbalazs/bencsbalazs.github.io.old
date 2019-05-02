@@ -1,45 +1,18 @@
-<div class="container">
-    <div class="row">
-        <div class="col-12 mx-sm-auto my-sm-5 my-md-5 my-lg-5 text-center">
-            <h2>{{ site.data.certificates.title }}</h2>
-            <small class="description">{{ site.data.certificates.slogan }}</small>
-        </div>
-    </div>
+<h2 class="my-5 h3 text-center">{{ site.data.certificates.slogan }}</h2>
     <div class="row my-3 py-3">
-        <div id="certificateSlider" class="carousel slide embed-responsive embed-responsive-16by9" data-ride="carousel">
-            <ol class="carousel-indicators">
-                {% assign count = 0 %}
-                {% for c in site.data.certificates.certificates %}
-                {% if forloop.first %}
-                <li data-target="#certificateSlider" data-slide-to="{{ count }}" class="active"></li>
-                {% else %}
-                <li data-target="#certificateSlider" data-slide-to="{{ count }}"></li>
-                {% endif %}
-                {% assign count = count | plus: 1 %}
-                {% endfor %}
-            </ol>
-            <div class="carousel-inner">
-                {% for cert in site.data.certificates.certificates %}
-                {% if forloop.first %}
-                <div class="carousel-item active embed-responsive-item" data-cert="{{ cert.title }}" style="background-image: url({{cert.src}})">
-                {% else %}
-                <div class="carousel-item embed-responsive-item" style="background-image: url({{cert.src}})">
-                {% endif %}
-                    <div class="carousel-caption">
-                        <a href="{{ cert.url }}" target="_blank"><h3>{{ cert.title }}</h3></a>
-                        <p>{{ cert.desc }}</p>
-                    </div>
-                </div>
-                {% endfor %}
+        {% for cert in site.data.certificates.certificates %}
+        <div class="column flip-box col-4 p-1">
+          <div class="flip-box-inner">
+            <div class="flip-box-front">
+              <img src="{{cert.src}}" alt="{{cert.title}}" class="img-fluid">
             </div>
-            <a class="carousel-control-prev" href="#certificateSlider" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#certificateSlider" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
+            <div class="flip-box-back">
+              <h2>{{cert.title}}</h2>
+              <p>{{cert.desc}}</p>
+            </div>
+          </div>
         </div>
+        {% endfor %}
     </div>
+  </div>
 </div>

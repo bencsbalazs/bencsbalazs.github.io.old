@@ -1,37 +1,42 @@
-<div class="container">
-    <div class="row">
-        <div class="col-12 mx-sm-auto my-sm-5 my-md-5 my-lg-5 text-center">
-            <h2>{{ site.data.about.title }}</h2>
-            <small class="description">{{ site.data.about.slogan }}</small>
-        </div>
-        <div class="col-lg-12">
-            <ul class="timeline">
-                <li>
-                    <div class="timeline-image">
-                        <h4 class='fa fa-user'></h4>
-                    </div>
-                </li>
-                {% for step in site.data.about.steps %}
-                <li>
-                    <div class="timeline-image wow shake" data-wow-duration="1s" data-wow-delay=".5s">
-                        <h4 class='fa fa-{{ step.icon }}'></h4>
-                    </div>
-                    <div class="timeline-panel py-2 wow fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
-                        <div class="timeline-heading">
-                            <h4>{{ step.date }}</h4>
-                            <h4 class="subheading">{{ step.title }}</h4>
-                        </div>
-                        <div class="timeline-body">
-                            <p class="text-muted">{{ step.text }}</p>
-                        </div>
-                    </div>
-                </li>
-                {% endfor %}
-                <li>
-                    <div class="timeline-image">
-                        <h3 class="m-auto">Be<br>part of<br>the<br>story</h3>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
+<div class="row">
+  <!--Grid column-->
+  <div class="col-md-6 mb-4">
+
+    <img src="https://mdbootstrap.com/img/Marketing/mdb-press-pack/mdb-main.jpg" class="img-fluid z-depth-1-half"
+      alt="">
+
+  </div>
+  <!--Grid column-->
+
+  <!--Grid column-->
+  <div class="col-md-6 mb-4">
+
+    <!-- Main heading -->
+    <h3 class="h3 mb-3">Material Design for Bootstrap</h3>
+    <p>This template is created with Material Design for Bootstrap (
+      <strong>MDB</strong> ) framework.</p>
+    <p>Read details below to learn more about MDB.</p>
+    <!-- Main heading -->
+
+    <hr>
+
+    <p>
+      <strong>400+</strong> material UI elements,
+      <strong>600+</strong> material icons,
+      <strong>74</strong> CSS animations, SASS files, templates, tutorials and many more.
+      <strong>Free for personal and commercial use.</strong>
+    </p>
+
+    <!-- CTA -->
+    <a target="_blank" href="https://mdbootstrap.com/docs/jquery/getting-started/download/"
+      class="btn btn-grey btn-md">Download
+      <i class="fas fa-download ml-1"></i>
+    </a>
+    <a target="_blank" href="https://mdbootstrap.com/docs/jquery/components/" class="btn btn-grey btn-md">Live
+      demo
+      <i class="far fa-image ml-1"></i>
+    </a>
+
+  </div>
+  <!--Grid column-->
+</div>
