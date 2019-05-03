@@ -1,59 +1,42 @@
-<h2 class="my-5 h3 text-center">...dear diary...</h2>
-<!-- Grid row -->
 <div class="row">
-
-    <!-- Grid column -->
-    <div class="col-lg-5">
-
-      <!-- Featured image -->
-      <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
-        <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/img%20(27).jpg" alt="Sample image">
-        <a>
-          <div class="mask rgba-white-slight"></div>
-        </a>
-      </div>
-
-    </div>
-    <!-- Grid column -->
-
-    <!-- Grid column -->
-    <div class="col-lg-7">
-
-      <!-- Category -->
-      <a href="#!" class="green-text">
-        <h6 class="font-weight-bold mb-3"><i class="fas fa-utensils pr-2"></i>Food</h6>
-      </a>
-      <!-- Post title -->
-      <h3 class="font-weight-bold mb-3"><strong>Title of the news</strong></h3>
-      <!-- Excerpt -->
-      <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime
-        placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus et aut officiis debitis.</p>
-      <!-- Post data -->
-      <p>by <a><strong>Carine Fox</strong></a>, 19/08/2018</p>
-      <!-- Read more button -->
-      <a class="btn btn-success btn-md">Read more</a>
-
-    </div>
-    <!-- Grid column -->
-
+  <div class="col">
+    <h2 class="my-5 h3 text-center">...dear diary...</h2>
   </div>
-  <!-- Grid row -->
-<div class="container">
-    <div class="row">
-        <div class="col-lg-8 blog-main">
-            {% for post in site.posts limit:3 %}
-            <div class="blog-post">
-                <a href="{{ post.url }}">
-                    <h2 class="blog-post-title">{{ post.title }}</h2>
-                </a>
-                <p class="blog-post-meta date">{{ post.date | date_to_string }}<br>by {{ post.author }}</p>
-                <p class="blog-post-meta">
-                        Tags: {{ post.tags | array_to_sentence_string }}
-                </p>
-                <p class="blog-content">{{ post.content | strip_html | truncate: 400 }}</p>
-            </div>
-            {% endfor %}
+</div>
+<div class="row">
+  <div class="col">
+    <!-- Grid row -->
+    {% for post in site.posts limit:3 %}
+    <div class="row my-5">
+      <!-- Grid column -->
+      <div class="col-lg-5">
+        <!-- Featured image -->
+        <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
+          <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/img%20(27).jpg" alt="Sample image">
+          <a>
+            <div class="mask rgba-white-slight"></div>
+          </a>
         </div>
-        {% include blog_sidebar.html %}
+      </div>
+      <!-- Grid column -->
+      <!-- Grid column -->
+      <div class="col-lg-7">
+        <!-- Category -->
+        <a href="#!" class="green-text">
+          <h6 class="font-weight-bold mb-3"><i
+              class="fas fa-utensils pr-2"></i>{{ post.tags | array_to_sentence_string }}</h6>
+        </a>
+        <!-- Post title -->
+        <h3 class="font-weight-bold mb-3"><strong>{{ post.title }}</strong></h3>
+        <!-- Excerpt -->
+        <p>{{ post.content | strip_html | truncate: 400 }}</p>
+        <!-- Post data -->
+        <p>by <a><strong>{{ post.author }}</strong></a>, {{ post.date | date_to_string }}</p>
+        <!-- Read more button -->
+        <a class="btn btn-success btn-md" href="{{ post.url }}">Read more</a>
+      </div>
+      <!-- Grid column -->
     </div>
+    {% endfor %}
+  </div>
 </div>
