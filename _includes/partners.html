@@ -5,8 +5,7 @@
 </div>
 <div class="row bgc-white">
     {% for partner in site.data.partners.images %}
-    <div class="col-xs-6 col-sm-2 text-center partner">
-        <img src="/images/partners/portfolio_{{ partner[1].src }}" alt="{{ partner[1].title }}" title="{{ partner[1].title }}">
+    <div class="col-xs-6 col-sm-2 text-center partner" style='background:url("/images/partners/portfolio_{{ partner[1].src }}")'>
     </div>
     {% endfor %}
 </div>
