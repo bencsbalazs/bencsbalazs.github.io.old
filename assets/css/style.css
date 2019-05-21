@@ -1,4 +1,4 @@
-/* Necessary for full page carousel*/
+/* Necessary for full page video*/
 html,
 body,
 header,
@@ -17,4 +17,8 @@ header,
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;  
+}
+
+#image-gallery-image {
+  object-fit: contain;
 }

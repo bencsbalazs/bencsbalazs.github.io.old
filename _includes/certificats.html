@@ -6,9 +6,9 @@
 <div class="row my-3 py-3">
   {% for cert in site.data.certificates.certificates %}
   <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="" data-image="{{cert.src}}"
+    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="{{cert.title}}" data-image="{{cert.src}}" data-text="{{cert.desc}}"
       data-target="#image-gallery">
-      <img class="img-thumbnail" src="{{cert.src}}" alt="Another alt text">
+      <img class="img-thumbnail" src="{{cert.src}}" alt="{{cert.alt}}">
     </a>
   </div>
   {% endfor %}
@@ -26,7 +26,10 @@
         </button>
       </div>
       <div class="modal-body">
-        <img id="image-gallery-image" class="img-responsive col-md-12" src="">
+        <div class="row">
+          <img id="image-gallery-image" class="img-responsive col-md-6" src="">
+          <div id="image-gallery-description" class="col-md-6 py-2 text-justify"></div>
+        </div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary float-left" id="show-previous-image"><i

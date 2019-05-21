@@ -1,17 +1,21 @@
-let urls = []
+let urls = [];
 let modalId = $('#image-gallery');
+
 $(() => {
     $.get("https://picsum.photos/list").then((images) => {
-        $.map([1,2,3], () => {
+        $.map([0,1,2], () => {
             urls.push(`https://picsum.photos/900/500?image=${images[Math.floor(Math.random() * images.length)].id}`)
         })
     }).then(() => {
-      $("#blog").children("img").each((i)=>{
-            console.log($(this).attr(src))
+      $("img").each((i)=>{
+          console.log($(this).attr("src"));
+            //$(this).attr('src',urls[i]);
         })
-    })
-    wow = new WOW()
-    wow.init()
+    });
+
+    wow = new WOW();
+    wow.init();
+
     $(window).on('activate.bs.scrollspy', (e) => {
         history.replaceState({}, "", $('.nav-item .active').attr("href"));
     });
@@ -61,6 +65,8 @@ $(() => {
           .text($sel.data('title'));
         $('#image-gallery-image')
           .attr('src', $sel.data('image'));
+        $('#image-gallery-description')
+            .text($sel.data('text'));
         disableButtons(counter, $sel.data('image-id'));
       }
 
@@ -98,7 +104,7 @@ $(document)
         break;
 
       default:
-        return; // exit this handler for other keys
+        return;
     }
     e.preventDefault(); // prevent the default action (scroll / move caret)
   });

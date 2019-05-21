@@ -1,6 +1,8 @@
 /_site
 
 /.vscode
+/.idea
+
 .DS_Store
 
 .jekyll-metadata
