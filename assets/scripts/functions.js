@@ -1,20 +1,24 @@
 let urls = [];
-let modalId = $('#image-gallery');
 
 $(() => {
+    sloganChange();
+
+    wow = new WOW();
+    wow.init();
+    let modalId = $('#image-gallery');
+    const images = $("img.randomimage");
+
     $.get("https://picsum.photos/list").then((images) => {
         $.map([0,1,2], () => {
             urls.push(`https://picsum.photos/900/500?image=${images[Math.floor(Math.random() * images.length)].id}`)
         })
     }).then(() => {
-      $("img").each((i)=>{
-          console.log($(this).attr("src"));
-            //$(this).attr('src',urls[i]);
-        })
+        urls.forEach(urlChange)
     });
 
-    wow = new WOW();
-    wow.init();
+    urlChange = (item, index) => {
+        images[index].src = item;
+    };
 
     $(window).on('activate.bs.scrollspy', (e) => {
         history.replaceState({}, "", $('.nav-item .active').attr("href"));
@@ -84,6 +88,15 @@ $(() => {
         });
     }
 });
+
+const sloganChange = () => {
+    i = 0;
+    setInterval(() => {
+        $("#sloganSlider").html(slogans[i]);
+        i = (i==slogans.length) ? 0 : i++;
+    },2000);
+};
+
 
 // build key actions
 $(document)

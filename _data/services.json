@@ -4,18 +4,28 @@
         "tiles": [
             {
                 "icon": "fa fa-code",
-                "title": "Development",
+                "title": "Angular, Node",
                 "text": "Application development for Android, network or desktop. Animation creation with the newest technologies."
             },
             {
-                "icon": "fa fa-graduation-cap",
-                "title": "E-learning",
-                "text": "Professional e-learning contents supporting the SCORM and the WCAG standards, that can be used in frameworks or as stand alone contents as well."
+                "icon": "fa fa-code",
+                "title": "Android",
+                "text": "Application development for Android, network or desktop. Animation creation with the newest technologies."
+            },
+            {
+                "icon": "fa fa-code",
+                "title": "Animation",
+                "text": "Application development for Android, network or desktop. Animation creation with the newest technologies."
             },
             {
                 "icon": "fab fa-drupal",
                 "title": "Frameworks",
                 "text": "Well-proven, popular frameworks: Drupal, Moodle, Wordpress installation, design, plugin and feature development. Optimalisation, or upgrading."
+            },
+            {
+                "icon": "fa fa-graduation-cap",
+                "title": "E-learning",
+                "text": "Professional e-learning contents supporting the SCORM and the WCAG standards, that can be used in frameworks or as stand alone contents as well."
             },
             {
                 "icon": "fa fa-coffee",

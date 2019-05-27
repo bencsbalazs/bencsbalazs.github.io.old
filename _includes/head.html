@@ -17,6 +17,9 @@
 <link rel="stylesheet" href="/assets/css/style.css">
 
 <title>{{ site.title }}</title>
+<script>
+    const slogans = {{ site.data.slogans | jsonify }};
+</script>
 
 {% if site.google_verify %}<meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
 {% if site.bing_verify %}<meta name="msvalidate.01" content="{{ site.bing_verify }}">{% endif %}
