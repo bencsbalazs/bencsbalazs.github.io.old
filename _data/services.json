@@ -6,22 +6,22 @@
     {
       "icon": "fab fa-angular",
       "title": "Angular, Node",
-      "text": "Application development for Android, network or desktop. Animation creation with the newest technologies."
+      "text": "Application development with the technologie of the future. Useing Angular, Node, Typescript, Mocha, Travis, Lerna etc for professional development."
     },
     {
       "icon": "fab fa-android",
       "title": "Android",
-      "text": "Application development for Android, network or desktop. Animation creation with the newest technologies."
+      "text": "Application development for Android, Based on HTML, CSS, XML used through Java, we can create amezing apps."
     },
     {
       "icon": "fa fa-code",
       "title": "Animation",
-      "text": "Application development for Android, network or desktop. Animation creation with the newest technologies."
+      "text": "2D and 3D animations using HTML5 Canvas, CSS animations, JS libraries, WebGL or OpenGL. It makes everything much more attractive."
     },
     {
       "icon": "fab fa-drupal",
       "title": "Frameworks",
-      "text": "Well-proven, popular frameworks: Drupal, Moodle, Wordpress installation, design, plugin and feature development. Optimalisation, or upgrading."
+      "text": "Well-proven, popular frameworks: Drupal, Moodle, Wordpress installation, design, plugin and feature development. Optimalisation, or upgrading. If you prefer to be tradicional."
     },
     {
       "icon": "fa fa-graduation-cap",
@@ -31,17 +31,17 @@
     {
       "icon": "fa fa-coffee",
       "title": "Agile",
-      "text": "Working in an agile view, organise or coach this way of working. On the other hand, I can teach any of the mentioned technologies in a professional level."
+      "text": "Working in an agile view, organise or coach this way of working. On the other hand, I can teach any of the mentioned technologies in a professional level with agile skills."
     },
     {
       "icon": "fas fa-robot",
       "title": "Data handling",
-      "text": "Organise manipulate or create data in a relational or non relational database like SQL or MongoDB. Develop the structure of the database or the data models. Documentation with the UML standard."
+      "text": "Develop chatbots, helper robots or virtual workmates. These are more flexible and more personal like an app or webpage for marketing, morover the platform is available on every device."
     },
     {
       "icon": "fa fa-cloud",
       "title": "Cloud",
-      "text": "Develop Cloud based applications like chatbots, helper robots or virtual workmates. I prefer the IBM cloud, Watson technologie, Google Cloud and Nore-Red for these works."
+      "text": "Docker, Kubernetes are used for the platform undependency. I prefer the IBM cloud, Watson technologie, Google Cloud and Nore-Red for the mentioned works."
     }
   ]
 }

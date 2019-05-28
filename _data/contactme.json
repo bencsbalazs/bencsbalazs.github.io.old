@@ -1,8 +1,23 @@
 {
     "en": {
         "title": "Contact Me",
-        "slogan": "If you find anything you interested about, write me a message.",
-        "writeme": "Write me an email",
+        "buttons": [
+            {
+                "text": "Like me on facebook",
+                "icon": "fas fa-thumbs-up",
+                "link": ""
+            },
+            {
+                "text": "Write me an email",
+                "icon": "fas fa-envelope-square",
+                "link": "mailto:bencsbalazs@gmail.com"
+            },
+            {
+                "text": "Fork me on Github",
+                "icon": "fas fa-code-branch",
+                "link": ""
+            }
+        ],
         "social": [
             {
                 "name": "Facebook",
