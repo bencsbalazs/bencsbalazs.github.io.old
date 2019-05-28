@@ -1,7 +1,7 @@
 <div class="row">
   <!--Grid column-->
   <div class="col-md-6 mb-4 text-center">
-    <img src="/images/me.jpeg" class="img-fluid z-depth-1-half"
+    <img src="{{site.data.about.image}}" class="img-fluid z-depth-1-half"
       alt="">
   </div>
   <!--Grid column-->
@@ -9,14 +9,14 @@
   <div class="col-md-6 mb-4">
 
     <!-- Main heading -->
-    <h3 class="h3 mb-3">Balazs Bencs</h3>
-    <p class="text-justify">Experienced <strong>Web Programmer</strong> with a demonstrated history of working in the education management industry. Skilled in Network Administration, Moodle, SQL, PHP, JAVA, HTML5, CSS4 NodeJs, Angular, Drupal and WordPress. Strong information technology professional with a Bachelor of Science (BSc) focused in System Programming, Networking, and LAN/WAN Management/Manager from College of Dunaújváros. Currently working at <strong>IBM</strong>.</p>
+    <h3 class="h3 mb-3">{{site.data.about.name}}</h3>
+    <p class="text-justify">{{site.data.about.description}}</p>
     <!-- Main heading -->
     <hr>
     <!-- CTA -->
     <a href="#services"
-      class="btn btn-grey btn-md">What can I do for you?
-      <i class="fas fa-download ml-1"></i>
+      class="btn btn-grey btn-md">{{site.data.about.contactButtonText}}
+      <i class="{{site.data.about.contactButtonIcon}} ml-1"></i>
     </a>
   </div>
   <!--Grid column-->

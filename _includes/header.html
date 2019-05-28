@@ -11,10 +11,11 @@
             <!-- Content -->
             <div class="text-center white-text mx-5 wow fadeIn">
                 <h1 class="mb-4">
-                    <strong>Bencs Balázs</strong>
+                    <strong>{{site.title}}</strong>
                 </h1>
-		        <h3 id="sloganSlider"></h3>
-                <a class="btn btn-outline-white btn-lg" href="#aboutme">About me
+		        <h3 id="sloganSlider">{{site.data.slogans.last.slogan}}</h3>
+                <h5 id="sloganAuthor">{{site.data.slogans.last.author}}</h5>
+                <a class="btn btn-outline-white btn-lg" href="#aboutme">{{site.data.services.aboutButton}}
                     <i class="fas fa-graduation-cap ml-2"></i>
                 </a>
             </div>

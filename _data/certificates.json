@@ -31,29 +31,11 @@
             "url": "https://www.youracclaim.com/badges/440660f6-ac7d-464b-bc60-62b2be500c09"
         },
         {
-            "src": "/images/certificats/csharp.jpg",
-            "alt": "c#",
-            "title": "C# basics",
-            "desc": "The holder of this certificate has an understanding of the basic of the C# programming language."
-        },
-        {
-            "src": "/images/certificats/css.jpg",
-            "alt": "css",
-            "title": "CSS fundamentals",
-            "desc": "The holder of this certificate has an understanding of the web styling and animation creation with css properties."
-        },
-        {
             "src": "/images/certificats/edtp.png",
             "alt": "enterprise-design-thinking-practicioner",
             "title": "Enterprise Design Thinking Practitioner",
             "desc": "The earner has acquired knowledge of applying Enterprise Design Thinking and its value. As a Practitioner, the badge earner finds opportunities to try it out in their every day work.",
             "url": "https://www.youracclaim.com/badges/d0ea1870-8fe8-42d8-b00e-3c4b2dbcc941"
-        },
-        {
-            "src": "/images/certificats/html.jpg",
-            "alt": "html",
-            "title": "HTML fundamentals",
-            "desc": "The holder of this certificate has an understanding of the webpages structure and creation techniques."
         },
         {
             "src": "/images/certificats/nrbb.png",
@@ -88,6 +70,24 @@
             "alt": "java",
             "title": "Java fundamentals",
             "desc": "The holder of this certificate has an understanding of the techniques and usage of this language."
+        },
+        {
+            "src": "/images/certificats/csharp.jpg",
+            "alt": "c#",
+            "title": "C# basics",
+            "desc": "The holder of this certificate has an understanding of the basic of the C# programming language."
+        },
+        {
+            "src": "/images/certificats/css.jpg",
+            "alt": "css",
+            "title": "CSS fundamentals",
+            "desc": "The holder of this certificate has an understanding of the web styling and animation creation with css properties."
+        },
+        {
+            "src": "/images/certificats/html.jpg",
+            "alt": "html",
+            "title": "HTML fundamentals",
+            "desc": "The holder of this certificate has an understanding of the webpages structure and creation techniques."
         },
         {
             "src": "/images/certificats/javascript.jpg",
