@@ -30,7 +30,7 @@ Nézzük is, mik ezek:
 
 Csakhogy az emberek hangulata változékony, és ez nagyban befolyásolja érdeklődésüket (affinitásukat), ezáltal a beszélgetés és információ közlés kimenetelét. Ha valaki például egy üzleti tárgyalásra szomorúan megy be, adhatnak neki bármilyen jó ajánlatot, nem úgy fog rá reagálni mintha lelkesen, az adott témára összpontosítva állna neki tárgyalni.
 
-# Szerencsére a hangulati szint egy skála mentén mozog az emberben, ami ebből kifolyólag emelhető vagy csökkenthető
+##### Szerencsére a hangulati szint egy skála mentén mozog az emberben, ami ebből kifolyólag emelhető vagy csökkenthető
 
 Ezáltal például a betegség is jobban kezelhető, mert nem csak a másik emberben van lehetőség a szint módosítására a megfelelő jelek és viselkedés ismeretével, hanem saját magunkban is.
 

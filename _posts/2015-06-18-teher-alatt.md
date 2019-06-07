@@ -13,11 +13,11 @@ tags: [építő írás, nyugalom]
 
 Előző bejegyzéseimben a betegséget, mint pofont, emlegettem. Pedig nem az. Az utóbbi két hétben megvolt a mélypont, mikor minden összejön. A munka és az egyéb projektek okozta stressz, a határidők, az elvonás, az iskolai ügyek, a tanárok hülyeségei, a magány, a tudat hogy másoknak mennyivel könnyebb, mennyivel előbbről indulnak, és mennyivel kevesebbért is azt mondják hogy "igen, sikerült." (Írtál már meg ~8000 sornyi programkódot 1,5 nap alatt? Azt hallottam egy átlag programozó napi teljesítménye kb 3-400 sor.) Kimerültem. Elismerés meg alig van. Ehhez hozzá jön még a kompetencia hiány. Mikor egy hozzá nem értő személy okoskodása rontja el a munkádat, csak hogy dolgozhass újra... (például az ember feltételezné két rendszergazdáról hogy legalább az egyik azért ért annyira a szakmájához hogy egy rendszerfrissítés közben nem húzza ki a hálózati kábelt a gépből... de nem. Persze nem mintha rosszindulatot feltételeznék róla, de ha nem ért hozzá ne csinálja.). Vagy mikor csinálsz valamit kb 5 perce és, az akinek a szívességet teszed a gépén, beközli hogy mindjárt jön XY és megoldja mert ő mindig mindent hamar megold... vagy nem tudnád felhívni YZ-t hátha tud segíteni?? Na akkor elpattan a cérna. Ez a bunkóság netovábbja! Főleg úgy hogy sose volt olyan hogy megígértem és nem lett meg. A program nem fog 5 perc alatt települni és beállítódni. A bosszúállás sose volt ínyemre, de most azért elképzeltem az arcokat mi lenne ha kiadnám a munka mappára a chmod -R 000 parancsot és elmennék fagyizni... Magamat alacsonyítanám le ha megtenném. De azért azt hogy: "jó akkor csinálja meg XY", azt simán rámondhatom.
 
-# Ezek, és a hasonló dolgok idegesítőek, igen. De nem problémák
+### Ezek, és a hasonló dolgok idegesítőek, igen. De nem problémák
 
 Ahogy olvasgattam a témában rá kellett jönnöm, hogy a baj nem mással van, hanem velem. A másik érzéseiért nem vagyunk felelősek. Lehet hogy fel se merül benne hogy megbánt, vagy hogy rosszul esik hogy rosszabbnak feltételez másoknál. Ez érzelmi intelligencia.
 
-# Hogy többet várnak el tőlem, az megtisztelő, hiszen jobbnak, erősebbnek tartanak, de megvan a lehetőségem hogy nemet mondjak
+### Hogy többet várnak el tőlem, az megtisztelő, hiszen jobbnak, erősebbnek tartanak, de megvan a lehetőségem hogy nemet mondjak
 
 Az meg hogy idegesít hogy valamit rosszul csinálnak mások, azért lehet, mert túl sokat várok el. Feltételezem hogy amit én megtennék, és meg tudok tenni, azt más is, pedig pont azért hívják másnak, mert mások vagyunk. Nagyon más tapasztalatokkal és más képességekkel, de alapvetően jó emberek!
 

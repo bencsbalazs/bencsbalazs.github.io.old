@@ -26,3 +26,15 @@ header,
 .card-header {
   padding: 0rem 1.25rem;
 }
+
+#listByDate ul {
+  font-size: 1.2rem;
+  padding-left: .4em;
+  list-style: none;
+}
+
+#listByDate li {
+  border-bottom: black solid 1px;
+  padding: .5rem 0;
+  list-style: none;
+}

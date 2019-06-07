@@ -11,7 +11,7 @@ categories: [Lelki béke, Betegség]
 tags: [építő írás, nyugalom]
 ---
 
-# Na akkor jöjjön egy gyors összegzése az eddigi vizsgálatoknak, eredményeknek és lehetőségeimnek. Főleg orvosoknak, a tényekre szorítkozva, hogy ne kelljen mindig gyűjtögetni, hogy mikor mi történt, meg azért mert lassan már én is bele keveredek
+> Na akkor jöjjön egy gyors összegzése az eddigi vizsgálatoknak, eredményeknek és lehetőségeimnek. Főleg orvosoknak, a tényekre szorítkozva, hogy ne kelljen mindig gyűjtögetni, hogy mikor mi történt, meg azért mert lassan már én is bele keveredek
 
 - Na, úgy kezdődött hogy **2014 decemberében** már nem tudtam jól fókuszálni a szemeimmel, de annyira hogy ez már másoknak is feltűnt.
 - **2015.01.07** - Mikor már kettős látásom (elmosódott, elcsúszott körvonalak) volt, elmentem a szemészetre. Ekkor pislogás még helyreállította. Itt megmondták hogy semmi baja nincs a szememnek, pihenjek óránként és ne erőltessem.
@@ -55,6 +55,6 @@ Most a steroid leállítása van folyamatban: egyik nap 4 mg a másik napokon 44
 ## ...de
 
 - Programozóként sokat ülök monitor előtt,
-- folyamatos wifijelek érnek, szinte mindenhol, talán amíg futni vagyok, napi 1 órát addig nem annyira. De amúgy rádió éss tv jeladó is van pár utcányira, otthon, a munkahelyen, a kollégiumban de még az utcán is wifi van, és a sok számítógép folyamatos bluetooth jelet bocsát ki.
+- folyamatos wifijelek érnek, szinte mindenhol, talán amíg futni vagyok, napi 1 órát addig nem annyira. De amúgy rádió és tv jeladó is van pár utcányira, otthon, a munkahelyen, a kollégiumban de még az utcán is wifi van, és a sok számítógép folyamatos bluetooth jelet bocsát ki.
 - Elég stresszes életet élek és ezen csak rontottak a kapcsolatok.
 - Már a betegség előtt is ki voltam merülve.

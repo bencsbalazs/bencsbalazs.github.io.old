@@ -4,7 +4,7 @@ lang: hu
 author: Balázs
 title: Combnyak törés
 
-discription: Ez a leírás az eddigi legrosszabb balesetemet mutatja be.
+description: Ez a leírás az eddigi legrosszabb balesetemet mutatja be.
 
 date: 24/08/2015
 categories: [Lelki béke, Baleset]

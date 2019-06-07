@@ -12,7 +12,7 @@ tags: [betegség, szeretet]
 ---
 Na, másnap reggel aztán behoztak egy csomó fehér gyógyszert. Mint utólag kiderült Medrol nevű steroid volt, a hozzá tartozó káliummal és gyomorvédővel, de kérdésemre a nővér azt mondta gyulladáscsökkentő.
 
-# Ez az a gyógyszer amit sose hagyjatok hogy szedessenek hozzátartozóitokkal. (Csak ha tényleg nincs más lehetőség.)
+### Ez az a gyógyszer amit sose hagyjatok hogy szedessenek hozzátartozóitokkal. (Csak ha tényleg nincs más lehetőség.)
 
 A gyulladást lehet hogy tényleg csökkenti, viszont annyi és olyan kegyetlen mellékhatása van hogy én csak életveszélyes helyzetben alkalmaznám a gyógyszert akkor is csak kis mennyiségben. Nagy lehetett a baj, mert elég nagy adagot kaptam. A hatás már aznap este érezhető volt, de akkor nem tudtam még elképzelni miért nem tudok aludni és miért gyűlik bennem olyan feszültség hogy a madárcsicsergés is idegesít.
 

@@ -16,7 +16,7 @@ Egy frappáns példa amikor egy 60 kilós zsákot fel akarsz emelni de nem bíro
 
 Valamit megtenni csak a jelenben lehet. Így a lehetőségeket megragadni is. Márpedig a lehetőség nem vár senkire. Ha engeded elmegy. Valamit nem lehet "majd, talán, megpróbálom" stílusban csinálni. Már Yoda mester is megmondta örök érvényű szavaival:
 
-# Tedd! Vagy ne tedd! De ne próbáld!
+### Tedd! Vagy ne tedd! De ne próbáld!
 
 Ennek szellemében elhatároztam hogy mostantól addig fogok tudatosan figyelni az apró szépségekre, amíg magamtól észre nem veszem őket bárhol is legyek. Ez a szerda erre az elhatározásra kiváló alkalom, mert igen sok mindent kellett elintéznem.
 

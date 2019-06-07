@@ -13,7 +13,7 @@ tags: [építő írás, nyugalom]
 
 > Többen is kérdezték tőlem az utóbbi időben, hogy ha ez ilyen szörnyű és a betegség mellett a magas dózisú steroid (Medrol) ilyen sokat kivesz az emberből, akkor hogy lehet elviselni?
 
-# Hölgyek, Urak, Kedves Medrol felhasználók figyelem! :D
+## Hölgyek, Urak, Kedves Medrol felhasználók figyelem! :D
 
 Nem tudom más hogy csinálja mert 1 kezem elég hogy összeszámoljam ahány Medrol-kezeltet ismerek, de van pár jó tapasztalatom.
 

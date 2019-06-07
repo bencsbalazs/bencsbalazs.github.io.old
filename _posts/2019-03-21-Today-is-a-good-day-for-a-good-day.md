@@ -11,8 +11,6 @@ categories: []
 tags: []
 ---
 
-# Today is a good day for a good day
-
 Are you sick? Have stupid peoples? Do yo have a hard job?
 
 > Dont worry! Calm down!
@@ -34,4 +32,4 @@ Just to remember:
 
 However, these are only unfortunate events. Nothing can stop living. I realized, and sometime everyone will, that the fortune is just a word.
 
-# The one what people call as fortune, is a state when there are both preparedness and opportunity
+> The one what people call as fortune, is a state when there are both preparedness and opportunity

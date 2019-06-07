@@ -10,7 +10,7 @@ date: 17/07/2015 07:27
 categories: [Lelki béke, Betegség]
 tags: [építő írás, szeretet, nyugalom]
 ---
-# Úgy néz ki, szemüveges leszek
+### Úgy néz ki, szemüveges leszek
 
 Ezzel nem is lenne semmi baj, nagyon szép kereteket találtam. A gond azzal van hogy ez nem oldja meg a kettős látást. Fél szememre most is látok, csak kettővel nem. A szemüveg annyit változtat hogy élesebben látok mindkettővel külön-külön távolra, de a kettő együtt továbbra is elmosódott képet ad.
 
@@ -30,4 +30,4 @@ Addig erősen koncentrálok rá hogy semmi bajom sincs, egészséges vagyok, ez 
 
 Meg totál elhiszem hogy másnak is van baja és inkább azon próbálok addig segíteni. Legalább nem érzem magam egyedül.
 
-## Mert a magánynál nincs rosszabb érzés. Pedig most az van
+### Mert a magánynál nincs rosszabb érzés. Pedig most az van
