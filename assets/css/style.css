@@ -22,3 +22,7 @@ header,
 #image-gallery-image {
   object-fit: contain;
 }
+
+.card-header {
+  padding: 0rem 1.25rem;
+}

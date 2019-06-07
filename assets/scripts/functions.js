@@ -3,6 +3,13 @@ let urls = [];
 $(() => {
     sloganChange();
 
+    $('#listByDate li ul').hide();
+    // code to handle expanding on mouseover
+    $('#listByDate li').bind('click', function (event) {
+        event.stopPropagation();
+        $(this).children("ul").first().toggle();
+    });
+
     /* Scrollspy handler, to add view position to url. Needed for page refresh */
     $(window).on('activate.bs.scrollspy', (e) => {
         history.replaceState({}, "", $('.nav-item .active').attr("href"));
