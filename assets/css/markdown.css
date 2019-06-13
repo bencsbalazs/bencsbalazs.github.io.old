@@ -8,11 +8,10 @@ html {
 body {
     color: #444;
     font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
-    font-size: 12px;
-    line-height: 1.5em;
+    font-size: 14px;
+    line-height: 1.6em;
     padding: 1em;
     margin: auto;
-    background: #fefefe;
 }
 
 a {
@@ -62,6 +61,7 @@ a::selection {
 
 p {
     margin: 1em 0;
+    text-align: justify;
 }
 
 img {
@@ -102,11 +102,20 @@ h6 {
     font-size: 0.9em;
 }
 
+.blog-post-title {
+    text-transform: uppercase;
+}
+
+.blog-content p:first-letter {
+    padding-left: 1.5em;
+}
+
 blockquote {
-    color: #666666;
+    color: #000;
     margin: 0;
-    padding-left: 3em;
+    padding: .3rem 3em;
     border-left: 0.5em #EEE solid;
+    font-size: 125%;
 }
 
 hr {
