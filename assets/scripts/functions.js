@@ -125,6 +125,14 @@ function disableButtons(counter_max, counter_current) {
 }
 
 const sloganChange = () => {
+
+    /*$("<div/>", {
+        "id": "sloganChangerBox"
+    }).append($("<input/>", {
+        "type": "number"
+    }))
+        .appendTo($("header"));*/
+
     i = 0;
     setInterval(() => {
         $("#sloganSlider").html(slogans[i].slogan);

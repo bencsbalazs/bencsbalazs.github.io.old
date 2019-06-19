@@ -1,13 +1,27 @@
-/* Necessary for full page video*/
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body,
 header,
 .view {
   height: 100%;
 }
+
+a {
+  color: #faa700;
+  text-decoration: none;
+}
+
+a:focus {
+  outline: thin dotted;
+}
+
 .navbar {
   background: rgba(30, 35, 50,.9);
 }
+
 .navbar:not(.top-nav-collapse) {
   background: rgba(30, 35, 50,.6);
 }
