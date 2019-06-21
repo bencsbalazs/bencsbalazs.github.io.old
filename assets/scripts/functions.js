@@ -1,7 +1,7 @@
 let urls = [];
 
 $(() => {
-    sloganChange();
+    slogan = new sloganChanger();
 
     $('#listByDate li ul').hide();
     // code to handle expanding on mouseover
@@ -97,7 +97,7 @@ function loadGallery(setIDs, setClickAttr) {
         disableButtons(counter, $sel.data('image-id'));
     }
 
-    if (setIDs == true) {
+    if (setIDs === true) {
         $('[data-image-id]')
             .each(function () {
                 counter++;
@@ -124,19 +124,59 @@ function disableButtons(counter_max, counter_current) {
     }
 }
 
-const sloganChange = () => {
+class sloganChanger {
+    counterID = "counterInputBox";
 
-    /*$("<div/>", {
-        "id": "sloganChangerBox"
-    }).append($("<input/>", {
-        "type": "number"
-    }))
-        .appendTo($("header"));*/
+    constructor(time = 2) {
 
-    i = 0;
-    setInterval(() => {
-        $("#sloganSlider").html(slogans[i].slogan);
-        $("#sloganAuthor").html(slogans[i].author);
-        i = (i === slogans.length-1) ? 0 : ++i;
-    }, 2000);
-};
+        this.time = time;
+        this.sloganChange(this.time);
+        //this.buildLayout();
+        //this.eventHandlers();
+
+    }
+
+    eventHandlers() {
+        document.getElementById(this.counterID).addEventListener("change", (event) => this.sloganChange(document.getElementById(this.counterID).value))
+    }
+
+    buildLayout() {
+        $("<div/>", {
+            "id": "sloganChangerBox"
+        })
+            .css({
+                "position": "absolute",
+                "top": "40%",
+                "left": "0",
+                "background-color": "rgba(255,255,255,.5)"
+            })
+            .appendTo($("header"))
+            .append(
+                $("<div/>")
+                    .addClass("md-form")
+                    .append(
+                        $("<input/>", {
+                            "type": "number",
+                            "id": this.counterID,
+                            "min": 1,
+                            "max": 20,
+                            "value": 2
+                        }).addClass("form-control"),
+                        $("<label/>", {
+                            "for": this.counterID
+                        }).text("Counter Timeing")
+                    )
+            )
+    }
+
+    sloganChange(time) {
+        let i = 0;
+        setInterval(() => {
+            $("#sloganSlider").html(slogans[i].slogan);
+            $("#sloganAuthor").html(slogans[i].author);
+            i = (i === slogans.length - 1) ? 0 : ++i;
+        }, time * 1000);
+    }
+}
+
+
