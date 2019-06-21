@@ -22,7 +22,6 @@ $(() => {
     const images = $("img.randomimage");
 
     /* Download random images for the blog post covers */
-    // TODO create new function
     $.get("https://picsum.photos/list").then((images) => {
         $.map([0, 1, 2], () => {
             urls.push(`https://picsum.photos/900/500?image=${images[Math.floor(Math.random() * images.length)].id}`)
@@ -35,12 +34,6 @@ $(() => {
 
     /* Init the certificates gallery modal */
     loadGallery(true, 'a.thumbnail');
-
-    /**
-     *
-     * @param setIDs        Sets IDs when DOM is loaded. If using a PHP counter, set to false.
-     * @param setClickAttr  Sets the attribute for the click handler.
-     */
 });
 
 // Build key actions for the gallery
