@@ -1,7 +1,7 @@
 let urls = [];
 
 $(() => {
-    slogan = new sloganChanger();
+    sloganChange();
 
     $('#listByDate li ul').hide();
     // code to handle expanding on mouseover
@@ -117,59 +117,12 @@ function disableButtons(counter_max, counter_current) {
     }
 }
 
-class sloganChanger {
-    counterID = "counterInputBox";
 
-    constructor(time = 2) {
-
-        this.time = time;
-        this.sloganChange(this.time);
-        //this.buildLayout();
-        //this.eventHandlers();
-
-    }
-
-    eventHandlers() {
-        document.getElementById(this.counterID).addEventListener("change", (event) => this.sloganChange(document.getElementById(this.counterID).value))
-    }
-
-    buildLayout() {
-        $("<div/>", {
-            "id": "sloganChangerBox"
-        })
-            .css({
-                "position": "absolute",
-                "top": "40%",
-                "left": "0",
-                "background-color": "rgba(255,255,255,.5)"
-            })
-            .appendTo($("header"))
-            .append(
-                $("<div/>")
-                    .addClass("md-form")
-                    .append(
-                        $("<input/>", {
-                            "type": "number",
-                            "id": this.counterID,
-                            "min": 1,
-                            "max": 20,
-                            "value": 2
-                        }).addClass("form-control"),
-                        $("<label/>", {
-                            "for": this.counterID
-                        }).text("Counter Timeing")
-                    )
-            )
-    }
-
-    sloganChange(time) {
-        let i = 0;
-        setInterval(() => {
-            $("#sloganSlider").html(slogans[i].slogan);
-            $("#sloganAuthor").html(slogans[i].author);
-            i = (i === slogans.length - 1) ? 0 : ++i;
-        }, time * 1000);
-    }
-}
-
-
+sloganChange = () => {
+    i = 1;
+    setInterval(()=>{
+        $("#sloganSlider").html(slogans[i].slogan);
+        $("#sloganAuthor").html(slogans[i].author);
+        i = (i === slogans.length - 1) ? 0 : ++i;
+    }, 2000);
+};

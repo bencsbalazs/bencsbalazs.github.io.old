@@ -18,15 +18,15 @@
                     {% assign sc = site.categories | sort %}
                     {% for category in sc %}
                     <div class="card">
-                        <div class="card-header" id="{{ category[0] }}_head">
+                        <div class="card-header" id="{{ category[0] | slugify: 'latin' }}_head">
                             <span class="badge badge-warning badge-pill pull-right">{{ category[1].size }}</span>
                             <button class="btn btn-link" type="button" data-toggle="collapse"
-                                    data-target="#{{ category[0] }}"
-                                    aria-controls="{{ category[0] }}">
+                                    data-target="#{{ category[0] | slugify: 'latin' }}"
+                                    aria-controls="{{ category[0] | slugify: 'latin' }}">
                                 {{ category[0] }}
                             </button>
                         </div>
-                        <div id="{{ category[0] }}" class="collapse" aria-labelledby="{{ category[0] }}_head"
+                        <div id="{{ category[0] | slugify: 'latin' }}" class="collapse" aria-labelledby="{{ category[0] | slugify: 'latin' }}_head"
                              data-parent="#accordionMenu">
                             <div class="card-body">
                                 {% for post in category[1] %}
