@@ -1,6 +1,7 @@
 let urls = [];
 
 $(() => {
+    $("#cv").hide();
     sloganChange();
 
     $('#listByDate li ul').hide();
@@ -8,6 +9,10 @@ $(() => {
     $('#listByDate li').bind('click', function (event) {
         event.stopPropagation();
         $(this).children("ul").first().toggle();
+    });
+
+    $("#shovCV").on("click",()=>{
+        $("#cv").show();
     });
 
     /* Scrollspy handler, to add view position to url. Needed for page refresh */

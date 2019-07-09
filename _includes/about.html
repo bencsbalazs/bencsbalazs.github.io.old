@@ -1,7 +1,7 @@
 <div class="row">
   <!--Grid column-->
   <div class="col-md-6 mb-4 text-center">
-    <img src="{{site.data.about.image}}" class="img-fluid z-depth-1-half"
+    <img src="{{ site.data.about.[page.lang].image }}" class="img-fluid z-depth-1-half"
       alt="">
   </div>
   <!--Grid column-->
@@ -9,14 +9,16 @@
   <div class="col-md-6 mb-4">
 
     <!-- Main heading -->
-    <h3 class="h3 mb-3">{{site.data.about.name}}</h3>
-    <p class="text-justify">{{site.data.about.description}}</p>
+    <h3 class="h3 mb-3">{{ site.data.about.[page.lang].title }}</h3>
+    <p class="text-justify">{{site.data.about.[page.lang].description}}</p>
     <!-- Main heading -->
     <hr>
     <!-- CTA -->
     <a href="#services"
-      class="btn btn-grey btn-md">{{site.data.about.contactButtonText}}
-      <i class="{{site.data.about.contactButtonIcon}} ml-1"></i>
+      class="btn btn-grey btn-md">{{site.data.about.[page.lang].contactButtonText}}
+      <i class="{{site.data.about.[page.lang].contactButtonIcon}} ml-1"></i>
+    </a>
+    <a href="#" id="showCV" class="btn btn-grey btn-md">Show CV <i class="{{site.data.about.[page.lang].cvButtonIcon}} ml-1"></i>
     </a>
   </div>
   <!--Grid column-->

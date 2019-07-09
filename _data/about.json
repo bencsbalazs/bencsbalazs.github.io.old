@@ -1,8 +1,18 @@
 {
+  "en": {
     "title": "About me",
     "name": "Balazs Bencs",
     "image": "/images/me.jpeg",
     "description": "Experienced <strong>Web Programmer</strong> with a demonstrated history of working in the education management industry. Skilled in Network Administration, Moodle, SQL, PHP, JAVA, HTML5, CSS4 NodeJs, Angular, Drupal and WordPress. Strong information technology professional with a Bachelor of Science (BSc) focused in System Programming, Networking, and LAN/WAN Management/Manager from College of Dunaújváros. Currently working at <strong>IBM</strong>.",
     "contactButtonText": "What can I do for you?",
     "contactButtonIcon": "fas fa-download"
+  },
+  "hu": {
+    "title": "About me",
+    "name": "Balazs Bencs",
+    "image": "/images/me.jpeg",
+    "description": "Experienced <strong>Web Programmer</strong> with a demonstrated history of working in the education management industry. Skilled in Network Administration, Moodle, SQL, PHP, JAVA, HTML5, CSS4 NodeJs, Angular, Drupal and WordPress. Strong information technology professional with a Bachelor of Science (BSc) focused in System Programming, Networking, and LAN/WAN Management/Manager from College of Dunaújváros. Currently working at <strong>IBM</strong>.",
+    "contactButtonText": "Miben tudok segíteni?",
+    "contactButtonIcon": "fas fa-download"
+  }
 }

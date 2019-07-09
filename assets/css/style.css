@@ -30,7 +30,7 @@ a:focus {
   height: 4em;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;  
+  background-size: contain;
 }
 
 #image-gallery-image {
@@ -55,4 +55,22 @@ a:focus {
   border-left: black solid 1px;
   cursor: pointer;
   font-weight: bold;
+}
+
+page {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+page[size="A4"] {
+  width: 21cm;
+  height: 29.7cm;
+}
+
+@media print {
+  header, #aboutme, #services, #certificets, #blog, hr {
+    display: none;
+  }
 }
