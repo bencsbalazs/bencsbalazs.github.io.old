@@ -66,11 +66,23 @@ page {
 }
 page[size="A4"] {
   width: 21cm;
-  height: 29.7cm;
+  min-height: 29.7cm;
 }
 
 @media print {
-  header, #aboutme, #services, #certificets, #blog, hr {
+  body > *:not(#cv), #cv > .container > .row {
     display: none;
   }
+  .row {
+    page-break-inside: avoid;
+  }
+  page, #cv, .container {
+    display: inline-block;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    height: auto;
+    font-size: 110%;
+  }
+
 }

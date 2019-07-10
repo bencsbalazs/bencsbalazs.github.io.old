@@ -11,8 +11,23 @@ $(() => {
         $(this).children("ul").first().toggle();
     });
 
-    $("#shovCV").on("click",()=>{
+    $("#showCV").on("click",(e)=>{
+        e.preventDefault();
+        $("a[href='#aboutme']").attr("href", "#cv");
+        $("#aboutme").hide();
         $("#cv").show();
+    });
+
+    $("#backCV").on("click",(e)=>{
+        e.preventDefault();
+        $("a[href='#cv']").attr("href", "#aboutme");
+        $("#cv").hide();
+        $("#aboutme").show();
+    });
+
+    $("#print").on("click",(e)=>{
+        e.preventDefault();
+        window.print();
     });
 
     /* Scrollspy handler, to add view position to url. Needed for page refresh */
