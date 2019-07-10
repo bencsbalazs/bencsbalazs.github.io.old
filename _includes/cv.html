@@ -1,11 +1,11 @@
-<div class="row">
+<div class="row mb-5">
     <div class="col-12 text-center">
         <a href="" id="backCV" class="btn btn-grey btn-md"><i class="fas fa-backspace"></i> Back</a>
         <a href="" id="print" class="btn btn-grey btn-md"><i class="fas fa-print"></i> Print my CV</a>
     </div>
 </div>
 <page size="A4">
-    <div class="row p-2 row-eq-height align-items-center">
+    <div class="row p-4 row-eq-height align-items-center">
         <div class="col-4 text-center">
             <h2>Balázs Bencs</h2>
         </div>
@@ -21,7 +21,7 @@
             <img class="img-fluid" src="/images/me.jpeg">
         </div>
     </div>
-    <div class="row p-2">
+    <div class="row p-4">
         <div class="col-2">
             IT skills and experience
         </div>
@@ -44,7 +44,7 @@
             </dl>
         </div>
     </div>
-    <div class="row p-2">
+    <div class="row p-4">
         <div class="col-2">
             Work experience
         </div>
@@ -70,18 +70,32 @@
                 <small class="font-italic">2018 february –</small>
             </article>
         </div>
-        <div class="row p-2">
-            <div class="col-2">
-                Other skills
-            </div>
-            <div class="col-10">
-                <ul>
-                    <li>Endurance</li>
-                    <li>I am a good team player but I can achieve goals on my own intuity.</li>
-                    <li>System approach</li>
-                    <li>Lojality</li>
-                    <li>Docility, and learning desire - I would like to study in my spare time, what I have not known yet.</li>
-                </ul>
+    </div>
+    <div class="row p-4">
+        <div class="col-2">
+            Other skills
+        </div>
+        <div class="col-10">
+            <ul>
+                <li>Endurance</li>
+                <li>I am a good team player but I can achieve goals on my own intuity.</li>
+                <li>System approach</li>
+                <li>Lojality</li>
+                <li>Docility, and learning desire - I would like to study in my spare time, what I have not known yet.</li>
+            </ul>
+        </div>
+    </div>
+    <div class="row p-4">
+        <div class="col-2">
+            Some of My badges
+        </div>
+        <div class="col-10">
+            <div class="row">
+                {% for img in site.data.certificates.certificates limit:9 %}
+                <div class="col-4">
+                    <img src="{{ img.src }}" class="img-fluid">
+                </div>
+                {% endfor %}
             </div>
         </div>
     </div>

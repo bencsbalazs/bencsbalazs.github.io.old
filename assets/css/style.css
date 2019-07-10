@@ -69,6 +69,10 @@ page[size="A4"] {
   min-height: 29.7cm;
 }
 
+page > .row > .col-2 {
+  border-right: solid 1px;
+}
+
 @media print {
   body > *:not(#cv), #cv > .container > .row {
     display: none;
