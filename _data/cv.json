@@ -1,0 +1,34 @@
+{
+  "personal": [
+    {
+      "text": "bencsbalazs@gmail.com",
+      "link": "mailto:bencsbalazs@gmail.com",
+      "icon": "fas fa-inbox"
+    },
+    {
+      "text": "balazs.bencs@ibm.com",
+      "link": "mailto:balazs.bencs@ibm.com",
+      "icon": "fas fa-at"
+    },
+    {
+      "text": "+36 30 6905610",
+      "link": "",
+      "icon": "fas fa-phone"
+    },
+    {
+      "text": "06/07/1987",
+      "link": "",
+      "icon": "fa fa-user"
+    }
+  ],
+  "skills": {
+    "title": "",
+    "list": [
+      {
+        "title": "",
+        "description": ""
+      }
+    ]
+
+  }
+}

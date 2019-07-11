@@ -58,8 +58,23 @@
     },
     "hu": {
         "title": "Kapcsolat",
-        "slogan": "Ha valami felkeltette az érdeklődésedet, lépj velem kapcsolatba",
-        "writeme": "Írj nekem emailt",
+        "buttons": [
+            {
+                "text": "Like me on facebook",
+                "icon": "fas fa-thumbs-up",
+                "link": ""
+            },
+            {
+                "text": "Write me an email",
+                "icon": "fas fa-envelope-square",
+                "link": "mailto:bencsbalazs@gmail.com"
+            },
+            {
+                "text": "Fork me on Github",
+                "icon": "fas fa-code-branch",
+                "link": ""
+            }
+        ],
         "social": [
             {
                 "name": "Facebook",
