@@ -64,54 +64,6 @@
             "title": "IBM Agile Advocate",
             "desc": "The Agile Advocate has the capability to discuss Agile values and principles and has begun applying the Agile practices to their daily activities. They hold stand-ups, conduct retrospectives, and can visualize their wall of work. They know the different Agile roles and understand how they interact together to bring continual value to their customers.",
             "url": "https://www.youracclaim.com/badges/ecc58aef-c35c-48d0-a4b7-07f155b03347"
-        },
-        {
-            "src": "/images/certificats/java.jpg",
-            "alt": "java",
-            "title": "Java fundamentals",
-            "desc": "The holder of this certificate has an understanding of the techniques and usage of this language."
-        },
-        {
-            "src": "/images/certificats/csharp.jpg",
-            "alt": "c#",
-            "title": "C# basics",
-            "desc": "The holder of this certificate has an understanding of the basic of the C# programming language."
-        },
-        {
-            "src": "/images/certificats/css.jpg",
-            "alt": "css",
-            "title": "CSS fundamentals",
-            "desc": "The holder of this certificate has an understanding of the web styling and animation creation with css properties."
-        },
-        {
-            "src": "/images/certificats/html.jpg",
-            "alt": "html",
-            "title": "HTML fundamentals",
-            "desc": "The holder of this certificate has an understanding of the webpages structure and creation techniques."
-        },
-        {
-            "src": "/images/certificats/javascript.jpg",
-            "alt": "javascript",
-            "title": "JavaScript fundamentals",
-            "desc": "The holder of this certificate has an understanding of the techniques and usage of this language."
-        },
-        {
-            "src": "/images/certificats/jquery.jpg",
-            "alt": "jquery",
-            "title": "jQuery fundamentals",
-            "desc": "The holder of this certificate has an understanding of the techniques and usage of this language."
-        },
-        {
-            "src": "/images/certificats/php.jpg",
-            "alt": "php",
-            "title": "PHP fundamentals",
-            "desc": "The holder of this certificate has an understanding of the techniques and usage of this language."
-        },
-        {
-            "src": "/images/certificats/sql.jpg",
-            "alt": "sql",
-            "title": "Sql fundamentals",
-            "desc": "The holder of this certificate has an understanding of the techniques and usage of this language."
         }
     ]
 }
