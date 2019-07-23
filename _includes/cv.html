@@ -6,19 +6,18 @@
 </div>
 <page size="A4">
     <div class="row p-4 row-eq-height align-items-center">
-        <div class="col-3 text-center">
-            <h2>Balázs Bencs</h2>
+        <div class="col-4 text-center">
+            <h2>{{ site.title }}</h2>
         </div>
         <div class="col-5">
             <ul class="text-right" style="list-style: none;">
-                <li>bencsbalazs@gmail.com <i class="fas fa-inbox"></i></li>
-                <li>balazs.bencs@ibm.com <i class="fas fa-at"></i></li>
-                <li>+36-30/690 5610 <i class="fas fa-phone"></i></li>
-                <li>06/07/1987 <i class="fa fa-user"></i></li>
+                {% for p in site.data.cv.personal %}
+                    <li>{{p.text}} <i class="{{p.icon}}"></i></li>
+                {% endfor %}
             </ul>
         </div>
-        <div class="col-4">
-            <img class="img-fluid" src="/images/me.jpeg">
+        <div class="col-3">
+            <img class="img-fluid" src="{{ site.data.about.[page.lang].image }}">
         </div>
     </div>
     <div class="row p-4">
@@ -35,12 +34,12 @@
                 <dd class="col-10">HTML5, CSS1-4, JavaScript, Angular 1-6, jQuery, (6 years), Bootstrap (6 years)</dd>
                 <dt class="col-2">Backend</dt>
                 <dd class="col-10">PHP 5-7 (6 years), JAVA (1 year), NodeJS (2.5 year)</dd>
-                <dt class="col-2">Other programming languages</dt>
-                <dd class="col-10">F#, C, C++, C#, Delphi, Pascal, Prolog</dd>
                 <dt class="col-2">Server, OS</dt>
                 <dd class="col-10">Apache 2.2-2.4, NginX, RedHat 7-8, Debian 6-9, Ubuntu 10.04-16.10, Kali (5 years)</dd>
                 <dt class="col-2">Graphics</dt>
                 <dd class="col-10">Gimp 2.8, PhotoShop CS4</dd>
+                <dt class="col-2">Development techniques</dt>
+                <dd class="col-10">Docker, Kubernetes, Agile development</dd>
             </dl>
         </div>
     </div>
@@ -78,7 +77,7 @@
         <div class="col-10">
             <ul>
                 <li>Endurance</li>
-                <li>I am a good team player but I can achieve goals on my own intuity.</li>
+                <li>I can work alone, but it is more effective in a team.</li>
                 <li>System approach</li>
                 <li>Lojality</li>
                 <li>Docility, and learning desire - I would like to study in my spare time, what I have not known yet.</li>
