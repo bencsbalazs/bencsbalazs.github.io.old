@@ -1,22 +1,22 @@
 {
-  "en": {
-    "title": "About me",
-    "name": "Balazs Bencs",
-    "image": "/images/me.jpeg",
-    "description": "Experienced <strong>Web Programmer</strong> with a demonstrated history of working in the education management industry. Skilled in Network Administration, Moodle, SQL, PHP, JAVA, HTML5, CSS4 NodeJs, Angular, Drupal and WordPress. Strong information technology professional with a Bachelor of Science (BSc) focused in System Programming, Networking, and LAN/WAN Management/Manager from College of Dunaújváros. Currently working at <strong>IBM</strong>.",
-    "contactButtonText": "What can I do for you?",
-    "cvButtonText": "Show CV",
-    "contactButtonIcon": "fas fa-download",
-    "cvButtonIcon": "fas fa-address-card"
-  },
-  "hu": {
-    "title": "About me",
-    "name": "Balazs Bencs",
-    "image": "/images/me.jpeg",
-    "description": "Experienced <strong>Web Programmer</strong> with a demonstrated history of working in the education management industry. Skilled in Network Administration, Moodle, SQL, PHP, JAVA, HTML5, CSS4 NodeJs, Angular, Drupal and WordPress. Strong information technology professional with a Bachelor of Science (BSc) focused in System Programming, Networking, and LAN/WAN Management/Manager from College of Dunaújváros. Currently working at <strong>IBM</strong>.",
-    "contactButtonText": "Miben tudok segíteni?",
-    "cvButtonText": "CV mutatása",
-    "contactButtonIcon": "fas fa-download",
-    "cvButtonIcon": "fas fa-address-card"
-  }
+    "en": {
+        "title": "About me",
+        "name": "Balazs Bencs",
+        "image": "/images/me.jpeg",
+        "description": "Experienced <strong>Web Programmer</strong> with a demonstrated history of working in the education management industry. Skilled in Network Administration, Moodle, SQL, PHP, JAVA, HTML5, CSS4, NodeJs, Angular, Drupal and WordPress. Strong information technology professional with a Bachelor of Science (BSc) focused in System Programming, Networking, and LAN/WAN Management. Currently working at <strong>IBM ISSC</strong> as a developer.",
+        "contactButtonText": "What can I do for you?",
+        "cvButtonText": "Show CV",
+        "contactButtonIcon": "fas fa-download",
+        "cvButtonIcon": "fas fa-address-card"
+    },
+    "hu": {
+        "title": "About me",
+        "name": "Balazs Bencs",
+        "image": "/images/me.jpeg",
+        "description": "Tapasztalt <strong>Web fejlesztő</strong>, aki hosszú ideig dolgozott az oktatásban, majd az <strong>IBM ISSC</strong> fejlesztője lett. Erős tudása van a Hálózat üzemeltetés, a Moodle, SQL, PHP, JAVA, HTML5, CSS4 NodeJs, Angular, Drupal and WordPress technológiák használatában. Megbízható informatikai tudást szerzett a diplomával, ami különösen érvényes a  rendszer programozásra, a hálózatkezelésre, és a LAN/WAN Management-re.",
+        "contactButtonText": "Miben tudok segíteni?",
+        "cvButtonText": "CV mutatása",
+        "contactButtonIcon": "fas fa-download",
+        "cvButtonIcon": "fas fa-address-card"
+    }
 }
