@@ -29,6 +29,86 @@
         "description": ""
       }
     ]
+  },
+  "references": {
+    "title": "Some of my references",
+    "list": [
+      {
+        "name": "Magyary - ​Calendar of Signal Days",
+        "description": "Development of a calendar program for the kormany.hu website.",
+        "role": ""
+      },
+      {
+        "name": "Borderland",
+        "description": "Development of e-learning systems for Hungary - Romania cross-border cooperation program.",
+        "role": "full-stack developer, system administrator"
+      },
+      {
+        "name": "",
+        "description": "Development of the educational platform of MÁV-Start Zrt",
+        "role": "full-stack developer, system administrator"
+      },
+      {
+        "name": "",
+        "description": "Developing Online​​Pedagogical ​Moodle Based Learning Materials",
+        "role": "PHP and JavaScript Developer; system administrator, framework expert"
+      },
+      {
+        "name": "",
+        "description": "Developing the elearning portal of GYSEV ​​ZRT",
+        "role": "systems engineer, full-stack developer"
+      },
+      {
+        "name": "",
+        "description": "Creating an educational portal for Raiffeisen​​Bank",
+        "role": "full-stack developer"
+      },
+      {
+        "name": "",
+        "description": "Updating and modernizing the education system of Telenor",
+        "role": "full-stack developer, system administrator"
+      },
+      {
+        "name": "National Food Chain Security Agency",
+        "description": "Developing and supporting the whole educational platform of NÉBIH",
+        "role": "full-stack developer, elearning expert"
+      },
+      {
+        "name": "",
+        "description": "Developing the​​ elearning and company portal of Misec ​​Bt",
+        "role": "full-stack developer, system administrator"
+      },
+      {
+        "name": "TÁMOP-4.1.1.C-12/1/KONV-2012-0003",
+        "description": "Hungarian Online University – Creation of sectoral IT cooperation for the introduction of new types of e-learning based training in Hungary and abroad",
+        "role": "full-stack developer, system administrator, methodological suporter"
+      },
+      {
+        "name": "TÁMOP-4.1.1.F-14/1/KONV-2015-0008",
+        "description": "Developing a marketable dual engineering course in the middle of the country",
+        "role": "full-stack developer, system administrator, methodological suporter"
+      },
+      {
+        "name": "TÁMOP 4.1.2 A/1-11/1",
+        "description": "Curriculum development for competitive vocational training at Dunaújváros College",
+        "role": "full-stack developer, system administrator, methodological suporter"
+      },
+      {
+        "name": "TÁMOP 4.2.1-09/1-2009-0002",
+        "description": "Development of technology and knowledge transfer activities at Dunaújváros College",
+        "role": "full-stack developer, system administrator, methodological suporter"
+      },
+      {
+        "name": "TÁMOP 4.1.2 D-12/1/KONV-2012-0016",
+        "description": "Development of a foreign language training system at the College of Dunaújváros",
+        "role": "full-stack developer, system administrator, methodological suporter"
+      },
+      {
+        "name": "Portal of​​“Klebelsberg​​-​​DUE ​​Matechverseny”",
+        "description": "",
+        "role": "full-stack developer, system administrator, methodological suporter"
+      }
 
+    ]
   }
 }
