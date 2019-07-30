@@ -67,21 +67,22 @@ page {
 page[size="A4"] {
   width: 21cm;
   min-height: 29.7cm;
-  page-break-after: always;
-  page-break-inside: avoid;
 }
 
 page > .row > .col-2 {
   border-right: solid 1px;
 }
+
 .row {
   -webkit-region-break-inside: avoid;
   page-break-inside: avoid;
 }
+
 @media print {
   body > *:not(#cv), #cv > .container > .row {
     display: none;
   }
+  
   page, #cv, .container {
     display: inline-block;
     margin: 0 !important;
@@ -90,5 +91,4 @@ page > .row > .col-2 {
     height: auto;
     font-size: 110%;
   }
-
 }
