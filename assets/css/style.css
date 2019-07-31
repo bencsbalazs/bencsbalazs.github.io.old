@@ -25,12 +25,68 @@ a:focus {
 .navbar:not(.top-nav-collapse) {
   background: rgba(30, 35, 50,.6);
 }
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center;
+}
+
+.box{
+  position: relative;
+  box-shadow: 10px 10px 42px 0 rgba(0,0,0,0.75);
+}
+.box:after, .box:before{
+  mix-blend-mode:multiply;
+  filter:none;
+  z-index: -1;
+  content:'';
+  width:calc(100% + (50px * 2));
+  height:calc(100% + (50px * 2));
+  position: absolute;
+  display: block;
+  animation: border 10s ease-in-out infinite;
+  transform:translateX(-50px) translateY(-50px);
+}
+@keyframes border {
+  0%, 100% {
+    -webkit-clip-path: polygon(0 0, calc(100% - (33.3333333333px)) calc(0% + (33.3333333333px)), 100% 100%, calc(0% + (33.3333333333px)) calc(100% - (33.3333333333px)));
+    clip-path: polygon(0 0, calc(100% - (33.3333333333px)) calc(0% + (33.3333333333px)), 100% 100%, calc(0% + (33.3333333333px)) calc(100% - (33.3333333333px)));
+  }
+  50% {
+    -webkit-clip-path: polygon(calc(0% + (33.3333333333px)) calc(0% + (33.3333333333px)), 100% 0, calc(100% - (33.3333333333px)) calc(100% - (33.3333333333px)), 0 100%);
+    clip-path: polygon(calc(0% + (33.3333333333px)) calc(0% + (33.3333333333px)), 100% 0, calc(100% - (33.3333333333px)) calc(100% - (33.3333333333px)), 0 100%);
+  }
+}
+
+.box:after{
+  top:0;
+  animation-delay: -5s;
+  background-color: #3f51b5;
+  clip-path: polygon(0 0, calc(100% - (33.3333333333px)) calc(0% + (33.3333333333px)), 100% 100%, calc(0% + (33.3333333333px)) calc(100% - (33.3333333333px)));
+}
+.box:before {
+  background-color: #fed136;
+  clip-path: polygon(calc(0% + (33.3333333333px)) calc(0% + (33.3333333333px)), 100% 0, calc(100% - (33.3333333333px)) calc(100% - (33.3333333333px)), 0 100%);
+}
+
+.box:hover:after{
+  animation-delay: -0.1s;
+}
+.box:hover:before, .box:hover:after {
+
+  animation-duration: 2s;
+}
 
 .partner {
   height: 4em;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+.partner:hover{
+  transform: scale(1.5);
 }
 
 #image-gallery-image {
@@ -82,7 +138,7 @@ page > .row > .col-2 {
   body > *:not(#cv), #cv > .container > .row {
     display: none;
   }
-  
+
   page, #cv, .container {
     display: inline-block;
     margin: 0 !important;
