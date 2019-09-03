@@ -5,7 +5,7 @@
             {
                 "text": "Like me on facebook",
                 "icon": "fas fa-thumbs-up",
-                "link": ""
+                "link": "https://www.facebook.com/balazs.bencs.9"
             },
             {
                 "text": "Write me an email",
@@ -15,7 +15,7 @@
             {
                 "text": "Fork me on Github",
                 "icon": "fas fa-code-branch",
-                "link": ""
+                "link": "https://github.com/bencsbalazs"
             }
         ],
         "social": [
@@ -62,7 +62,7 @@
             {
                 "text": "Like me on facebook",
                 "icon": "fas fa-thumbs-up",
-                "link": ""
+                "link": "https://www.facebook.com/balazs.bencs.9"
             },
             {
                 "text": "Írj nekem emailt",
@@ -72,7 +72,7 @@
             {
                 "text": "Fork me on Github",
                 "icon": "fas fa-code-branch",
-                "link": ""
+                "link": "https://github.com/bencsbalazs"
             }
         ],
         "social": [

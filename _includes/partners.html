@@ -1,6 +1,7 @@
 <div class="row">
     {% for partner in site.data.partners.images %}
     <div class="col-xs-6 col-sm-2 text-center partner" style='background-image:url("/images/partners/portfolio_{{ partner[1].src }}")'>
+        <div class="tooltiptext">{{ partner[1].title }}</div>
     </div>
     {% endfor %}
 </div>

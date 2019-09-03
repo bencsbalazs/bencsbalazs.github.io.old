@@ -13,9 +13,9 @@
     <div class="container">
         <div class="row">
             <main class="col-lg-8 mt-5">
-                <p class="blog-post-meta">{{ page.date | date_to_string }} by {{ page.author }}</p>
-                <p class="blog-post-meta">Tags: {{ page.tags | array_to_sentence_string }}</p>
-                <p class="blog-post-meta">Categories: {{ page.categories | array_to_sentence_string }}</p>
+                <h4 class="blog-post-meta"><i class="far fa-calendar-alt"></i> {{ page.date | date_to_string }} by {{ page.author }}</h4>
+                <h4 class="blog-post-meta">Tags: {{ page.tags | array_to_sentence_string }}</h4>
+                <h4 class="blog-post-meta">Categories: {{ page.categories | array_to_sentence_string }}</h4>
                 <h2 class="blog-post-title" id="logo">{{ page.title }}</h2>
                 <hr>
                 <div class="blog-content">
