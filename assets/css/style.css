@@ -32,8 +32,13 @@ a:focus {
     align-items:center;
 }
 
+.navbar-brand {
+    font-family: 'Caveat', cursive;
+}
+
 .box{
     position: relative;
+    margin: 2em;
     box-shadow: 10px 10px 42px 0 rgba(0,0,0,0.75);
 }
 .box:after, .box:before{
@@ -76,6 +81,10 @@ a:focus {
 .box:hover:before, .box:hover:after {
 
     animation-duration: 2s;
+}
+
+#certificets .img-thumbnail {
+    border: none;
 }
 
 .partner {
@@ -186,7 +195,7 @@ page > .row > .col-2 {
      border: 9px solid transparent;
      border-bottom-color: white;
      transform: rotate(180deg);
- }
+ } 
 
 @media print {
     body > *:not(#cv), #cv > .container > .row {

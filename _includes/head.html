@@ -1,14 +1,15 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width">
-<meta name="description" content="{% if page.description %} {{ page.description }} {% else %} {{ site.description }} {% endif %}">
+<meta name="description"
+    content="{% if page.description %} {{ page.description }} {% else %} {{ site.description }} {% endif %}">
 <meta name="keywords" content="{{ site.keywords }}" />
 <meta name="author" content="{{ site.title }}">
 
-<meta property="og:title" content="{{page.title}}"/>
-<meta property="og:type" content="Blog post"/>
+<meta property="og:title" content="{{page.title}}" />
+<meta property="og:type" content="Blog post" />
 <meta property="og:description"
-      content="{% if page.description %} {{ page.description }} {% else %} {{ site.description }} {% endif %}"/>
+    content="{% if page.description %} {{ page.description }} {% else %} {{ site.description }} {% endif %}" />
 
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
 
@@ -18,16 +19,19 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
 <!-- Material Design Bootstrap -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.7/css/mdb.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
 <!-- Custom style extensions -->
 <link rel="stylesheet" href="/assets/css/style.css">
 
 <title>{{ site.title }}</title>
 <script>
-    const slogans = {{ site.data.slogans | jsonify }};
+    const slogans = {{ site.data.slogans.[page.lang] | jsonify }};
 </script>
 
-{% if site.google_verify %}<meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
-{% if site.bing_verify %}<meta name="msvalidate.01" content="{{ site.bing_verify }}">{% endif %}
+{% if site.google_verify %}
+<meta name="google-site-verification" content="{{ site.google_verify }}">{% endif %}
+{% if site.bing_verify %}
+<meta name="msvalidate.01" content="{{ site.bing_verify }}">{% endif %}
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>

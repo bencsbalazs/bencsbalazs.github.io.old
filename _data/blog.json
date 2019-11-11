@@ -7,6 +7,10 @@
         }
     },
     "hu": {
-
+        "slogan": "...kedves naplóm...",
+        "sort": {
+            "bydate": "dátum szerint",
+            "byname": "név szerint"
+        }
     }
 }

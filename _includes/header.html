@@ -3,7 +3,7 @@
 
         <!--Video source-->
         <video autoplay class="video-intro" loop muted>
-            <source src="https://mdbootstrap.com/img/video/animation-intro.mp4" type="video/mp4"/>
+            <source src="https://mdbootstrap.com/img/video/animation-intro.mp4" type="video/mp4" />
         </video>
 
         <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
@@ -13,8 +13,8 @@
                 <h1 class="mb-4">
                     <strong>{{site.title}}</strong>
                 </h1>
-		        <h3 id="sloganSlider">{{site.data.slogans.last.slogan}}</h3>
-                <h5 id="sloganAuthor">{{site.data.slogans.last.author}}</h5>
+                <h3 id="sloganSlider">{{site.data.slogans.[page.lang].last.slogan}}</h3>
+                <h5 id="sloganAuthor">{{site.data.slogans.[page.lang].last.author}}</h5>
                 <a class="btn btn-outline-warning btn-lg" href="#aboutme">{{site.data.services.aboutButton}}
                     <i class="fas fa-graduation-cap ml-2"></i>
                 </a>
