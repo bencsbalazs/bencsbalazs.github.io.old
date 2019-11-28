@@ -11,21 +11,21 @@ $(() => {
         $(this).children("ul").first().toggle();
     });
 
-    $("#showCV").on("click",(e)=>{
+    $("#showCV").on("click", (e) => {
         e.preventDefault();
         $("a[href='#aboutme']").attr("href", "#cv");
         $("#aboutme").hide();
         $("#cv").show();
     });
 
-    $("#backCV").on("click",(e)=>{
+    $("#backCV").on("click", (e) => {
         e.preventDefault();
         $("a[href='#cv']").attr("href", "#aboutme");
         $("#cv").hide();
         $("#aboutme").show();
     });
 
-    $("#print").on("click",(e)=>{
+    $("#print").on("click", (e) => {
         e.preventDefault();
         window.print();
     });
@@ -38,7 +38,6 @@ $(() => {
     /* Initialize the default variable values */
     wow = new WOW();
     wow.init();
-    let modalId = $('#image-gallery');
     const images = $("img.randomimage");
 
     /* Download random images for the blog post covers */
@@ -59,6 +58,7 @@ $(() => {
 // Build key actions for the gallery
 $(document)
     .keydown(function (e) {
+        let modalId = $('#image-gallery');
         switch (e.which) {
             case 37: // left arrow
                 if ((modalId.data('bs.modal') || {})._isShown && $('#show-previous-image').is(":visible")) {
@@ -140,7 +140,7 @@ function disableButtons(counter_max, counter_current) {
 
 sloganChange = () => {
     i = 1;
-    setInterval(()=>{
+    setInterval(() => {
         $("#sloganSlider").html(slogans[i].slogan);
         $("#sloganAuthor").html(slogans[i].author);
         i = (i === slogans.length - 1) ? 0 : ++i;

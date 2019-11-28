@@ -1,23 +1,5 @@
 {
     "en": {
-        "title": "Contact Me",
-        "buttons": [
-            {
-                "text": "Like me on facebook",
-                "icon": "fas fa-thumbs-up",
-                "link": "https://www.facebook.com/balazs.bencs.9"
-            },
-            {
-                "text": "Write me an email",
-                "icon": "fas fa-envelope-square",
-                "link": "mailto:bencsbalazs@gmail.com"
-            },
-            {
-                "text": "Fork me on Github",
-                "icon": "fas fa-code-branch",
-                "link": "https://github.com/bencsbalazs"
-            }
-        ],
         "social": [
             {
                 "name": "Facebook",
@@ -57,24 +39,6 @@
         ]
     },
     "hu": {
-        "title": "Kapcsolat",
-        "buttons": [
-            {
-                "text": "Like me on facebook",
-                "icon": "fas fa-thumbs-up",
-                "link": "https://www.facebook.com/balazs.bencs.9"
-            },
-            {
-                "text": "Írj nekem emailt",
-                "icon": "fas fa-envelope-square",
-                "link": "mailto:bencsbalazs@gmail.com"
-            },
-            {
-                "text": "Fork me on Github",
-                "icon": "fas fa-code-branch",
-                "link": "https://github.com/bencsbalazs"
-            }
-        ],
         "social": [
             {
                 "name": "Facebook",

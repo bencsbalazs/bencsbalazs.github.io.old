@@ -1,22 +1,13 @@
-<!-- Navbar -->
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar" id="siteNav">
   <div class="container">
-
-    <!-- Brand -->
     <a class="navbar-brand" href="/">
       <strong>{{ site.title }}</strong>
     </a>
-
-    <!-- Collapse -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
-    <!-- Links -->
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-      <!-- Left -->
       <ul class="navbar-nav mr-auto">
         {% for link in site.data.nav.[page.lang] %}
         <li class="nav-item rounded">
@@ -25,8 +16,6 @@
         </li>
         {% endfor %}
       </ul>
-
-      <!-- Right -->
       <ul class="navbar-nav pull-right">
         <li class="nav-item rounded">
           <a class=" nav-link mx-1" href="JavaScript:window.location.replace('/index.html'+window.location.hash)">EN</a>
