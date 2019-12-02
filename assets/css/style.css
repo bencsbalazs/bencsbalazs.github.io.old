@@ -36,6 +36,10 @@ a:focus {
     font-family: 'Caveat', cursive;
 }
 
+.pagesection {
+    margin: 14em 0;
+}
+
 .box{
     position: relative;
     margin: 2em;
@@ -202,8 +206,11 @@ page > .row > .col-2 {
         display: none;
     }
 
-    page, #cv, .container {
+    page > div {
         display: inline-block;
+    }
+
+    page, #cv, .container {
         margin: 0 !important;
         padding: 0 !important;
         width: 100% !important;

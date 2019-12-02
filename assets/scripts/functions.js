@@ -1,5 +1,12 @@
 let urls = [];
 
+function getLinkedInData() {
+    const linkedin = new Request({
+
+    })
+    fetch(linkedin)
+}
+
 $(() => {
     $("#cv").hide();
     sloganChange();
