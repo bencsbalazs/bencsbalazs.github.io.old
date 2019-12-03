@@ -1,6 +1,6 @@
 let urls = [];
 
-const getLinkedInToken = () => {
+function getLinkedInToken() {
     fetch("https://www.linkedin.com/oauth/v2/accessToken", {
         headers: {
             "Content-Type": "application/ x-www-form-urlencoded",
