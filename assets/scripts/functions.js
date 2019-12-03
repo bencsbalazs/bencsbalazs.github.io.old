@@ -3,7 +3,7 @@ let urls = [];
 const getLinkedInToken = () => {
     const Url = "https://www.linkedin.com/oauth/v2/accessToken"
     const Param = {
-        headers = {
+        headers: {
             "Content-Type": "application/ x - www - form - urlencoded"
         },
         method: "POST",
