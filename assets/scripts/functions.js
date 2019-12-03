@@ -1,18 +1,32 @@
 let urls = [];
 
-function getLinkedInData() {
-    const linkedin = new Request({
+const getLinkedInToken = () => {
+    const Url = "https://www.linkedin.com/oauth/v2/accessToken"
+    const Param = {
+        headers = {
+            "Content-Type": "application/ x - www - form - urlencoded"
+        },
+        method: "POST",
+        body: {
+            grant_type: "client_credentials",
+            client_id: "77ejmm67ol9gvo",
+            client_secret: "eId5u8OHCgMyTNDw"
+        }
+    }
+    fetch(Url, Param)
+        .then(data => { return data.json() })
+        .catch(error => console.log(error))
+}
 
-    })
-    fetch(linkedin)
+function getLinkedInData() {
+    console.log(getLinkedInToken())
 }
 
 $(() => {
     $("#cv").hide();
     sloganChange();
-
+    getLinkedInData();
     $('#listByDate li ul').hide();
-    // code to handle expanding on mouseover
     $('#listByDate li').bind('click', function (event) {
         event.stopPropagation();
         $(this).children("ul").first().toggle();
