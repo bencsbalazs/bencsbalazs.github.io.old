@@ -2,11 +2,11 @@ let urls = [];
 
 const getLinkedInToken = () => {
     fetch("https://www.linkedin.com/oauth/v2/accessToken", {
-        headers: new Headers({
+        headers: {
             "Content-Type": "application/ x-www-form-urlencoded",
-            "Access-Control-Allow-Origin":"*",
+            "Access-Control-Allow-Origin": "*",
             "mode": "no-cors"
-        }),
+        },
         method: "POST",
         body: {
             grant_type: "client_credentials",
