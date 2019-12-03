@@ -4,9 +4,9 @@ function getLinkedInToken() {
     fetch("https://www.linkedin.com/oauth/v2/accessToken", {
         headers: {
             "Content-Type": "application/ x-www-form-urlencoded",
-            "Access-Control-Allow-Origin": "*",
-            "mode": "no-cors"
+            "Access-Control-Allow-Origin": "*"
         },
+        mode: "no-cors",
         method: "POST",
         body: {
             grant_type: "client_credentials",
