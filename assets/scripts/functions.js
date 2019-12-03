@@ -1,19 +1,17 @@
 let urls = [];
 
 const getLinkedInToken = () => {
-    const Url = "https://www.linkedin.com/oauth/v2/accessToken"
-    const Param = {
-        headers: {
-            "Content-Type": "application/ x - www - form - urlencoded"
-        },
+    fetch("https://www.linkedin.com/oauth/v2/accessToken", {
+        headers: new Headers({
+            "Content-Type": "application/ x-www-form-urlencoded"
+        }),
         method: "POST",
         body: {
             grant_type: "client_credentials",
             client_id: "77ejmm67ol9gvo",
             client_secret: "eId5u8OHCgMyTNDw"
         }
-    }
-    fetch(Url, Param)
+    })
         .then(data => { return data.json() })
         .catch(error => console.log(error))
 }
