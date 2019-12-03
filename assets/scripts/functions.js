@@ -9,8 +9,8 @@ const getLinkedInToken = () => {
         method: "POST",
         body: {
             grant_type: "client_credentials",
-            client_id: "77ejmm67ol9gvo",
-            client_secret: "eId5u8OHCgMyTNDw"
+            client_id: "77zg1797h1ooc9",
+            client_secret: "VpC3uCfMOlh0YZVo"
         }
     })
         .then(data => { return data.json() })
