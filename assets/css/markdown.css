@@ -1,5 +1,6 @@
 p {
     margin: 1em 0;
+    font-size: 1.2em;
     text-align: justify;
 }
 
@@ -19,7 +20,7 @@ blockquote {
     color: #000;
     margin: 0;
     padding: .3rem 3em;
-    border-left: 0.5em #EEE solid;
+    border-left: 0.5em #fed136 solid;
     font-size: 125%;
 }
 
