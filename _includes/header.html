@@ -1,9 +1,9 @@
 <header>
     <div class="view">
-        <video autoplay class="video-intro" loop muted>
+        <video autoplay loop muted>
             <source src="https://mdbootstrap.com/img/video/animation-intro.mp4" type="video/mp4" />
         </video>
-        <div class="mask rgba-black-light d-flex justify-content-center align-items-center px-5">
+        <div class="justify-content-center align-items-center px-5 my-5">
             <div class="row">
                 <div class="col-md-4 mb-4 text-center profile-container">
                     <div class="box">
@@ -11,22 +11,36 @@
                     </div>
                 </div>
                 <div class="col-md-8 mb-4">
-                    <div class="p-4">
-                        {% for s in site.data.contactme.[page.lang].social %}
-                        <a href="{{ s.link }}" title="{{ s.name }}" class="m-3 fab {{ s.class }} fa-2x"></a>
-                        {% endfor %}
+                    <div class="row p-4 text-center">
+                        <div class="col">
+                            {% for s in site.data.contactme.[page.lang].social %}
+                            <a href="{{ s.link }}" title="{{ s.name }}" class="m-3 fab {{ s.class }} fa-3x"></a>
+                            {% endfor %}
+                        </div>
                     </div>
-                    <p class="text-justify white-text">{{site.data.about.[page.lang].description}}</p>
+                    <div class="row">
+                        <div class="col">
+                            <p class="text-justify white-text">{{site.data.about.[page.lang].description}}</p>
+                        </div>
+                    </div>
                     <hr>
-                    <a href="#services" class="btn btn-warning btn-lg">{{site.data.about.[page.lang].contactButtonText}}
-                        <i class="{{site.data.about.[page.lang].contactButtonIcon}} ml-1"></i>
-                    </a>
-                    <a href="#" id="showCV" class="btn btn-warning btn-lg">{{site.data.about.[page.lang].cvButtonText}}
-                        <i class="fas fa-user"></i></i>
-                    </a>
+                    <div class="text-center">
+                        <a href="#services"
+                            class="btn btn-warning btn-lg">{{site.data.about.[page.lang].contactButtonText}}
+                            <i class="{{site.data.about.[page.lang].contactButtonIcon}} ml-1"></i>
+                        </a>
+                        <a href="#" id="showCV"
+                            class="btn btn-warning btn-lg">{{site.data.about.[page.lang].cvButtonText}}
+                            <i class="fas fa-user"></i></i>
+                        </a>
+                    </div>
                     <hr class="m-5">
-                    <h3 id="sloganSlider" class="white-text">{{site.data.slogans.[page.lang].last.slogan}}</h3>
-                    <h5 id="sloganAuthor" class="white-text">{{site.data.slogans.[page.lang].last.author}}</h5>
+                    <div class="row">
+                        <div class="col">
+                            <h3 id="sloganSlider" class="white-text">{{site.data.slogans.[page.lang].last.slogan}}</h3>
+                            <h5 id="sloganAuthor" class="white-text">{{site.data.slogans.[page.lang].last.author}}</h5>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
