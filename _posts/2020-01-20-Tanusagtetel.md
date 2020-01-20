@@ -8,7 +8,7 @@ description:
  
 date: 20/01/2020
 categories: [lelkibéke, szeretet]
-tags: []
+tags: [gondviselés, segítség, társaság]
 ---
  
 Ezzel a poszttal **nem célom hogy bárkit meggyőzzek Isten gondviseléséről**. Elmondom hogy velem mi történt, azután mindenki dönthet hogy mit hisz el. Én mindenesetre ebben a szituációban egészen újszerűen éreztem Isten gondoskodását.
