@@ -54,9 +54,12 @@ background: -webkit-linear-gradient(left,  transparent 0%,#ffffff 20%,#ffffff 80
 background: linear-gradient(to right, transparent 0%,#ffffff 20%,#ffffff 80%, transparent 100%);
 }
 
-.tile {
+.servicesbox{
     background: white;
     box-shadow: 0 0 1em #fff;
+}
+
+.tile {
     padding-top: .5em;
 }
 
@@ -103,7 +106,6 @@ background: linear-gradient(to right, transparent 0%,#ffffff 20%,#ffffff 80%, tr
     animation-delay: -0.1s;
 }
 .box:hover:before, .box:hover:after {
-
     animation-duration: 2s;
 }
 
