@@ -53,6 +53,17 @@ $(() => {
         window.print();
     });
 
+    $("#Tshape").on("click", (e) => {
+        e.preventDefault();
+        script = document.createElement('script').src = "/assets/scripts/tshape.js";
+        document.getElementsByTagName('head')[0].append(script);
+
+    })
+
+    $("#szivem_btn").on("click", () => {
+        $("#szivem").toggle();
+    })
+
     /* Scrollspy handler, to add view position to url. Needed for page refresh */
     $(window).on('activate.bs.scrollspy', (e) => {
         history.replaceState({}, "", $('.nav-item .active').attr("href"));
