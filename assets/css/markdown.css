@@ -22,6 +22,7 @@ blockquote {
     padding: .3rem 3em;
     border-left: 0.5em #fed136 solid;
     font-size: 125%;
+    clear: both;
 }
 
 hr {

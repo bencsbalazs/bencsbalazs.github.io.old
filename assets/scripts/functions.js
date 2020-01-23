@@ -60,10 +60,6 @@ $(() => {
 
     })
 
-    $("#szivem_btn").on("click", () => {
-        $("#szivem").toggle();
-    })
-
     /* Scrollspy handler, to add view position to url. Needed for page refresh */
     $(window).on('activate.bs.scrollspy', (e) => {
         history.replaceState({}, "", $('.nav-item .active').attr("href"));
