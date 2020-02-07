@@ -4,18 +4,18 @@
   "tiles": [
     {
       "icon": "fab fa-angular",
-      "title": "Angular, Node",
-      "text": "Application development with the technologie of the future. Useing Angular, Node, Typescript, Mocha, Travis, Lerna etc for professional development."
+      "title": "Angular, Node.js",
+      "text": "Application development with the technologie of the future. Useing Angular, Node, Typescript, Pure JavaScript, Mocha, Travis, Lerna etc for professional development."
     },
     {
-      "icon": "fab fa-android",
-      "title": "Android",
-      "text": "Application development for Android, Based on HTML, CSS, XML used through Java, we can create amezing apps."
+      "icon": "fab fa-python",
+      "title": "Python",
+      "text": "Python is a programming language that lets you work more quickly and integrate your systems more effectively."
     },
     {
-      "icon": "fa fa-code",
-      "title": "Animation",
-      "text": "2D and 3D animations using HTML5 Canvas, CSS animations, JS libraries, WebGL or OpenGL. It makes everything much more attractive."
+      "icon": "fas fa-diagnoses",
+      "title": "Artificial Intelligence",
+      "text": "Use AI for professional data handling and analysis. IBM Watson Discovery, Watson Assistant etc..."
     },
     {
       "icon": "fab fa-drupal",
