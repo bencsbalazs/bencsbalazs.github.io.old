@@ -170,9 +170,11 @@ function disableButtons(counter_max, counter_current) {
 
 sloganChange = () => {
     i = 1;
-    setInterval(() => {
-        $("#sloganSlider").html(slogans[i].slogan);
-        $("#sloganAuthor").html(slogans[i].author);
-        i = (i === slogans.length - 1) ? 0 : ++i;
-    }, 2000);
+    if ($("#sloganSlider").length != 0) {
+        setInterval(() => {
+            $("#sloganSlider").html(slogans[i].slogan);
+            $("#sloganAuthor").html(slogans[i].author);
+            i = (i === slogans.length - 1) ? 0 : ++i;
+        }, 2000);
+    }
 };
