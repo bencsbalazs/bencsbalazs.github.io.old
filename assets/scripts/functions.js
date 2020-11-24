@@ -25,8 +25,6 @@ function getLinkedInData() {
 }
 
 $(() => {
-    $("#cv").hide();
-    sloganChange();
     getLinkedInData();
     $('#listByDate li ul').hide();
     $('#listByDate li').bind('click', function (event) {
@@ -34,31 +32,11 @@ $(() => {
         $(this).children("ul").first().toggle();
     });
 
-    $("#showCV").on("click", (e) => {
-        e.preventDefault();
-        $("a[href='#aboutme']").attr("href", "#cv");
-        $("#aboutme").hide();
-        $("#cv").show();
-    });
-
-    $("#backCV").on("click", (e) => {
-        e.preventDefault();
-        $("a[href='#cv']").attr("href", "#aboutme");
-        $("#cv").hide();
-        $("#aboutme").show();
-    });
 
     $("#print").on("click", (e) => {
         e.preventDefault();
         window.print();
     });
-
-    $("#Tshape").on("click", (e) => {
-        e.preventDefault();
-        script = document.createElement('script').src = "/assets/scripts/tshape.js";
-        document.getElementsByTagName('head')[0].append(script);
-
-    })
 
     /* Scrollspy handler, to add view position to url. Needed for page refresh */
     $(window).on('activate.bs.scrollspy', (e) => {
@@ -68,6 +46,7 @@ $(() => {
     /* Initialize the default variable values */
     wow = new WOW();
     wow.init();
+    AOS.init();
     const images = $("img.randomimage");
 
     /* Download random images for the blog post covers */
@@ -166,15 +145,3 @@ function disableButtons(counter_max, counter_current) {
             .hide();
     }
 }
-
-
-sloganChange = () => {
-    i = 1;
-    if ($("#sloganSlider").length != 0) {
-        setInterval(() => {
-            $("#sloganSlider").html(slogans[i].slogan);
-            $("#sloganAuthor").html(slogans[i].author);
-            i = (i === slogans.length - 1) ? 0 : ++i;
-        }, 2000);
-    }
-};

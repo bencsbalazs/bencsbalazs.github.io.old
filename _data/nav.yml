@@ -2,6 +2,9 @@ en:
   home:
     name: 'Hire me'
     url: '#top'
+  cv:
+    name: 'CV'
+    url: 'cv'
   services:
     name: 'Services'
     url: '#services'
@@ -21,6 +24,9 @@ hu:
   certificets:
     name: 'Eredmények'
     url: '#certificets'
+  cv:
+    name: 'CV'
+    url: 'cv'
   blog:
     name: 'Blog'
     url: '#blog'

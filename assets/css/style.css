@@ -2,37 +2,15 @@ html {
     scroll-behavior: smooth;
 }
 
-html,
-body,
-header,
-.view {
-    min-height: 100%;
-    overflow-x: hidden;
-}
-
-.view video{
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    z-index: -1;
-}
-
-a {
-    color: #faa700;
+a:hover{
     text-decoration: none;
 }
 
-a:focus {
-    outline: thin dotted;
+.navbar, footer {
+    background: rgba(0, 0, 0,1);
+    color: #fff;
 }
 
-.navbar {
-    background: rgba(30, 35, 50,.9);
-}
-
-.navbar:not(.top-nav-collapse) {
-    background: rgba(30, 35, 50,.6);
-}
 .profile-container {
     display: flex;
     flex-direction: row;
@@ -40,73 +18,24 @@ a:focus {
     align-items:center;
 }
 
-.navbar-brand {
-    font-family: 'Caveat', cursive;
+.profile-container .box {
+    border: solid 1em #f8f9fa;
+    border-radius: 50%;
+    background-image: url("/images/me.jpeg");
+    width: 20rem;
+    height: 20rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 2rem;
 }
 
 .pagesection {
-    margin: 14em 0;
-}
-
-.white-gradient{
-background: -moz-linear-gradient(left,  transparent 0%, #ffffff 20%, #ffffff 80%, transparent 100%);
-background: -webkit-linear-gradient(left,  transparent 0%,#ffffff 20%,#ffffff 80%,#7db9e8 100%);
-background: linear-gradient(to right, transparent 0%,#ffffff 20%,#ffffff 80%, transparent 100%);
-}
-
-.servicesbox{
-    background: white;
-    box-shadow: 0 0 1em #fff;
+    padding: 7rem 0;
 }
 
 .tile {
     padding-top: .5em;
-}
-
-.box{
-    position: relative;
-    margin: 2em;
-    box-shadow: 10px 10px 42px 0 rgba(0,0,0,0.75);
-}
-.box:after, .box:before{
-    mix-blend-mode:multiply;
-    filter:none;
-    z-index: -1;
-    content:'';
-    width:calc(100% + (50px * 2));
-    height:calc(100% + (50px * 2));
-    position: absolute;
-    display: block;
-    animation: border 10s ease-in-out infinite;
-    transform:translateX(-50px) translateY(-50px);
-}
-@keyframes border {
-    0%, 100% {
-        -webkit-clip-path: polygon(0 0, calc(100% - (33.3333333333px)) calc(0% + (33.3333333333px)), 100% 100%, calc(0% + (33.3333333333px)) calc(100% - (33.3333333333px)));
-        clip-path: polygon(0 0, calc(100% - (33.3333333333px)) calc(0% + (33.3333333333px)), 100% 100%, calc(0% + (33.3333333333px)) calc(100% - (33.3333333333px)));
-    }
-    50% {
-        -webkit-clip-path: polygon(calc(0% + (33.3333333333px)) calc(0% + (33.3333333333px)), 100% 0, calc(100% - (33.3333333333px)) calc(100% - (33.3333333333px)), 0 100%);
-        clip-path: polygon(calc(0% + (33.3333333333px)) calc(0% + (33.3333333333px)), 100% 0, calc(100% - (33.3333333333px)) calc(100% - (33.3333333333px)), 0 100%);
-    }
-}
-
-.box:after{
-    top:0;
-    animation-delay: -5s;
-    background-color: #3f51b5;
-    clip-path: polygon(0 0, calc(100% - (33.3333333333px)) calc(0% + (33.3333333333px)), 100% 100%, calc(0% + (33.3333333333px)) calc(100% - (33.3333333333px)));
-}
-.box:before {
-    background-color: #fed136;
-    clip-path: polygon(calc(0% + (33.3333333333px)) calc(0% + (33.3333333333px)), 100% 0, calc(100% - (33.3333333333px)) calc(100% - (33.3333333333px)), 0 100%);
-}
-
-.box:hover:after{
-    animation-delay: -0.1s;
-}
-.box:hover:before, .box:hover:after {
-    animation-duration: 2s;
 }
 
 #certificets .img-thumbnail {
@@ -119,10 +48,13 @@ background: linear-gradient(to right, transparent 0%,#ffffff 20%,#ffffff 80%, tr
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+    filter: grayscale(100%);
+    transition: 1s;
 }
 
 .partner:hover{
     transform: scale(1.5);
+    filter: grayscale(0);
 }
 
 #image-gallery-image {
@@ -171,8 +103,7 @@ page > .row > .col-2 {
     bottom: 125%;
     left: 50%;
     background: #FFF;
-    box-shadow: 0 0 .5em #fff;
-    border: solid 1px #fb3;
+    border: solid 1px #007bff;
     color: #495057;
     margin-left: -25%;
     padding: 0 1rem;
@@ -197,7 +128,7 @@ page > .row > .col-2 {
      width: 0;
      height: 0;
      border: 10px solid transparent;
-     border-bottom-color: #fb3;
+     border-bottom-color: #007bff;
      transform: rotate(180deg);
  }
 
@@ -216,10 +147,6 @@ page > .row > .col-2 {
  } 
 
 @media print {
-    body > *:not(#cv), #cv > .container > .row {
-        display: none;
-    }
-
     page > div {
         display: inline-block;
     }

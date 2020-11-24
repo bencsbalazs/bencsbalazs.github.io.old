@@ -13,10 +13,13 @@
     <div class="container">
         <div class="row">
             <main class="col-lg-8 mt-5">
-                <h4 class="blog-post-meta"><i class="far fa-calendar-alt"></i> {{ page.date | date_to_string }} by {{ page.author }}</h4>
-                <h4 class="blog-post-meta">Tags: {{ page.tags | array_to_sentence_string }}</h4>
-                <h4 class="blog-post-meta">Categories: {{ page.categories | array_to_sentence_string }}</h4>
-                <h2 class="blog-post-title" id="logo">{{ page.title }}</h2>
+                <h6 class="blog-post-meta"><i class="far fa-calendar-alt"></i> {{ page.date | date_to_string }} by {{ page.author }} in {{ page.categories | array_to_sentence_string }}</h6>
+                <h6 class="blog-post-meta">
+                    {% for tag in page.tags %}
+                        #{{ tag }}{% unless forloop.last %},{% endunless %}
+                    {% endfor %}
+                </h6>
+                <h3 class="blog-post-title" id="logo">{{ page.title }}</h3>
                 <hr>
                 <div class="blog-content">
                     {{ content }}
@@ -26,13 +29,13 @@
         </div>
         <div class="row">
             {% if page.previous.url %}
-            <a href="{{ page.previous.url }}" class="btn btn-outline-warning col-5">
+            <a href="{{ page.previous.url }}" class="btn btn-outline-primary col-5">
                 <i class="fas fa-angle-double-left"></i>
                 {{page.previous.title}}
             </a>
             {% endif %}
             {% if page.next.url %}
-            <a href="{{ page.next.url }}" class="btn btn-outline-warning col-5 offset-2">
+            <a href="{{ page.next.url }}" class="btn btn-outline-primary col-5 offset-2">
                 {{page.next.title}}
                 <i class="fas fa-angle-double-right"></i>
             </a>
