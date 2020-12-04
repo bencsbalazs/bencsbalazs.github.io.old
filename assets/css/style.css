@@ -30,6 +30,10 @@ a:hover{
     margin-top: 2rem;
 }
 
+.badge-pill {
+    min-width: 3rem;
+}
+
 .pagesection {
     padding: 7rem 0;
 }
@@ -86,7 +90,7 @@ page[size="A4"] {
     min-height: 29.7cm;
 }
 
-page > .row > .col-2 {
+page > .row > .col-lg-2 {
     border-right: solid 1px;
 }
 
