@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/reveal.min.css" integrity="sha512-V5fKCVKOFy36w8zJmLzPH5R6zU6KvuHOvxfMRczx2ZeqTjKRGSBO9yiZjCKEJS3n6EmENwrH/xvSwXqxje+VVA==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/theme/serif.min.css" integrity="sha512-I/U05uA3A8M7xG5VrG/U+ESfYyVGxL3KsX9A4KHDeWRE/jHX5oEwHZ+RVL3d6DeBTZs6l85jY7gyv+9AEBcaww==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    </head>
+    <body>
+
+        <div class="reveal">
+            <div class="slides">
+                <section>
+                    <h2>Extreme Programming</h2>
+                    <h4>XPFarm + Own experience</h4>
+                </section>
+                <section>
+                    <h3>Topics:</h3>
+                    <ol>
+                        <li>Time management - Pomodoro technique</li>
+                        <li>Testing frameworks (tangentially)</li>
+                        <li>Useful tools at the HomeOffice</li>
+                        <li>Knowledge I suggest before start TDD</li>
+                        <li>Pair Programming</li>
+                        <li>Test Driven Development</li>
+                    </ol>
+                </section>
+                <section>
+                    <section>
+                        <h3>1. The Pomodoro technique</h3>
+                        <img src="https://www.mindenmegtanulhato.hu/wp-content/uploads/2015/08/pomodoro.jpg" height="400">
+                        <h5>Everything can be learnt</h5>
+                    </section>
+                    <section>
+                        <h2>How to use it?</h2>
+                        <img src="https://i.pinimg.com/originals/ff/58/a7/ff58a7538f3b526e2a2366bae121d759.jpg" height="400">
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h3>Testing frameworks</h3>
+                        <ul>
+                            <li>JavaScript: Mocha</li>
+                            <li>Python: Unittest</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Mocha</h3>
+                        <pre><code>
+$ npm install mocha
+$ mkdir test
+$ nano test/test.js
+                        </code></pre>
+                        <pre><code data-trim data-line-numbers>
+var assert = require('assert');
+    describe('Array', () => {
+        describe('#indexOf()', () => {
+            it('should return -1 when the value is not present', () => {
+            assert.equal([1, 2, 3].indexOf(4), -1);
+            });
+        });
+    });
+                        </code></pre>
+                    </section>
+                    <section>
+                        <h3>Run the test</h3>
+                        <pre><code data-trim>
+$ ./node_modules/mocha/bin/mocha
+
+Array
+    #indexOf()
+    ✓ should return -1 when the value is not present
+
+1 passing (9ms)
+                        </code></pre>
+                        <span>or add it to package.json</span>
+                        <pre><code>
+"scripts": {
+    "test": "mocha"
+}
+                        </code></pre>
+                        ...and simple run <code>npm test</code>
+                    </section>
+                    <section>
+                        <h3>Python</h3>
+                        <ol>
+                            <li>In project library: acttivate the virtual environment: <pre>source venv/bin/activate</pre></li>
+                            <li>Install the test module: <pre>pip install unittest</pre></li>
+                            <pre><code data-trim>
+import unittest
+from app import app
+
+class TestingMethods(unittest.TestCase):
+    def setUp(self):
+        self.app = app.test_client()
+    def test_main_page(self):
+        # Is the main page available?
+        response = self.app.get('/', follow_redirects=True)
+        self.assertEqual(response.status_code, 200)                                
+                            </code></pre>
+                        </ol>
+                    </section>
+                    <section>
+                        <h3>WCAT example</h3>
+                        <pre><code data-trim>
+def parseAuditString(self, source):
+    return str(
+        source.find(
+            "strong", string=re.compile("Audit")
+            ).next_sibling
+        ).strip()
+
+def parseWithNewFormat(self, document):
+    jsonDataToSave = {}
+    self.LoggingMessage("Parsing file: " + document.split("/htmls/")[1].split(".")[0])
+    with open(document, "rb") as htmlFileToParse:
+        contentForParsing = htmlFileToParse.read().decode('utf-8')
+        beautifulSoup = BeautifulSoup(contentForParsing, 'lxml')
+        # ### Parsing functions ###
+        auditString = self.parseAuditString(beautifulSoup)
+....
+    return jsonDataToSave
+                        </code></pre>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                    <h3>Useful tools at the HomeOffice</h3>
+                    <ul>
+                        <li>Slack
+                            <ul>
+                                <li>Can draw to screen during the call</li>
+                            </ul>
+                        </li>
+                        <li>Webex (I DON'T RECOMMEND, Not too stable :D)
+                        </li>
+                        <li>Visual Studio Code and it's plugins
+                            <ul>
+                                <li><a title="Real-time collaborative development from the comfort of your favorite tools.">LiveShare</a></li>
+                                <li><a title="Video chat with collaborative code sharing.">GitDuck</a></li>
+                                <li>Pomodoro</li>
+                                <li><a title="Supercharge the Git capabilities built into Visual Studio Code ">GitLens</a>, <a title="View git log, file history, compare branches or commits">Git History</a></li>
+                                <li>For the extended functionnality of PyCharm: AutoCloseTag, AutoRenameTag, Python, <a title="AI-assisted development">IntellyCode</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    </section>
+                    <section></section>
+                </section>
+                <section>
+                    <section>
+                        <h3>Knowledge I suggest before start TDD</h3>
+                        <ul>
+                            <li><a href="https://agile-at-ibm.dal1a.cirrus.ibm.com/courses?ref=nav" target="_blank">Agile@IBM</a></li>
+                            <li><a href="https://www.ibm.com/design/thinking/page/courses/Practitioner" target="_blank">DesignThinking@IBM</a></li>
+                            <li><a href="https://www.khanacademy.org/computing/computer-science/algorithms">Basic algorithms</a>, SoloLearn, CodeWars</li>
+                            <li><a href="https://www.python.org/" target="_blank">Python</a> + <a href="https://flask.palletsprojects.com/en/1.1.x/" target="_blank">Flask Framework</a> + <a href="https://github.ibm.com/Cognipeers-squad/PythonFramework" target="_blank">Lajbi framework</a></li>
+                            <li><a href="https://guides.github.com/" target="_blank">GIT (github)</a> + <a href="https://ibm.ent.box.com/file/734290068350">best practices</a></li>
+                            <li>JavaScript + Ajax + WebPack + WebComponent(StencilJS)</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Skills needed for a developer nowdays</h3>
+                        <ul>
+                            <li>Time management, HomeOffice tools</li>
+                            <li>Knowledge
+                                <ul>
+                                    <li>Agile</li>
+                                    <li>DesignThinking</li>
+                                    <li>Programming languages: Python, JavaScript</li>
+                                    <li>Git</li>
+                                    <li>AI (Watson technologies)</li>
+                                </ul>
+                            </li>
+                            <li>Communication</li>
+                            <li>Programming styles (Pair programming, TDD, etc)</li>
+                        </ul>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th colspan="3"><h3>Pair Programming</h3></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td style="vertical-align: middle;">Code, Write</td>
+                                    <td><img src="https://t2informatik.de/en/wp-content/uploads/sites/2/2020/03/pair-programming.jpg" height="400"></td>
+                                    <td style="vertical-align: middle;">Think<br>Suggest<br>Review</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                    <section>
+                        <img src="https://preview.redd.it/cha127azt7u41.png?auto=webp&s=0aedd1a2d513a13e174bf85c267d05a486b6dc51" height="400">
+                    </section>
+                </section>
+                <section>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th colspan="3"><b>T</b>est <b>D</b>riven <b>D</b>evelopment</th>
+                            </tr>
+                            <tr>
+                                <th>Needed</th>
+                                <th>Process</th>
+                                <th>Goal</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td style="vertical-align: middle;">New way of thinking</td>
+                                <td>
+                                    <ol>
+                                        <li>Decide on task</li>
+                                        <li>Empty testCase</li>
+                                        <li>Function with result</li>
+                                        <li>Input -> Something -> Output</li>
+                                        <li>Test every case</li>
+                                    </ol>
+                                </td>
+                                <td style="vertical-align: middle;">
+                                    Safe,<br>reusable code +<br>Stable application +<br>Less headache
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </div>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/js/reveal.min.js" integrity="sha512-QYXU3Cojl94ZRiZRjUZpyg1odj9mKTON9MsTMzGNx/L3JqvMA3BQNraZwsZ83UeisO+QMVfFa83SyuYYJzR9hw==" crossorigin="anonymous"></script>
+        <script>
+            Reveal.initialize({
+				center: true,
+				transition: 'slide',
+				transitionSpeed: 'slow',
+				backgroundTransition: 'convex'
+			});
+        </script>
+    </body>
+</html>

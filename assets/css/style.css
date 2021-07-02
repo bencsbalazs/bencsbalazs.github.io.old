@@ -2,8 +2,20 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    padding-top: 4rem;
+}
+
 a:hover{
     text-decoration: none;
+}
+
+footer a {
+    color: #fff;
+}
+
+.introText {
+    font-size: x-large;
 }
 
 .navbar, footer {
