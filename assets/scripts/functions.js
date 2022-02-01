@@ -1,31 +1,6 @@
 let urls = [];
 
-function getLinkedInToken() {
-    const Url = "https://www.linkedin.com/oauth/v2/accessToken"
-    const Params = {
-        headers: {
-            "Content-Type": "application/ x-www-form-urlencoded",
-            "Access-Control-Allow-Origin": "*"
-        },
-        mode: "no-cors",
-        method: "POST",
-        body: {
-            grant_type: "client_credentials",
-            client_id: "77zg1797h1ooc9",
-            client_secret: "VpC3uCfMOlh0YZVo"
-        }
-    }
-    fetch(Url, Params)
-        .then(data => { return data.json() })
-        .catch(error => console.log(error))
-}
-
-function getLinkedInData() {
-    console.log(getLinkedInToken())
-}
-
 $(() => {
-    getLinkedInData();
     $('#listByDate li ul').hide();
     $('#listByDate li').bind('click', function (event) {
         event.stopPropagation();

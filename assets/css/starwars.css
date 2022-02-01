@@ -1,0 +1,7 @@
+body {
+    background: black !important;
+}
+
+.content-container p {
+    text-align: justify;
+}

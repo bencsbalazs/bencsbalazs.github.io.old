@@ -16,7 +16,14 @@
             "url": "https://www.youracclaim.com/badges/9581eec4-c13b-4949-aae5-21baca1fc93b"
         },
         {
-            "src": "/images/certificats/ibm-agile-explorer.png",
+            "src": "/images/certificats/ibm-speaker.png",
+            "alt": "ibm-speaker",
+            "title": "IBM Recognised Speaker Presenter",
+            "desc": "This badge holder has demonstrated their knowledge and expertise as a Speaker who has presented to large groups at a conference or an industry or client event. They are Subject Matter Experts (SMEs) on the topic(s) presented. As a Speaker, they have been recognized for their ability to influence people’s vision and understanding of their subject area",
+            "url": "https://www.youracclaim.com/badges/9581eec4-c13b-4949-aae5-21baca1fc93b"
+        },
+        {
+            "src": "/images/certificats/ae.png",
             "alt": "ibm-agile-explorer",
             "title": "IBM Agile explorer",
             "desc": "The Agile Explorer has a foundational understanding of Agile values, principles, and practices that allows them to initiate an Agile conversation with co-workers and colleagues.",

@@ -1,0 +1,80 @@
+{
+    "timeline": {
+        "headline": "Star Wars chronology",
+        "type": "default",
+        "text": "What happened in the Star Wars universe",
+        "startDate": "1992,04,15",
+        "date": [
+            {
+                "startDate": "1992,04,15",
+                "headline": "The Phantom Menace",
+                "text": "<p>Turmoil has engulfed the Galactic Republic. The taxation of trade routes to outlying star systems is in dispute.</p><p>Hoping to resolve the matter with a blockade of deadly battleships, the greedy Trade Federation has stopped all shipping to the small planet of Naboo.</p><p>While the Congress of the Republic endlessly debates this alarming chain of events, the Supreme Chancellor has secretly dispatched two Jedi Knights, the guardians of peace and justice in the galaxy, to settle the conflict....</p>",
+                "asset": {
+                    "media": "https://www.youtube.com/watch?v=bD7bpG-zDJQ",
+                    "thumbnail": "https://vgboxart.com/resources/logo/2222_star-wars-the-phantom-menace-prev.png",
+                    "credit": "Lucasfilm",
+                    "caption": "Movie"
+                }
+            },
+            {
+                "startDate": "2002,04,15",
+                "headline": "Attack of the clones",
+                "text": "<p>Ten years after the invasion of Naboo, the galaxy is on the brink of civil war. Under the leadership of a renegade Jedi named Count Dooku, thousands of solar systems threaten to break away from the Galactic Republic. When an assassination attempt is made on Senator Padmé Amidala, the former Queen of Naboo, twenty-year-old Jedi apprentice Anakin Skywalker is assigned to protect her. In the course of his mission, Anakin discovers his love for Padmé as well as his own darker side. Soon, Anakin, Padmé, and Obi-Wan Kenobi are drawn into the heart of the Separatist movement and the beginning of the Clone Wars. </p>",
+                "asset": {
+                    "media": "https://www.youtube.com/watch?v=gYbW1F_c9eM&t",
+                    "credit": "Lucasfilm",
+                    "caption": "Movie"
+                }
+            },
+            {
+                "startDate": "2002,05,01",
+                "endDate": "2005,05,15",
+                "headline": "Clone Wars",
+                "text": "<p>Star Wars: The Clone Wars is set during the prequel trilogy era, in the period of three years between Attack of the Clones and Revenge of the Sith. The series focuses on the eponymous conflict between the Galactic Republic, which is supported by the Jedi Order, and the Confederacy of Independent Systems, a movement organized by the Sith Lord Count Dooku to unite numerous planetary systems seeking independence from the Republic, against it. Unbeknownst to the galaxy, Darth Sidious, Dooku's secret master, is the one pulling the strings of both sides, as part of his master plan to eliminate the Jedi and gain enough power to create a new governing state under his rule.</p>",
+                "asset": {
+                    "media": "https://www.youtube.com/watch?v=RI7WyhWZkzk",
+                    "credit": "Lucasfilm",
+                    "caption": "Series"
+                }
+            },
+            {
+                "startDate": "2005,05,15",
+                "headline": "Revange of the Sith",
+                "text": "<p>Three years into the Clone Wars, the Jedi rescue Palpatine from Count Dooku. As Obi-Wan pursues a new threat, Anakin acts as a double agent between the Jedi Council and Palpatine and is lured into a sinister plan to rule the galaxy.</p>",
+                "asset": {
+                    "media": "https://www.youtube.com/watch?v=Yx6F46-_3Ec",
+                    "credit": "Lucasfilm",
+                    "caption": "Movie"
+                }
+            },
+            {
+                "startDate": "2020,04,15",
+                "headline": "Rouge One",
+                "text": "<p>In a time of conflict, a group of unlikely heroes band together on a mission to steal the plans to the Death Star, the Empire's ultimate weapon of destruction.</p>",
+                "asset": {
+                    "media": "https://www.youtube.com/watch?v=frdj1zb9sMY",
+                    "credit": "Lucasfilm",
+                    "caption": "Movie"
+                }
+            },
+            {
+                "startDate": "2020,05,15",
+                "headline": "A New Hope",
+                "text": "<p>It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire.</p><p>During the battle, Rebel spies managed to steal secret plans to the Empire's ultimate weapon, the DEATH STAR, an armored space station with enough power to destroy an entire planet.</p><p>Pursued by the Empire's sinister agents, Princess Leia races home aboard her starship, custodian of the stolen plans that can save her people and restore freedom to the galaxy....</p>",
+                "asset": {
+                    "media": "https://www.youtube.com/watch?v=MpkrMqmmy5k",
+                    "credit": "Lucasfilm",
+                    "caption": "Movie"
+                }
+            }
+        ],
+        "era": [
+            {
+                "startDate": "2002,05,01",
+                "endDate": "2005,05,01",
+                "headline": "War",
+                "tag": "The era of the civil war"
+            }
+        ]
+    }
+}
